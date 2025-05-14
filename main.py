@@ -339,44 +339,31 @@ def draw_game_status():
 
     st.markdown(f"### 🏁 ラウンド {round_num}/{MAX_ROUNDS}")
 
-    # 目的地と残ライフの2カラム
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown(
-            f"""
-            <div style="
-                background-color: #e3f2fd;
-                padding: 1rem;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
-            ">
+    st.markdown(
+        f"""
+        <div style="
+            background-color: #e3f2fd;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            text-align: center;
+        ">
+            <div style="flex: 1; min-width: 140px;">
                 <div style="font-size: 0.9rem; color: #1565c0;">目的地</div>
                 <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{goal}</div>
             </div>
-        """,
-            unsafe_allow_html=True,
-        )
-
-    with col2:
-        st.markdown(
-            f"""
-            <div style="
-                background-color: #e3f2fd;
-                padding: 1rem;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
-            ">
+            <div style="flex: 1; min-width: 140px;">
                 <div style="font-size: 0.9rem; color: #1565c0;">残ライフ</div>
                 <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{'🩷' * life}</div>
             </div>
+        </div>
+        <br>
         """,
-            unsafe_allow_html=True,
-        )
-    # 余白を追加
-    st.markdown("<br>", unsafe_allow_html=True)  # 空白を追加
+        unsafe_allow_html=True,
+    )
 
 
 def draw_instruction():
@@ -424,63 +411,88 @@ def draw_game_result():
     if "scores" in st.session_state:
         total = sum(st.session_state.scores)
 
-        # スコア合計を強調表示
+        # スコアに応じた色を決定
+        if total == 100:  # 満点の場合
+            score_color = "#FFD700"  # 金色
+        elif total >= 80:  # 高得点
+            score_color = "#388e3c"  # 緑色
+        elif total >= 40:  # 中程度
+            score_color = "#fbc02d"  # 黄色
+        else:  # 低得点
+            score_color = "#d32f2f"  # 赤色
+
         st.markdown(
-            f"""
-            <div style="
-                background-color: #e0f7fa;
-                padding: 1.5rem;
-                border-radius: 10px;
-                text-align: center;
-                margin-bottom: 2rem;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            ">
-                <h2 style="margin: 0;">🧮 スコア: <span style="color:#00796b;">{total}</span> / {20 * MAX_ROUNDS} 点</h2>
-            </div>
-            """,
+            textwrap.dedent(f"""
+                <div style="
+                    background-color: #e0f7fa;
+                    padding: 1.2rem 1.5rem;
+                    border-radius: 10px;
+                    margin-bottom: 2rem;
+                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                ">
+                    <div style="font-size: 1rem; color: #00796b; margin-bottom: 0.3rem;">
+                        合計スコア
+                    </div>
+                    <div style="
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: {score_color};
+                        line-height: 1;
+                        white-space: nowrap;
+                    ">
+                        {total} <span style="font-size: 1rem; color: #555;">/ {20 * MAX_ROUNDS} 点</span>
+                    </div>
+                </div>
+            """),
             unsafe_allow_html=True,
         )
 
-        # ラウンドスコアをカード風に表示
-        cols = st.columns(MAX_ROUNDS)
+        # 各ラウンドのスコア（縦並びカード）
         for i in range(MAX_ROUNDS):
-            with cols[i]:
-                if i < len(st.session_state.scores):
-                    score = st.session_state.scores[i]
-                    goal = (
-                        st.session_state.goals[i]
-                        if "goals" in st.session_state
-                        and i < len(st.session_state.goals)
-                        else "？"
-                    )
-                    score_display = f"{score} / 20点"
-                else:
-                    score_display = "－ / 20点"
-                    goal = (
-                        st.session_state.goals[i]
-                        if "goals" in st.session_state
-                        and i < len(st.session_state.goals)
-                        else "？"
-                    )
+            if i < len(st.session_state.scores):
+                score = st.session_state.scores[i]
+                goal = (
+                    st.session_state.goals[i]
+                    if "goals" in st.session_state and i < len(st.session_state.goals)
+                    else "？"
+                )
+                score_display = f"{score} / 20点"
+                score_ratio = score / 20
+            else:
+                score = 0
+                score_display = "－ / 20点"
+                goal = (
+                    st.session_state.goals[i]
+                    if "goals" in st.session_state and i < len(st.session_state.goals)
+                    else "？"
+                )
+                score_ratio = 0
 
-                st.markdown(
-                    f"""
+            st.markdown(
+                textwrap.dedent(f"""
                     <div style="
                         border: 1px solid #ddd;
                         border-radius: 10px;
                         padding: 1rem;
-                        text-align: center;
+                        margin-bottom: 1rem;
                         background-color: #f9f9f9;
                         box-shadow: 1px 1px 6px rgba(0,0,0,0.05);
-                        font-size: 0.9rem;
                     ">
-                        <div style="font-weight: bold;">R {i + 1}</div>
-                        <div style="margin-top: 0.2rem;">{goal}</div>
-                        <div style="font-size: 1.3rem; margin-top: 0.5rem;">{score_display}</div>
+                        <div style="font-weight: bold; font-size: 1rem;">ラウンド {i + 1}</div>
+                        <div style="margin-top: 0.3rem; color: #1565c0;">目的地: <b>{goal}</b></div>
+                        <div style="margin-top: 0.6rem;">スコア: <b>{score_display}</b></div>
+                        <div style="margin-top: 0.5rem; background: #eee; border-radius: 6px; overflow: hidden;">
+                            <div style="
+                                height: 12px;
+                                width: {score_ratio * 100}%;
+                                background-color: #4db6ac;
+                            "></div>
+                        </div>
                     </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+                """),
+                unsafe_allow_html=True,
+            )
 
     st.markdown("---")
 
