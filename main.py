@@ -136,7 +136,7 @@ def draw_round_result_fail_page():
         st.button("次のラウンドへ進む", on_click=handle_next_round)
     display_path_with_lines(
         st.session_state.shortest_path,
-        title=f"最短経路の例 ({len(st.session_state.shortest_path)}駅)",
+        title=f"最短経路の例 ({len(st.session_state.shortest_path)-1}駅)",
     )
 
 
@@ -165,7 +165,7 @@ def draw_round_result_surrender_page():
 
     display_path_with_lines(
         st.session_state.shortest_path,
-        title=f"最短経路の例 ({len(st.session_state.shortest_path)}駅)",
+        title=f"最短経路の例 ({len(st.session_state.shortest_path)-1}駅)",
     )
 
 
@@ -386,9 +386,8 @@ def draw_round_play_page():
     with main:
         # draw_area_status() いらないかも
 
-        display_visited_stations()
-
         draw_game_status()
+        display_visited_stations()
 
         st.button(
             "降参する",
