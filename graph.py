@@ -110,6 +110,12 @@ for _, row in joins.iterrows():
         if name2 == "明治神宮前〈原宿〉":
             name2 = "明治神宮前"
 
+        if name1 == "押上〈スカイツリー前〉":
+            name1 = "押上"
+
+        if name2 == "押上〈スカイツリー前〉":
+            name2 = "押上"
+
         if str(line_cd) not in major_lines:
             continue
 
