@@ -14,7 +14,22 @@ from utils import (
 
 
 def draw_header():
-    st.title("🚃 駅つなぎ 🚃 ")
+    st.markdown(
+        """
+        <h1 style="
+            text-align: center;
+            color: #1e88e5;
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        ">
+            🚃 駅つなぎ 🚃
+        </h1>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 draw_header()
@@ -58,42 +73,43 @@ def display_matched_edge(matched: list[Edge]) -> None:
 
 
 def display_path_with_lines(path: list[tuple[str, str | None]], title: str) -> None:
-    """経路を路線名も合わせて表示する."""
-    st.markdown(f"#### {title}")
-    style = """
-    <style>
-    .station {
-        font-weight: bold;
-        font-size: 18px;
-        color: #2c3e50;
-        margin-bottom: 4px;
-    }
-    .line-row {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        color: #16a085;
-        margin: 4px 0 8px 10px;
-    }
-    .arrow {
-        margin-right: 4px;
-        color: #7f8c8d;
-        font-size: 16px;
-    }
-    </style>
-    """
-    html = [style, "<div>"]
-    for i, (station, line) in enumerate(path):
-        html.append(f'<div class="station">{station}</div>')
-        if i < len(path) - 1 and line:
-            html.append(f"""
-                <div class="line-row">
-                    <div class="arrow">⬇</div>
-                    <div class="line">{line}</div>
-                </div>
-            """)
-    html.append("</div>")
-    st.markdown("".join(html), unsafe_allow_html=True)
+    """経路を路線名も合わせて表示する（折りたたみ付き）."""
+    expanded = len(path) - 1 <= 5
+    with st.expander(f"📍 {title}", expanded=expanded):
+        style = """
+        <style>
+        .station {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        .line-row {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #16a085;
+            margin: 4px 0 8px 10px;
+        }
+        .arrow {
+            margin-right: 4px;
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+        </style>
+        """
+        html = [style, "<div>"]
+        for i, (station, line) in enumerate(path):
+            html.append(f'<div class="station">{station}</div>')
+            if i < len(path) - 1 and line:
+                html.append(f"""
+                    <div class="line-row">
+                        <div class="arrow">⬇</div>
+                        <div class="line">{line}</div>
+                    </div>
+                """)
+        html.append("</div>")
+        st.markdown("".join(html), unsafe_allow_html=True)
 
 
 def draw_round_result_success_page():
@@ -111,33 +127,33 @@ def draw_round_result_success_page():
         )
         st.session_state.scores.append(score)
 
+        display_path_with_lines(
+            st.session_state.shortest_path,
+            title=f"最短経路の例 ({len(st.session_state.shortest_path)-1}駅)",
+        )
         # TODO:共通処理まとめる
         if st.session_state.round == MAX_ROUNDS:
             st.button("最終結果画面へ進む", on_click=handle_go_result)
         else:
             st.button("次のラウンドへ進む", on_click=handle_next_round)
-        display_path_with_lines(
-            st.session_state.shortest_path,
-            title=f"最短経路の例 ({len(st.session_state.shortest_path)}駅)",
-        )
 
 
 def draw_round_result_fail_page():
-    # TODO: ライフが尽きた場合も部分点を与えるか検討する
-    score = 0
-    # スコアの説明を入れる
-    st.error(f"到達できませんでした... **{score}/20 点**")
+    score, progress_steps = calculate_score_on_failure()
+    st.error(
+        f"到達できませんでした...  \n{progress_steps}駅分だけ近づきました -> **{score}/20 点**"
+    )
     st.session_state.scores.append(score)
 
+    display_path_with_lines(
+        st.session_state.shortest_path,
+        title=f"最短経路の例 ({len(st.session_state.shortest_path)-1}駅)",
+    )
     # TODO:共通処理まとめる
     if st.session_state.round == MAX_ROUNDS:
         st.button("最終結果画面へ進む", on_click=handle_go_result)
     else:
         st.button("次のラウンドへ進む", on_click=handle_next_round)
-    display_path_with_lines(
-        st.session_state.shortest_path,
-        title=f"最短経路の例 ({len(st.session_state.shortest_path)-1}駅)",
-    )
 
 
 def handle_go_result():
@@ -147,26 +163,6 @@ def handle_go_result():
 def handle_next_round():
     start_round()
     change_page("round_play")
-
-
-def draw_round_result_surrender_page():
-    score, progress_steps = calculate_score_on_failure()
-    # スコアの説明を入れる
-    st.error(
-        f"到達できませんでした...  \n{progress_steps}駅分だけ近づきました -> **{score}/20 点**"
-    )
-    st.session_state.scores.append(score)
-
-    # TODO:共通処理まとめる
-    if st.session_state.round == MAX_ROUNDS:
-        st.button("最終結果画面へ進む", on_click=handle_go_result)
-    else:
-        st.button("次のラウンドへ進む", on_click=handle_next_round)
-
-    display_path_with_lines(
-        st.session_state.shortest_path,
-        title=f"最短経路の例 ({len(st.session_state.shortest_path)-1}駅)",
-    )
 
 
 def handle_move():
@@ -193,7 +189,8 @@ def handle_move():
                 )
             else:
                 st.session_state.life -= 1
-                st.error(f"❌ 隣接していません！ 残ライフ {st.session_state.life}")
+                if st.session_state.life > 0:
+                    st.error(f"❌ 隣接していません！ 残ライフ {st.session_state.life}")
 
         if st.session_state.life <= 0:
             change_page("round_result_fail")
@@ -217,7 +214,7 @@ def calculate_score_on_failure():
 
 
 def handle_surrender():
-    change_page("round_result_surrender")
+    change_page("round_result_fail")
     # どれくらい近づいたか
 
 
@@ -385,7 +382,7 @@ def draw_instruction():
 def draw_round_play_page():
     with main:
         # draw_area_status() いらないかも
-
+        draw_instruction()
         draw_game_status()
         display_visited_stations()
 
@@ -400,8 +397,6 @@ def draw_round_play_page():
             on_change=handle_move,
             disabled=len(st.session_state.scores) == MAX_ROUNDS,
         )
-
-        draw_instruction()
 
 
 def draw_game_result():
@@ -507,9 +502,6 @@ if st.session_state.page == "area_select":
     draw_area_select_page()
 elif st.session_state.page == "round_play":
     draw_round_play_page()
-elif st.session_state.page == "round_result_surrender":
-    with main:
-        draw_round_result_surrender_page()
 elif st.session_state.page == "round_result_success":
     with main:
         draw_round_result_success_page()

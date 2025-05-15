@@ -92,5 +92,6 @@ def calculate_score(
         if min_score <= raw_score
         else f"= {raw_score} -> **{min_score} / {max_score} 点** (クリアで10点に切り上げ) "
     )
-    explanation = f"""{header}  \n{result}"""
+    step_info = f"訪問駅数 {actual_steps}駅 ／ 最短 {shortest_steps}駅（+{excess}）"
+    explanation = f"""{step_info}  \n{header}  \n{result}"""
     return max(raw_score, min_score), explanation
