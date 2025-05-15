@@ -18,12 +18,17 @@ def draw_header():
         """
         <h1 style="
             text-align: center;
-            color: #1e88e5;
-            font-size: 2.8rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            background: linear-gradient(to right, #42a5f5, #1e88e5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2.4rem;
+            font-weight: 900;
+            margin-bottom: 1.2rem;
+            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+            overflow-wrap: normal;
         ">
             🚃 駅つなぎ 🚃
         </h1>
