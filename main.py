@@ -411,9 +411,7 @@ def draw_game_result():
         total = sum(st.session_state.scores)
 
         # スコアに応じた色を決定
-        if total == 100:  # 満点の場合
-            score_color = "#FFD700"  # 金色
-        elif total >= 80:  # 高得点
+        if total >= 80:  # 高得点
             score_color = "#388e3c"  # 緑色
         elif total >= 40:  # 中程度
             score_color = "#fbc02d"  # 黄色
