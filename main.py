@@ -3,6 +3,7 @@ import random
 import textwrap
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from utils import (
     Edge,
@@ -14,26 +15,26 @@ from utils import (
 
 
 def draw_header():
-    st.markdown(
+    components.html(
         """
-        <h1 style="
-            text-align: center;
-            background: linear-gradient(to right, #42a5f5, #1e88e5);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 2.4rem;
-            font-weight: 900;
-            margin-bottom: 1.2rem;
-            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-            letter-spacing: 0.05em;
-            white-space: nowrap;
-            overflow-wrap: normal;
-        ">
-            🚃 駅つなぎ 🚃
-        </h1>
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <h1 style="
+                background: linear-gradient(to right, #42a5f5, #1e88e5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 2.4rem;
+                font-weight: 900;
+                font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+                letter-spacing: 0.05em;
+                margin: 1rem 0;
+                text-align: center;
+            ">
+                🚃 駅つなぎ 🚃
+            </h1>
+        </div>
         """,
-        unsafe_allow_html=True,
+        height=100,
     )
 
 
@@ -407,89 +408,93 @@ def draw_round_play_page():
 def draw_game_result():
     st.markdown("## 🎉 結果発表", unsafe_allow_html=True)
 
-    if "scores" in st.session_state:
-        total = sum(st.session_state.scores)
+    total = sum(st.session_state.scores)
 
-        # スコアに応じた色を決定
-        if total >= 80:  # 高得点
-            score_color = "#388e3c"  # 緑色
-        elif total >= 40:  # 中程度
-            score_color = "#fbc02d"  # 黄色
-        else:  # 低得点
-            score_color = "#d32f2f"  # 赤色
+    # スコアに応じた色を決定
+    if total >= 80:  # 高得点
+        score_color = "#388e3c"  # 緑色
+    elif total >= 40:  # 中程度
+        score_color = "#fbc02d"  # 黄色
+    else:  # 低得点
+        score_color = "#d32f2f"  # 赤色
+
+    st.markdown(
+        textwrap.dedent(f"""
+            <div style="
+                background-color: #e0f7fa;
+                padding: 1.2rem 1.5rem;
+                border-radius: 10px;
+                margin-bottom: 2rem;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            ">
+                <div style="font-size: 1rem; color: #00796b; margin-bottom: 0.3rem;">
+                    合計スコア
+                </div>
+                <div style="
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    color: {score_color};
+                    line-height: 1;
+                    white-space: nowrap;
+                ">
+                    {total} <span style="font-size: 1rem; color: #555;">/ {20 * MAX_ROUNDS} 点</span>
+                </div>
+            </div>
+        """),
+        unsafe_allow_html=True,
+    )
+
+    for i in range(MAX_ROUNDS):
+        if i < len(st.session_state.scores):
+            score = st.session_state.scores[i]
+            goal = (
+                st.session_state.goals[i]
+                if "goals" in st.session_state and i < len(st.session_state.goals)
+                else "？"
+            )
+            score_display = f"{score} / 20点"
+            score_ratio = score / 20
+        else:
+            score = 0
+            score_display = "－ / 20点"
+            goal = (
+                st.session_state.goals[i]
+                if "goals" in st.session_state and i < len(st.session_state.goals)
+                else "？"
+            )
+            score_ratio = 0
 
         st.markdown(
             textwrap.dedent(f"""
-                <div style="
-                    background-color: #e0f7fa;
-                    padding: 1.2rem 1.5rem;
-                    border-radius: 10px;
-                    margin-bottom: 2rem;
-                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-                    text-align: center;
-                ">
-                    <div style="font-size: 1rem; color: #00796b; margin-bottom: 0.3rem;">
-                        合計スコア
-                    </div>
-                    <div style="
-                        font-size: 2.5rem;
-                        font-weight: bold;
-                        color: {score_color};
-                        line-height: 1;
-                        white-space: nowrap;
-                    ">
-                        {total} <span style="font-size: 1rem; color: #555;">/ {20 * MAX_ROUNDS} 点</span>
-                    </div>
-                </div>
-            """),
-            unsafe_allow_html=True,
-        )
-
-        # 各ラウンドのスコア（縦並びカード）
-        for i in range(MAX_ROUNDS):
-            if i < len(st.session_state.scores):
-                score = st.session_state.scores[i]
-                goal = (
-                    st.session_state.goals[i]
-                    if "goals" in st.session_state and i < len(st.session_state.goals)
-                    else "？"
-                )
-                score_display = f"{score} / 20点"
-                score_ratio = score / 20
-            else:
-                score = 0
-                score_display = "－ / 20点"
-                goal = (
-                    st.session_state.goals[i]
-                    if "goals" in st.session_state and i < len(st.session_state.goals)
-                    else "？"
-                )
-                score_ratio = 0
-
-            st.markdown(
-                textwrap.dedent(f"""
                     <div style="
                         border: 1px solid #ddd;
-                        border-radius: 10px;
-                        padding: 1rem;
-                        margin-bottom: 1rem;
+                        border-radius: 8px;
+                        padding: 0.5rem 0.75rem;
+                        margin-bottom: 0.4rem;
                         background-color: #f9f9f9;
-                        box-shadow: 1px 1px 6px rgba(0,0,0,0.05);
+                        box-shadow: 1px 1px 4px rgba(0,0,0,0.03);
+                        font-size: 0.9rem;
+                        line-height: 1.3;
                     ">
-                        <div style="font-weight: bold; font-size: 1rem;">ラウンド {i + 1}</div>
-                        <div style="margin-top: 0.3rem; color: #1565c0;">目的地: <b>{goal}</b></div>
-                        <div style="margin-top: 0.6rem;">スコア: <b>{score_display}</b></div>
-                        <div style="margin-top: 0.5rem; background: #eee; border-radius: 6px; overflow: hidden;">
-                            <div style="
-                                height: 12px;
-                                width: {score_ratio * 100}%;
-                                background-color: #4db6ac;
-                            "></div>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div style="font-weight: bold;">ラウンド {i + 1}</div>
+                            <div style="color: #1565c0;">目的地: <b>{goal}</b></div>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 0.4rem;">
+                            <div>スコア: <b>{score_display}</b></div>
+                            <div style="flex-grow: 1; margin-left: 1rem; background: #eee; border-radius: 4px; overflow: hidden;">
+                                <div style="
+                                    height: 8px;
+                                    width: {score_ratio * 100}%;
+                                    background-color: #4db6ac;
+                                "></div>
+                            </div>
                         </div>
                     </div>
                 """),
-                unsafe_allow_html=True,
-            )
+            unsafe_allow_html=True,
+        )
 
     st.markdown("---")
 
