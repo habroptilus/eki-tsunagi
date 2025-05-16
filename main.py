@@ -27,14 +27,15 @@ def draw_header():
                 font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
                 text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
                 letter-spacing: 0.05em;
-                margin: 1rem 0;
+                margin-top: 0.8rem;
+                margin-bottom: 0.3rem;
                 text-align: center;
             ">
                 🚃 駅つなぎ 🚃
             </h1>
         </div>
         """,
-        height=100,
+        height=70,
     )
 
 
@@ -406,8 +407,6 @@ def draw_round_play_page():
 
 
 def draw_game_result():
-    st.markdown("## 🎉 結果発表", unsafe_allow_html=True)
-
     total = sum(st.session_state.scores)
 
     # スコアに応じた色を決定
@@ -418,6 +417,29 @@ def draw_game_result():
     else:  # 低得点
         score_color = "#d32f2f"  # 赤色
 
+    components.html(
+        """
+    <div style="
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0.3rem 0 0.8rem 0;
+    ">
+        <h2 style="
+            font-size: 1.6rem;
+            font-weight: 700;
+            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+            color: #1e88e5;
+            margin: 0;
+        ">
+            <span style="filter: brightness(0) saturate(100%) invert(30%) sepia(100%) saturate(2000%) hue-rotate(180deg);">🎉</span>
+            結果発表
+            <span style="filter: brightness(0) saturate(100%) invert(30%) sepia(100%) saturate(2000%) hue-rotate(180deg);">🎉</span>
+        </h2>
+    </div>
+    """,
+        height=60,
+    )
     st.markdown(
         textwrap.dedent(f"""
             <div style="
