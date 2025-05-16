@@ -245,6 +245,8 @@ def start_game():
         start_candidates = []
         for area in area_data.values():
             start_candidates += area["start"]
+        # 重複を取り除く. あとで綺麗に描き直す
+        start_candidates = list(set(start_candidates))
     else:
         start_candidates = area_data[st.session_state.area]["start"]
 
