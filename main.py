@@ -424,6 +424,10 @@ def show_hint_modal():
             on_click=handle_hint_click,
         )
 
+    if st.button("戻る"):
+        st.session_state.show_hint_modal = False
+        st.rerun()
+
 
 # モーダル表示のための状態を初期化
 if "show_hint_modal" not in st.session_state:
