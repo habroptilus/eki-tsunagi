@@ -267,7 +267,7 @@ def show_hints():
                 box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
             ">
                 <div style="font-size: 1.1rem; font-weight: bold; color: #ff6f00;">
-                    💡 隣接していて目的地に近づく駅
+                    💡 目的地に近づく駅
                 </div>
             """,
             unsafe_allow_html=True,
@@ -417,16 +417,16 @@ def draw_game_status():
             text-align: center;
         ">
             <div style="flex: 1; min-width: 100px;">
-                <div style="font-size: 0.9rem; color: #1565c0;">目的地</div>
-                <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{goal}</div>
+                <div style="font-size: 0.8rem; color: #1565c0;">目的地</div>
+                <div style="font-size: 1.2rem; font-weight: bold; margin-top: 0.3rem;">{goal}</div>
             </div>
             <div style="flex: 1; min-width: 100px;">
-                <div style="font-size: 0.9rem; color: #1565c0;">残ライフ</div>
-                <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{'🩷' * life}</div>
+                <div style="font-size: 0.8rem; color: #1565c0;">残ライフ</div>
+                <div style="font-size: 1.2rem; font-weight: bold; margin-top: 0.3rem;">{'🩷' * life}</div>
             </div>
             <div style="flex: 1; min-width: 100px;">
-                <div style="font-size: 0.9rem; color: #1565c0;">残ヒント</div>
-                <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{'💡' * hint}</div>
+                <div style="font-size: 0.8rem; color: #1565c0;">残ヒント</div>
+                <div style="font-size: 1.2rem; font-weight: bold; margin-top: 0.3rem;">{'💡' * hint}</div>
             </div>
         </div>
         <br>
@@ -444,6 +444,7 @@ def draw_instruction():
                 2. 入力した駅数が少ないほど高得点を獲得できます。
                 3. 駅を間違えるとライフを失います。ライフが **0** になるとラウンド失敗！
                 4. 目的地に到達できなかった場合でも、目的地に近づいた分だけ **部分点** がもらえます。
+                5. **ヒントをもらう** と隣接していて目的地に近づける駅がわかります！
 
                 **さあ、スタート！**
             """,

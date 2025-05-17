@@ -128,6 +128,7 @@ def calculate_score(
     used_hints: int | None = None,
     actual_steps: int | None = None,
     penalty_per_step: int = 3,
+    penalty_per_hint: int = 2,
     min_score: int = 10,
     max_score: int = 20,
     fail_score: int = 0,
@@ -137,15 +138,17 @@ def calculate_score(
 
     excess = actual_steps - shortest_steps
     penalty = (
-        (actual_steps - shortest_steps) * penalty_per_step + lost_life + used_hints
+        (actual_steps - shortest_steps) * penalty_per_step
+        + lost_life
+        + used_hints * penalty_per_hint
     )
     raw_score = max_score - penalty
-    header = f"{max_score}点 − (超過駅数 {excess} × {penalty_per_step} + 失ったライフ {lost_life} + 使ったヒント {used_hints})"
+    header = f"{max_score}点 − (🚃 {excess} × {penalty_per_step} + 🩷 {lost_life} + 💡 {used_hints} × {penalty_per_hint})"
     result = (
         f"= **{raw_score} / 20 点**"
         if min_score <= raw_score
         else f"= {raw_score} -> **{min_score} / {max_score} 点** (クリアで10点に切り上げ) "
     )
-    step_info = f"訪問駅数 {actual_steps}駅 ／ 最短 {shortest_steps}駅（+{excess}）"
+    step_info = f"訪問駅数 {actual_steps}駅 ／ 最短 {shortest_steps}駅（+ {excess} 🚃）"
     explanation = f"""{step_info}  \n{header}  \n{result}"""
     return max(raw_score, min_score), explanation
