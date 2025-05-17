@@ -8,6 +8,7 @@ import streamlit.components.v1 as components
 from utils import (
     Edge,
     add_candidates,
+    calculate_hints,
     calculate_score,
     choose_goal,
     find_shortest_path,
@@ -58,6 +59,9 @@ def load_area():
 graph_data = load_graph()
 area_data = load_area()
 MAX_ROUNDS = 5
+CHOICE_NUM = 4
+MAX_LIFE = 3
+MAX_HINT = 2
 
 
 def display_matched_edge(matched: list[Edge]) -> None:
@@ -125,7 +129,10 @@ def draw_round_result_success_page():
         actual_steps = len(st.session_state.round_visited)
 
         score, explanation = calculate_score(
-            shortest_steps, 3 - st.session_state.life, actual_steps=actual_steps
+            shortest_steps=shortest_steps,
+            lost_life=MAX_LIFE - st.session_state.life,
+            actual_steps=actual_steps,
+            used_hints=MAX_HINT - st.session_state.hint,
         )
 
         st.success(
@@ -240,6 +247,56 @@ def draw_area_select_page():
             st.rerun()
 
 
+def show_hints():
+    hints = calculate_hints(
+        graph=graph_data,
+        goal=st.session_state.goal,
+        candidates=list(set([edge.to_station for edge in st.session_state.candidates])),
+        choices_num=CHOICE_NUM,
+    )
+
+    with side:
+        st.markdown(
+            """
+            <div style="
+                background-color: #fff3cd;
+                border-left: 6px solid #ffa000;
+                padding: 1rem;
+                border-radius: 10px;
+                margin-top: 1rem;
+                box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
+            ">
+                <div style="font-size: 1.1rem; font-weight: bold; color: #ff6f00;">
+                    💡 隣接していて目的地に近づく駅
+                </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        for station in hints:
+            st.markdown(
+                f"""
+                <div style="
+                    background-color: #fff8e1;
+                    padding: 0.5rem 0.75rem;
+                    margin: 0.5rem 0;
+                    border-radius: 8px;
+                    font-weight: bold;
+                    color: #6d4c41;
+                    text-align: center;
+                    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+                ">
+                    {station}
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+        st.markdown("</div>", unsafe_allow_html=True)
+
+    st.session_state.hint -= 1
+
+
 def start_game():
     if st.session_state.area == "全域":
         start_candidates = []
@@ -266,7 +323,8 @@ def start_game():
 def start_round():
     st.session_state.round_visited = []
     st.session_state.round += 1
-    st.session_state.life = 3
+    st.session_state.life = MAX_LIFE
+    st.session_state.hint = MAX_HINT
 
     if st.session_state.area == "全域":
         goal_candidates = []
@@ -340,8 +398,9 @@ def draw_area_status():
 
 def draw_game_status():
     round_num = st.session_state["round"]
-    goal = st.session_state["goal"]
-    life = st.session_state["life"]
+    goal = st.session_state.goal
+    life = st.session_state.life
+    hint = st.session_state.hint
 
     st.markdown(f"### 🏁 ラウンド {round_num}/{MAX_ROUNDS}")
 
@@ -354,16 +413,20 @@ def draw_game_status():
             box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             text-align: center;
         ">
-            <div style="flex: 1; min-width: 140px;">
+            <div style="flex: 1; min-width: 100px;">
                 <div style="font-size: 0.9rem; color: #1565c0;">目的地</div>
                 <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{goal}</div>
             </div>
-            <div style="flex: 1; min-width: 140px;">
+            <div style="flex: 1; min-width: 100px;">
                 <div style="font-size: 0.9rem; color: #1565c0;">残ライフ</div>
                 <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{'🩷' * life}</div>
+            </div>
+            <div style="flex: 1; min-width: 100px;">
+                <div style="font-size: 0.9rem; color: #1565c0;">残ヒント</div>
+                <div style="font-size: 1.4rem; font-weight: bold; margin-top: 0.3rem;">{'💡' * hint}</div>
             </div>
         </div>
         <br>
@@ -399,6 +462,11 @@ def draw_round_play_page():
             "降参する",
             disabled=len(st.session_state.scores) == MAX_ROUNDS,
             on_click=handle_surrender,
+        )
+        st.button(
+            "ヒントをもらう",
+            disabled=st.session_state.hint <= 0,
+            on_click=show_hints,
         )
         st.text_input(
             "訪問済みの駅に隣接した駅名を入力してください",
