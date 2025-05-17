@@ -410,6 +410,7 @@ def draw_instruction():
 
 @st.dialog("💡ヒントから選ぶ")
 def show_hint_modal():
+    print(st.session_state.candidates)
     hints = calculate_hints(
         graph=graph_data,
         goal=st.session_state.goal,
@@ -419,10 +420,11 @@ def show_hint_modal():
 
     with st.form("hint_form"):
         st.radio("", options=hints, horizontal=False, key="hint_radio")
-        st.form_submit_button(
+        if st.form_submit_button(
             "回答する",
-            on_click=handle_hint_click,
-        )
+        ):
+            handle_hint_click()
+            st.rerun()
 
     if st.button("戻る"):
         st.session_state.show_hint_modal = False
@@ -454,7 +456,6 @@ def draw_round_play_page():
         # モーダル内の処理
         if st.session_state.show_hint_modal:
             show_hint_modal()
-            st.rerun()  # UIを更新してモーダルを消す
 
         st.text_input(
             "訪問済みの駅に隣接した駅名を入力してください",
