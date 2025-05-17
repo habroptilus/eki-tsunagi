@@ -59,7 +59,7 @@ def load_area():
 graph_data = load_graph()
 area_data = load_area()
 MAX_ROUNDS = 5
-CHOICE_NUM = 4
+CHOICE_NUM = 3
 MAX_LIFE = 3
 MAX_HINT = 2
 
@@ -179,6 +179,12 @@ def handle_next_round():
     change_page("round_play")
 
 
+def handle_hint_click():
+    st.session_state.next_station = st.session_state.hint_radio
+    st.session_state.show_hint_modal = False
+    handle_move()
+
+
 def handle_move():
     with side:
         next_station = st.session_state.next_station
@@ -245,56 +251,6 @@ def draw_area_select_page():
             start_round()
             change_page("round_play")
             st.rerun()
-
-
-def show_hints():
-    hints = calculate_hints(
-        graph=graph_data,
-        goal=st.session_state.goal,
-        candidates=list(set([edge.to_station for edge in st.session_state.candidates])),
-        choices_num=CHOICE_NUM,
-    )
-
-    with side:
-        st.markdown(
-            """
-            <div style="
-                background-color: #fff3cd;
-                border-left: 6px solid #ffa000;
-                padding: 1rem;
-                border-radius: 10px;
-                margin-top: 1rem;
-                box-shadow: 1px 1px 6px rgba(0,0,0,0.08);
-            ">
-                <div style="font-size: 1.1rem; font-weight: bold; color: #ff6f00;">
-                    💡 目的地に近づく駅
-                </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-        for station in hints:
-            st.markdown(
-                f"""
-                <div style="
-                    background-color: #fff8e1;
-                    padding: 0.5rem 0.75rem;
-                    margin: 0.5rem 0;
-                    border-radius: 8px;
-                    font-weight: bold;
-                    color: #6d4c41;
-                    text-align: center;
-                    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-                ">
-                    {station}
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-        st.markdown("</div>", unsafe_allow_html=True)
-
-    st.session_state.hint -= 1
 
 
 def start_game():
@@ -452,6 +408,28 @@ def draw_instruction():
         )
 
 
+@st.dialog("💡ヒントから選ぶ")
+def show_hint_modal():
+    hints = calculate_hints(
+        graph=graph_data,
+        goal=st.session_state.goal,
+        candidates=list(set([edge.to_station for edge in st.session_state.candidates])),
+        choices_num=CHOICE_NUM,
+    )
+
+    with st.form("hint_form"):
+        st.radio("", options=hints, horizontal=False, key="hint_radio")
+        st.form_submit_button(
+            "回答する",
+            on_click=handle_hint_click,
+        )
+
+
+# モーダル表示のための状態を初期化
+if "show_hint_modal" not in st.session_state:
+    st.session_state.show_hint_modal = False
+
+
 def draw_round_play_page():
     with main:
         # draw_area_status() いらないかも
@@ -460,15 +438,20 @@ def draw_round_play_page():
         display_visited_stations()
 
         st.button(
-            "降参する",
+            "🏳️ 降参する",
             disabled=len(st.session_state.scores) == MAX_ROUNDS,
             on_click=handle_surrender,
         )
-        st.button(
-            "ヒントをもらう",
-            disabled=st.session_state.hint <= 0,
-            on_click=show_hints,
-        )
+        # ボタンを押すとモーダル表示
+        if st.button("💡 ヒントを見る", disabled=st.session_state.hint <= 0):
+            st.session_state.hint -= 1
+            st.session_state.show_hint_modal = True
+
+        # モーダル内の処理
+        if st.session_state.show_hint_modal:
+            show_hint_modal()
+            st.rerun()  # UIを更新してモーダルを消す
+
         st.text_input(
             "訪問済みの駅に隣接した駅名を入力してください",
             key="next_station",
