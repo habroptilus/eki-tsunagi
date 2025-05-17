@@ -19,6 +19,7 @@ def add_candidates(
     candidates: list[Edge],
     visited_station: str,
     graph_data: dict[str, list[dict[str, str]]],
+    visited_stations: list[str],
 ) -> list[Edge]:
     edges_to_be_added = list(
         [
@@ -32,7 +33,7 @@ def add_candidates(
     )
     combined = candidates + edges_to_be_added
 
-    filtered = [edge for edge in combined if edge.to_station != visited_station]
+    filtered = [edge for edge in combined if edge.to_station not in visited_stations]
 
     return filtered
 

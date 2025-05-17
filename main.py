@@ -205,7 +205,10 @@ def handle_move():
                 st.session_state.visited.append(next_station)
                 st.session_state.round_visited.append(next_station)
                 st.session_state.candidates = add_candidates(
-                    st.session_state.candidates, next_station, graph_data
+                    st.session_state.candidates,
+                    next_station,
+                    graph_data,
+                    st.session_state.visited,
                 )
             else:
                 st.session_state.life -= 1
@@ -267,7 +270,10 @@ def start_game():
     st.session_state.candidates = []
     for start_station in st.session_state.visited:
         st.session_state.candidates = add_candidates(
-            st.session_state.candidates, start_station, graph_data
+            st.session_state.candidates,
+            start_station,
+            graph_data,
+            st.session_state.visited,
         )
     st.session_state.scores = []
     st.session_state.goals = []
@@ -410,7 +416,6 @@ def draw_instruction():
 
 @st.dialog("💡ヒントから選ぶ")
 def show_hint_modal():
-    print(st.session_state.candidates)
     hints = calculate_hints(
         graph=graph_data,
         goal=st.session_state.goal,
