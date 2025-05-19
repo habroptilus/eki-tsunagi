@@ -10,6 +10,7 @@ from utils import (
     add_candidates,
     calculate_hints,
     calculate_score,
+    calculate_score_on_failure,
     choose_goal,
     find_shortest_path,
 )
@@ -153,7 +154,12 @@ def draw_round_result_success_page():
 
 
 def draw_round_result_fail_page():
-    score, progress_steps = calculate_score_on_failure()
+    score, progress_steps = calculate_score_on_failure(
+        graph_data=graph_data,
+        goal=st.session_state.goal,
+        visited=st.session_state.visited,
+        shortest_path=st.session_state.shortest_path,
+    )
     st.error(
         f"到達できませんでした...  \n{progress_steps}駅分だけ近づきました -> **{score}/20 点**"
     )
@@ -186,57 +192,64 @@ def handle_hint_click():
 
 
 def handle_move():
-    with side:
-        next_station = st.session_state.next_station
-        st.session_state.next_station = ""
-        if next_station in st.session_state.visited:
-            st.warning("⚠️ その駅はすでに訪れています。")
-            return
-        elif next_station not in graph_data:
-            st.error("🚫 入力された駅はデータに存在しません。")
-            return
+    next_station = st.session_state.next_station
+    st.session_state.next_station = ""
+
+    if next_station in st.session_state.visited:
+        st.session_state.log_status = "visited"
+        return
+    elif next_station not in graph_data:
+        st.session_state.log_status = "not_exist"
+        return
+    else:
+        matched = [
+            c for c in st.session_state.candidates if c.to_station == next_station
+        ]
+        if matched:
+            st.session_state.log_status = "success"
+            st.session_state.arrived_station = next_station
+            st.session_state.matched_edges = matched
+
+            st.session_state.visited.append(next_station)
+            st.session_state.round_visited.append(next_station)
+            st.session_state.candidates = add_candidates(
+                st.session_state.candidates,
+                next_station,
+                graph_data,
+                st.session_state.visited,
+            )
+
         else:
-            matched = [
-                c for c in st.session_state.candidates if c.to_station == next_station
-            ]
-            if matched:
-                st.success(f"✅ {next_station} に到達！")
-                display_matched_edge(matched)
-                st.session_state.visited.append(next_station)
-                st.session_state.round_visited.append(next_station)
-                st.session_state.candidates = add_candidates(
-                    st.session_state.candidates,
-                    next_station,
-                    graph_data,
-                    st.session_state.visited,
-                )
-            else:
-                st.session_state.life -= 1
-                if st.session_state.life > 0:
-                    st.error(f"❌ 隣接していません！ 残ライフ {st.session_state.life}")
+            st.session_state.log_status = "fail"
+            st.session_state.life -= 1
 
-        if st.session_state.life <= 0:
-            change_page("round_result_fail")
+    if st.session_state.life <= 0:
+        change_page("round_result_fail")
 
-        elif st.session_state.goal in st.session_state.visited:
-            change_page("round_result_success")
+    elif st.session_state.goal in st.session_state.visited:
+        change_page("round_result_success")
 
 
-def calculate_score_on_failure():
-    shortest_path_of_end_state = find_shortest_path(
-        graph=graph_data,
-        goal=st.session_state.goal,
-        visited=st.session_state.visited,
-    )
-    progress_steps = len(st.session_state.shortest_path) - len(
-        shortest_path_of_end_state
-    )
+def draw_side_bar():
+    if "log_status" not in st.session_state:
+        return
+    with side:
+        if st.session_state.log_status == "visited":
+            st.warning("⚠️ その駅はすでに訪れています。")
+        elif st.session_state.log_status == "not_exist":
+            st.error("🚫 入力された駅はデータに存在しません。")
+        elif st.session_state.log_status == "success":
+            st.success(f"✅ {st.session_state.arrived_station} に到達！")
+            display_matched_edge(st.session_state.matched_edges)
+        elif st.session_state.log_status == "fail":
+            st.error(f"❌ 隣接していません！ 残ライフ {st.session_state.life}")
 
-    score = min(progress_steps, 10)
-    return score, progress_steps
+
+draw_side_bar()
 
 
 def handle_surrender():
+    st.session_state.log_status = ""
     change_page("round_result_fail")
     # どれくらい近づいたか
 
@@ -458,7 +471,6 @@ def draw_round_play_page():
             st.session_state.hint -= 1
             st.session_state.show_hint_modal = True
 
-        # モーダル内の処理
         if st.session_state.show_hint_modal:
             show_hint_modal()
 

@@ -153,3 +153,15 @@ def calculate_score(
     step_info = f"訪問駅数 {actual_steps}駅 ／ 最短 {shortest_steps}駅（+ {excess} 🚃）"
     explanation = f"""{step_info}  \n{header}  \n{result}"""
     return max(raw_score, min_score), explanation
+
+
+def calculate_score_on_failure(graph_data, goal, visited, shortest_path):
+    shortest_path_of_end_state = find_shortest_path(
+        graph=graph_data,
+        goal=goal,
+        visited=visited,
+    )
+    progress_steps = len(shortest_path) - len(shortest_path_of_end_state)
+
+    score = min(progress_steps, 10)
+    return score, progress_steps
