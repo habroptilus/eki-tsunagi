@@ -165,3 +165,32 @@ def calculate_score_on_failure(graph_data, goal, visited, shortest_path):
 
     score = min(progress_steps, 10)
     return score, progress_steps
+
+
+def get_result_title(area: str, score: int, max_score: int):
+    if score == max_score:
+        return f"【{area}の特急ライダー】"
+
+    ratio = score / max_score
+    if ratio >= 0.9:
+        return f"【{area}の急行ナビゲーター】"
+    elif ratio >= 0.75:
+        return f"【{area}の快速トラベラー】"
+    elif ratio >= 0.5:
+        return f"【{area}の各駅停車ルーキー】"
+    else:
+        return f"【{area}の乗り換え初心者】"
+
+
+def get_result_comment(score: int, max_score: int):
+    if score == max_score:
+        return "神ってる！乗換えの神降臨⚡🚅"
+    ratio = score / max_score
+    if ratio >= 0.9:
+        return "もうプロじゃん！次は駅長狙う？👨‍✈️"
+    elif ratio >= 0.75:
+        return "路線マスターまでもうちょい！🛤️"
+    elif ratio >= 0.5:
+        return "迷子でも楽しむ精神が大事だぜ🤪"
+    else:
+        return "乗り遅れ注意！リベンジGO！🔥"

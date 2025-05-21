@@ -13,6 +13,8 @@ from utils import (
     calculate_score_on_failure,
     choose_goal,
     find_shortest_path,
+    get_result_comment,
+    get_result_title,
 )
 
 
@@ -510,30 +512,37 @@ def draw_game_result():
     """,
         height=60,
     )
+    title = get_result_title(st.session_state.area, total, max_score=MAX_ROUNDS * 20)
+    comment = get_result_comment(total, max_score=MAX_ROUNDS * 20)
+
     st.markdown(
-        textwrap.dedent(f"""
-            <div style="
-                background-color: #e0f7fa;
-                padding: 1.2rem 1.5rem;
-                border-radius: 10px;
-                margin-bottom: 2rem;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-                text-align: center;
-            ">
-                <div style="font-size: 1rem; color: #00796b; margin-bottom: 0.3rem;">
-                    合計スコア
-                </div>
-                <div style="
-                    font-size: 2.5rem;
-                    font-weight: bold;
-                    color: {score_color};
-                    line-height: 1;
-                    white-space: nowrap;
-                ">
-                    {total} <span style="font-size: 1rem; color: #555;">/ {20 * MAX_ROUNDS} 点</span>
-                </div>
+        f"""
+        <div style="
+            background-color: #e0f7fa;
+            padding: 1.2rem 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        ">
+            <div style="font-size: 1.2rem; color: #00796b; margin-bottom: 0.5rem; font-weight: 600;">
+                {title}
             </div>
-        """),
+            <div style="
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: {score_color};
+                line-height: 1;
+                white-space: nowrap;
+                margin-bottom: 0.5rem;
+            ">
+                {total} <span style="font-size: 1rem; color: #555;">/ {MAX_ROUNDS*20} 点</span>
+            </div>
+            <div style="font-size: 1rem; color: #444;">
+                {comment}
+            </div>
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 
