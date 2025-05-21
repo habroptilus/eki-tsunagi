@@ -1,4 +1,5 @@
 import random
+import urllib
 from collections import deque
 from typing import Dict, List, Set
 
@@ -169,17 +170,17 @@ def calculate_score_on_failure(graph_data, goal, visited, shortest_path):
 
 def get_result_title(area: str, score: int, max_score: int):
     if score == max_score:
-        return f"【{area}の特急ライダー】"
+        return f"{area}の特急ライダー"
 
     ratio = score / max_score
     if ratio >= 0.9:
-        return f"【{area}の急行ナビゲーター】"
+        return f"{area}の急行ナビゲーター"
     elif ratio >= 0.75:
-        return f"【{area}の快速トラベラー】"
+        return f"{area}の快速トラベラー"
     elif ratio >= 0.5:
-        return f"【{area}の各駅停車ルーキー】"
+        return f"{area}の各駅停車ルーキー"
     else:
-        return f"【{area}の乗り換え初心者】"
+        return f"{area}の乗り換え初心者"
 
 
 def get_result_comment(score: int, max_score: int):
@@ -194,3 +195,29 @@ def get_result_comment(score: int, max_score: int):
         return "迷子でも楽しむ精神が大事だぜ🤪"
     else:
         return "乗り遅れ注意！リベンジGO！🔥"
+
+
+def create_text_for_x(score: int, title: str, max_score: int) -> str:
+    lines = []
+
+    ratio = score / max_score
+    if score == max_score:
+        content = "駅つなぎで100点とった！"
+    elif ratio >= 0.9:
+        content = f"駅つなぎで{score}点とった！"
+    elif ratio >= 0.75:
+        content = f"駅つなぎで{score}点とった！"
+    elif ratio >= 0.5:
+        content = f"駅つなぎで{score}点とった！"
+    else:
+        content = f"駅つなぎで{score}点..."
+
+    lines.append(content)
+
+    # ハッシュタグ（例）
+    hashtags = f"#{title} #駅つなぎ"
+    lines.append(f"\n{hashtags}")
+
+    # 最終テキストを結合
+    result = "\n".join(lines)
+    return urllib.parse.quote(result)

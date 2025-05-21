@@ -1,6 +1,7 @@
 import json
 import random
 import textwrap
+import urllib.parse
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -12,6 +13,7 @@ from utils import (
     calculate_score,
     calculate_score_on_failure,
     choose_goal,
+    create_text_for_x,
     find_shortest_path,
     get_result_comment,
     get_result_title,
@@ -40,6 +42,20 @@ def draw_header():
         </div>
         """,
         height=70,
+    )
+
+
+def share_to_x(text: str, url: str | None = None):
+    tweet_text = urllib.parse.quote(text)
+    share_url = f"https://twitter.com/intent/tweet?text={tweet_text}"
+    if url is not None:
+        share_url += f"&url={urllib.parse.quote(url)}"
+    st.markdown(
+        f'<a href="{share_url}" target="_blank" style="text-decoration:none;">'
+        '<button style="background-color:#000000; color:white; border:none; padding:0.5rem 1rem; '
+        'border-radius:5px; cursor:pointer;">'
+        "Xでシェアする</button></a>",
+        unsafe_allow_html=True,
     )
 
 
@@ -478,6 +494,66 @@ def draw_round_play_page():
     )
 
 
+def share_result_box(
+    title: str, total: int, max_score: int, comment: str, url: str | None = None
+):
+    # スコアに応じた色を決定
+    if total >= 80:  # 高得点
+        score_color = "#388e3c"  # 緑色
+    elif total >= 40:  # 中程度
+        score_color = "#fbc02d"  # 黄色
+    else:  # 低得点
+        score_color = "#d32f2f"  # 赤色
+
+    text_for_x = create_text_for_x(score=total, title=title, max_score=100)
+    share_url = f"https://twitter.com/intent/tweet?text={text_for_x}"
+    if url is not None:
+        share_url += f"&url={urllib.parse.quote(url)}"
+
+    st.markdown(
+        f"""
+        <div style="
+            background-color: #e0f7fa;
+            padding: 1.2rem 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        ">
+            <div style="font-size: 1.2rem; color: #00796b; margin-bottom: 0.5rem; font-weight: 600;">
+                {title}
+            </div>
+            <div style="
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: {score_color};
+                line-height: 1;
+                white-space: nowrap;
+                margin-bottom: 0.5rem;
+            ">
+                {total} <span style="font-size: 1rem; color: #555;">/ {max_score} 点</span>
+            </div>
+            <div style="font-size: 1rem; color: #444; margin-bottom: 1rem;">
+                {comment}
+            </div>
+            <a href="{share_url}" target="_blank" style="text-decoration:none;">
+                <button style="
+                    background-color:#000000;
+                    color:white;
+                    border:none;
+                    padding:0.5rem 1rem;
+                    border-radius:5px;
+                    cursor:pointer;
+                ">
+                    Xでシェアする
+                </button>
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def draw_game_result():
     total = sum(st.session_state.scores)
 
@@ -515,36 +591,7 @@ def draw_game_result():
     title = get_result_title(st.session_state.area, total, max_score=MAX_ROUNDS * 20)
     comment = get_result_comment(total, max_score=MAX_ROUNDS * 20)
 
-    st.markdown(
-        f"""
-        <div style="
-            background-color: #e0f7fa;
-            padding: 1.2rem 1.5rem;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        ">
-            <div style="font-size: 1.2rem; color: #00796b; margin-bottom: 0.5rem; font-weight: 600;">
-                {title}
-            </div>
-            <div style="
-                font-size: 2.5rem;
-                font-weight: bold;
-                color: {score_color};
-                line-height: 1;
-                white-space: nowrap;
-                margin-bottom: 0.5rem;
-            ">
-                {total} <span style="font-size: 1rem; color: #555;">/ {MAX_ROUNDS*20} 点</span>
-            </div>
-            <div style="font-size: 1rem; color: #444;">
-                {comment}
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    share_result_box(title=title, total=total, max_score=100, comment=comment)
 
     for i in range(MAX_ROUNDS):
         if i < len(st.session_state.scores):
