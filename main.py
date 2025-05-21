@@ -610,16 +610,8 @@ elif st.session_state.page == "round_play":
     with side:
         draw_side_bar()
 elif st.session_state.page == "round_result_success":
-    main, side = st.columns([5, 4])
-    with main:
-        draw_round_result_success_page()
-    with side:
-        draw_side_bar()
+    draw_round_result_success_page()
 elif st.session_state.page == "round_result_fail":
-    main, side = st.columns([5, 4])
-    with main:
-        draw_round_result_fail_page()
-    with side:
-        draw_side_bar()
+    draw_round_result_fail_page()
 elif st.session_state.page == "game_result":
     draw_game_result()
