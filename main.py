@@ -42,7 +42,6 @@ def draw_header():
 
 
 draw_header()
-main, side = st.columns([5, 4])
 
 
 @st.cache_data
@@ -233,25 +232,20 @@ def handle_move():
 def draw_side_bar():
     if "log_status" not in st.session_state:
         return
-    with side:
-        if st.session_state.log_status == "visited":
-            st.warning("⚠️ その駅はすでに訪れています。")
-        elif st.session_state.log_status == "not_exist":
-            st.error("🚫 入力された駅はデータに存在しません。")
-        elif st.session_state.log_status == "success":
-            st.success(f"✅ {st.session_state.arrived_station} に到達！")
-            display_matched_edge(st.session_state.matched_edges)
-        elif st.session_state.log_status == "fail":
-            st.error(f"❌ 隣接していません！ 残ライフ {st.session_state.life}")
 
-
-draw_side_bar()
+    if st.session_state.log_status == "visited":
+        st.warning("⚠️ その駅はすでに訪れています。")
+    elif st.session_state.log_status == "not_exist":
+        st.error("🚫 入力された駅はデータに存在しません。")
+    elif st.session_state.log_status == "success":
+        st.success(f"✅ {st.session_state.arrived_station} に到達！")
+        display_matched_edge(st.session_state.matched_edges)
+    elif st.session_state.log_status == "fail":
+        st.error(f"❌ 隣接していません！ 残ライフ {st.session_state.life}")
 
 
 def handle_surrender():
-    st.session_state.log_status = ""
     change_page("round_result_fail")
-    # どれくらい近づいたか
 
 
 def draw_area_select_page():
@@ -300,6 +294,7 @@ def start_round():
     st.session_state.round += 1
     st.session_state.life = MAX_LIFE
     st.session_state.hint = MAX_HINT
+    st.session_state.log_status = ""
 
     if st.session_state.area == "全域":
         goal_candidates = []
@@ -320,6 +315,7 @@ def start_round():
 
 
 def change_page(new_page: str):
+    st.session_state.log_status = ""
     st.session_state.page = new_page
 
 
@@ -455,31 +451,30 @@ if "show_hint_modal" not in st.session_state:
 
 
 def draw_round_play_page():
-    with main:
-        # draw_area_status() いらないかも
-        draw_instruction()
-        draw_game_status()
-        display_visited_stations()
+    # draw_area_status() いらないかも
+    draw_instruction()
+    draw_game_status()
+    display_visited_stations()
 
-        st.button(
-            "🏳️ 降参する",
-            disabled=len(st.session_state.scores) == MAX_ROUNDS,
-            on_click=handle_surrender,
-        )
-        # ボタンを押すとモーダル表示
-        if st.button("💡 ヒントを見る", disabled=st.session_state.hint <= 0):
-            st.session_state.hint -= 1
-            st.session_state.show_hint_modal = True
+    st.button(
+        "🏳️ 降参する",
+        disabled=len(st.session_state.scores) == MAX_ROUNDS,
+        on_click=handle_surrender,
+    )
+    # ボタンを押すとモーダル表示
+    if st.button("💡 ヒントを見る", disabled=st.session_state.hint <= 0):
+        st.session_state.hint -= 1
+        st.session_state.show_hint_modal = True
 
-        if st.session_state.show_hint_modal:
-            show_hint_modal()
+    if st.session_state.show_hint_modal:
+        show_hint_modal()
 
-        st.text_input(
-            "訪問済みの駅に隣接した駅名を入力してください",
-            key="next_station",
-            on_change=handle_move,
-            disabled=len(st.session_state.scores) == MAX_ROUNDS,
-        )
+    st.text_input(
+        "訪問済みの駅に隣接した駅名を入力してください",
+        key="next_station",
+        on_change=handle_move,
+        disabled=len(st.session_state.scores) == MAX_ROUNDS,
+    )
 
 
 def draw_game_result():
@@ -609,12 +604,22 @@ if "page" not in st.session_state:
 if st.session_state.page == "area_select":
     draw_area_select_page()
 elif st.session_state.page == "round_play":
-    draw_round_play_page()
+    main, side = st.columns([5, 4])
+    with main:
+        draw_round_play_page()
+    with side:
+        draw_side_bar()
 elif st.session_state.page == "round_result_success":
+    main, side = st.columns([5, 4])
     with main:
         draw_round_result_success_page()
+    with side:
+        draw_side_bar()
 elif st.session_state.page == "round_result_fail":
+    main, side = st.columns([5, 4])
     with main:
         draw_round_result_fail_page()
+    with side:
+        draw_side_bar()
 elif st.session_state.page == "game_result":
     draw_game_result()
