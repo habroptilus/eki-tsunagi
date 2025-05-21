@@ -315,7 +315,6 @@ def start_round():
 
 
 def change_page(new_page: str):
-    st.session_state.log_status = ""
     st.session_state.page = new_page
 
 
@@ -610,8 +609,17 @@ elif st.session_state.page == "round_play":
     with side:
         draw_side_bar()
 elif st.session_state.page == "round_result_success":
-    draw_round_result_success_page()
+    main, side = st.columns([5, 4])
+    with main:
+        draw_round_result_success_page()
+    with side:
+        draw_side_bar()
 elif st.session_state.page == "round_result_fail":
-    draw_round_result_fail_page()
+    main, side = st.columns([5, 4])
+    with main:
+        draw_round_result_fail_page()
+    with side:
+        draw_side_bar()
 elif st.session_state.page == "game_result":
+    st.session_state.log_status = ""
     draw_game_result()
