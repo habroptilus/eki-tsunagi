@@ -202,15 +202,15 @@ def create_text_for_x(score: int, title: str, max_score: int) -> str:
 
     ratio = score / max_score
     if score == max_score:
-        content = "駅つなぎで100点とった！"
+        content = "駅つなぎで満点出してしまった💯"
     elif ratio >= 0.9:
-        content = f"駅つなぎで{score}点とった！"
+        content = f"駅つなぎで{score}点とった！特技だ！🚃"
     elif ratio >= 0.75:
-        content = f"駅つなぎで{score}点とった！"
+        content = f"駅つなぎで{score}点とった！マスターになれそう🫡"
     elif ratio >= 0.5:
-        content = f"駅つなぎで{score}点とった！"
+        content = f"駅つなぎで{score}点とった！惜しい〜😬"
     else:
-        content = f"駅つなぎで{score}点..."
+        content = f"駅つなぎで{score}点とった！目指せ高得点！🫣"
 
     lines.append(content)
 
