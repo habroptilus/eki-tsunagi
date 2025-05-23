@@ -121,7 +121,9 @@ def calculate_hints(graph, goal, candidates, choices_num):
     shortest_path_list = _find_shortest_paths_to_visited_stations(
         graph=graph, goal=goal, visited=candidates, top_n=choices_num
     )
-    return [shortest_path[0][0] for shortest_path in shortest_path_list]
+    hints = [shortest_path[0][0] for shortest_path in shortest_path_list]
+    random.shuffle(hints)
+    return hints
 
 
 def calculate_score(
