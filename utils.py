@@ -122,7 +122,7 @@ def calculate_hints(graph, goal, candidates, choices_num):
         graph=graph, goal=goal, visited=candidates, top_n=choices_num
     )
     hints = [shortest_path[0][0] for shortest_path in shortest_path_list]
-    random.shuffle(hints)
+    # random.shuffle(hints) shuffleするとおかしくなる
     return hints
 
 
