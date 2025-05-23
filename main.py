@@ -297,6 +297,9 @@ def start_game():
         start_candidates = area_data[st.session_state.area]["start"]
 
     st.session_state.visited = random.sample(start_candidates, 3)
+    sampled = random.sample(start_candidates, 3)
+    random.shuffle(sampled)
+    st.session_state.visited = sampled
     st.session_state.candidates = []
     for start_station in st.session_state.visited:
         st.session_state.candidates = add_candidates(
