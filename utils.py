@@ -185,16 +185,16 @@ def get_result_title(area: str, score: int, max_score: int):
 
 def get_result_comment(score: int, max_score: int):
     if score == max_score:
-        return "神ってる！乗換えの神降臨⚡🚅"
+        return "駅つなぎの神降臨🧝‍♀️"
     ratio = score / max_score
     if ratio >= 0.9:
         return "もうプロじゃん！次は駅長狙う？👨‍✈️"
     elif ratio >= 0.75:
-        return "路線マスターまでもうちょい！🛤️"
+        return "惜しい！プロまでもうちょい！👩‍💻"
     elif ratio >= 0.5:
-        return "迷子でも楽しむ精神が大事だぜ🤪"
+        return "迷子でも楽しむ気持ちが大事😉"
     else:
-        return "乗り遅れ注意！リベンジGO！🔥"
+        return "もう一回トライ！出発進行〜🚃"
 
 
 def create_text_for_x(score: int, title: str, max_score: int) -> str:
@@ -217,6 +217,9 @@ def create_text_for_x(score: int, title: str, max_score: int) -> str:
     # ハッシュタグ（例）
     hashtags = f"#{title} #駅つなぎ"
     lines.append(f"\n{hashtags}")
+
+    url = "https://eki-tsunagi.smartbowwow.com"
+    lines.append(f"\n{url}")
 
     # 最終テキストを結合
     result = "\n".join(lines)
