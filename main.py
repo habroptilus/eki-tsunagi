@@ -19,6 +19,11 @@ from utils import (
     get_result_title,
 )
 
+st.set_page_config(
+    page_title="駅つなぎ",
+    page_icon="🚃",
+)
+
 
 def draw_header():
     components.html(
