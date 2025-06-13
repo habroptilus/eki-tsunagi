@@ -245,6 +245,12 @@
       "line": "JR京浜東北線",
       "station_cd": "1133232",
       "line_cd": "11332"
+    },
+    {
+      "station": "京急川崎",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "横浜": [
@@ -865,6 +871,12 @@
       "line": "JR山手線",
       "station_cd": "1130207",
       "line_cd": "11302"
+    },
+    {
+      "station": "明治神宮前",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "代々木": [
@@ -1013,6 +1025,12 @@
       "line": "都営新宿線",
       "station_cd": "9930402",
       "line_cd": "99304"
+    },
+    {
+      "station": "西武新宿",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "新大久保": [
@@ -1447,6 +1465,18 @@
       "line": "JR京浜東北線",
       "station_cd": "1133220",
       "line_cd": "11332"
+    },
+    {
+      "station": "上野御徒町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "仲御徒町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "秋葉原": [
@@ -1503,6 +1533,12 @@
       "line": "つくばエクスプレス",
       "station_cd": "9930902",
       "line_cd": "99309"
+    },
+    {
+      "station": "岩本町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "神田": [
@@ -1591,6 +1627,12 @@
       "line": "東京メトロ有楽町線",
       "station_cd": "2800619",
       "line_cd": "28006"
+    },
+    {
+      "station": "日比谷",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "浜松町": [
@@ -1617,6 +1659,12 @@
       "line": "JR京浜東北線",
       "station_cd": "1133226",
       "line_cd": "11332"
+    },
+    {
+      "station": "大門",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "田町": [
@@ -1643,6 +1691,12 @@
       "line": "JR京浜東北線",
       "station_cd": "1133236",
       "line_cd": "11332"
+    },
+    {
+      "station": "三田",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "高輪ゲートウェイ": [
@@ -1743,6 +1797,12 @@
       "line": "JR南武線",
       "station_cd": "1130305",
       "line_cd": "11303"
+    },
+    {
+      "station": "新川崎",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "平間": [
@@ -1887,6 +1947,12 @@
       "line": "JR南武線",
       "station_cd": "1130311",
       "line_cd": "11303"
+    },
+    {
+      "station": "溝の口",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "津田山": [
@@ -2599,6 +2665,12 @@
       "line": "JR武蔵野線",
       "station_cd": "1130525",
       "line_cd": "11305"
+    },
+    {
+      "station": "新越谷",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "越谷レイクタウン": [
@@ -3371,6 +3443,12 @@
       "line": "JR湘南新宿ライン",
       "station_cd": "1133315",
       "line_cd": "11333"
+    },
+    {
+      "station": "鹿島田",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "保土ケ谷": [
@@ -3567,6 +3645,12 @@
       "line": "東京メトロ丸ノ内線",
       "station_cd": "2800207",
       "line_cd": "28002"
+    },
+    {
+      "station": "新御茶ノ水",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "四ツ谷": [
@@ -4569,6 +4653,18 @@
       "line": "JR総武本線",
       "station_cd": "1131404",
       "line_cd": "11314"
+    },
+    {
+      "station": "東日本橋",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "馬喰横山",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "東千葉": [
@@ -5959,6 +6055,12 @@
       "line": "JR埼京線",
       "station_cd": "1132107",
       "line_cd": "11321"
+    },
+    {
+      "station": "新板橋",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "十条": [
@@ -8331,6 +8433,12 @@
       "line": "東武伊勢崎線",
       "station_cd": "2100221",
       "line_cd": "21002"
+    },
+    {
+      "station": "南越谷",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "越谷": [
@@ -9505,6 +9613,12 @@
       "line": "西武新宿線",
       "station_cd": "2200702",
       "line_cd": "22007"
+    },
+    {
+      "station": "新宿",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "下落合": [
@@ -12159,6 +12273,12 @@
       "line": "東急大井町線",
       "station_cd": "2600417",
       "line_cd": "26004"
+    },
+    {
+      "station": "武蔵溝ノ口",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "梶が谷": [
@@ -13147,6 +13267,12 @@
       "line": "京急大師線",
       "station_cd": "2700302",
       "line_cd": "27003"
+    },
+    {
+      "station": "川崎",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "鶴見市場": [
@@ -13843,6 +13969,12 @@
       "line": "東京メトロ銀座線",
       "station_cd": "2800106",
       "line_cd": "28001"
+    },
+    {
+      "station": "上野御徒町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "末広町": [
@@ -13973,6 +14105,12 @@
       "line": "東京メトロ日比谷線",
       "station_cd": "2800315",
       "line_cd": "28003"
+    },
+    {
+      "station": "銀座一丁目",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "虎ノ門": [
@@ -13987,6 +14125,12 @@
       "line": "東京メトロ銀座線",
       "station_cd": "2800114",
       "line_cd": "28001"
+    },
+    {
+      "station": "虎ノ門ヒルズ",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "溜池山王": [
@@ -14013,6 +14157,12 @@
       "line": "東京メトロ南北線",
       "station_cd": "2800915",
       "line_cd": "28009"
+    },
+    {
+      "station": "国会議事堂前",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "赤坂見附": [
@@ -14039,6 +14189,12 @@
       "line": "東京メトロ丸ノ内線",
       "station_cd": "2800214",
       "line_cd": "28002"
+    },
+    {
+      "station": "永田町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "青山一丁目": [
@@ -14183,6 +14339,12 @@
       "line": "東京メトロ南北線",
       "station_cd": "2800910",
       "line_cd": "28009"
+    },
+    {
+      "station": "春日",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "本郷三丁目": [
@@ -14223,6 +14385,12 @@
       "line": "東京メトロ丸ノ内線",
       "station_cd": "2800208",
       "line_cd": "28002"
+    },
+    {
+      "station": "小川町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "大手町": [
@@ -14349,6 +14517,12 @@
       "line": "東京メトロ千代田線",
       "station_cd": "2800515",
       "line_cd": "28005"
+    },
+    {
+      "station": "溜池山王",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "四谷三丁目": [
@@ -14595,6 +14769,12 @@
       "line": "東京メトロ日比谷線",
       "station_cd": "2800307",
       "line_cd": "28003"
+    },
+    {
+      "station": "御徒町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "小伝馬町": [
@@ -14635,6 +14815,12 @@
       "line": "都営浅草線",
       "station_cd": "9930215",
       "line_cd": "99302"
+    },
+    {
+      "station": "水天宮前",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "茅場町": [
@@ -14739,6 +14925,12 @@
       "line": "都営三田線",
       "station_cd": "9930309",
       "line_cd": "99303"
+    },
+    {
+      "station": "有楽町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "虎ノ門ヒルズ": [
@@ -14753,6 +14945,12 @@
       "line": "東京メトロ日比谷線",
       "station_cd": "2800317",
       "line_cd": "28003"
+    },
+    {
+      "station": "虎ノ門",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "神谷町": [
@@ -15145,6 +15343,18 @@
       "line": "東京メトロ千代田線",
       "station_cd": "2800510",
       "line_cd": "28005"
+    },
+    {
+      "station": "御茶ノ水",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "小川町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "二重橋前": [
@@ -15213,6 +15423,12 @@
       "line": "東京メトロ副都心線",
       "station_cd": "2801016",
       "line_cd": "28010"
+    },
+    {
+      "station": "原宿",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "代々木公園": [
@@ -15491,6 +15707,12 @@
       "line": "東京メトロ南北線",
       "station_cd": "2800914",
       "line_cd": "28009"
+    },
+    {
+      "station": "赤坂見附",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "桜田門": [
@@ -15519,6 +15741,12 @@
       "line": "東京メトロ有楽町線",
       "station_cd": "2800620",
       "line_cd": "28006"
+    },
+    {
+      "station": "銀座",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "新富町": [
@@ -15659,6 +15887,12 @@
       "line": "東京メトロ半蔵門線",
       "station_cd": "2800811",
       "line_cd": "28008"
+    },
+    {
+      "station": "人形町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "清澄白河": [
@@ -16511,6 +16745,12 @@
       "line": "都営三田線",
       "station_cd": "9930313",
       "line_cd": "99303"
+    },
+    {
+      "station": "後楽園",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "上野御徒町": [
@@ -16525,6 +16765,18 @@
       "line": "都営大江戸線",
       "station_cd": "9930111",
       "line_cd": "99301"
+    },
+    {
+      "station": "上野広小路",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "御徒町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "新御徒町": [
@@ -16683,6 +16935,12 @@
       "line": "都営浅草線",
       "station_cd": "9930210",
       "line_cd": "99302"
+    },
+    {
+      "station": "浜松町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "赤羽橋": [
@@ -16851,6 +17109,12 @@
       "line": "都営三田線",
       "station_cd": "9930305",
       "line_cd": "99303"
+    },
+    {
+      "station": "田町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "宝町": [
@@ -16879,6 +17143,18 @@
       "line": "都営浅草線",
       "station_cd": "9930216",
       "line_cd": "99302"
+    },
+    {
+      "station": "馬喰町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "馬喰横山",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "本所吾妻橋": [
@@ -16999,6 +17275,12 @@
       "line": "都営三田線",
       "station_cd": "9930318",
       "line_cd": "99303"
+    },
+    {
+      "station": "板橋",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "板橋区役所前": [
@@ -17161,6 +17443,18 @@
       "line": "都営新宿線",
       "station_cd": "9930408",
       "line_cd": "99304"
+    },
+    {
+      "station": "新御茶ノ水",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "淡路町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "岩本町": [
@@ -17175,6 +17469,12 @@
       "line": "都営新宿線",
       "station_cd": "9930409",
       "line_cd": "99304"
+    },
+    {
+      "station": "秋葉原",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "馬喰横山": [
@@ -17189,6 +17489,18 @@
       "line": "都営新宿線",
       "station_cd": "9930410",
       "line_cd": "99304"
+    },
+    {
+      "station": "馬喰町",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
+    },
+    {
+      "station": "東日本橋",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "浜町": [
@@ -17625,6 +17937,12 @@
       "line": "ゆりかもめ",
       "station_cd": "9931113",
       "line_cd": "99311"
+    },
+    {
+      "station": "国際展示場",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "有明テニスの森": [
@@ -17935,6 +18253,12 @@
       "line": "りんかい線",
       "station_cd": "9933704",
       "line_cd": "99337"
+    },
+    {
+      "station": "有明",
+      "line": "徒歩",
+      "station_cd": "",
+      "line_cd": ""
     }
   ],
   "東京テレポート": [
