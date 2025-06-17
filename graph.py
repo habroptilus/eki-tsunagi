@@ -109,8 +109,6 @@ for _, row in joins.iterrows():
     if cd1 in valid_station_cds and cd2 in valid_station_cds:
         name1, name2 = cd_to_name[cd1], cd_to_name[cd2]
 
-        # 駅名の置換はそのまま
-
         if name1 == "市ヶ谷":
             name1 = "市ケ谷"
         if name2 == "市ヶ谷":
@@ -123,6 +121,10 @@ for _, row in joins.iterrows():
             name1 = "押上"
         if name2 == "押上（スカイツリー前）":
             name2 = "押上"
+        if name1 == "新線新宿":
+            name1 = "新宿"
+        if name2 == "新線新宿":
+            name2 = "新宿"
 
         if str(line_cd) not in major_lines:
             continue
