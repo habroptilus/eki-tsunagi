@@ -94,9 +94,14 @@ valid_station_cds = set(cd_to_name.keys())
 
 # 路線コード → 路線名
 line_cd_to_name = lines.set_index("line_cd")["line_name"].to_dict()
+# 駅コード → 緯度経度辞書
+station_pos = filtered_stations.set_index("station_cd")[["lon", "lat"]].to_dict(
+    orient="index"
+)
 
-# 駅名 → 隣接駅と路線名のリスト（例: { "新宿": [ {"station": "代々木", "line": "山手線"}, ... ] } ）
-graph = defaultdict(list)
+# cd_to_nameは既にあるので、graph作成時は駅コードも使う形にします。
+
+graph = defaultdict(lambda: {"lat": None, "lon": None, "edges": []})
 
 for _, row in joins.iterrows():
     cd1, cd2, line_cd = row["station_cd1"], row["station_cd2"], row["line_cd"]
@@ -104,21 +109,18 @@ for _, row in joins.iterrows():
     if cd1 in valid_station_cds and cd2 in valid_station_cds:
         name1, name2 = cd_to_name[cd1], cd_to_name[cd2]
 
+        # 駅名の置換はそのまま
+
         if name1 == "市ヶ谷":
             name1 = "市ケ谷"
-
         if name2 == "市ヶ谷":
             name2 = "市ケ谷"
-
         if name1 == "明治神宮前〈原宿〉":
             name1 = "明治神宮前"
-
         if name2 == "明治神宮前〈原宿〉":
             name2 = "明治神宮前"
-
         if name1 == "押上（スカイツリー前）":
             name1 = "押上"
-
         if name2 == "押上（スカイツリー前）":
             name2 = "押上"
 
@@ -127,7 +129,20 @@ for _, row in joins.iterrows():
 
         line_name = major_lines[str(line_cd)]
 
-        graph[name1].append(
+        # ここでstation_cdを使ってlat, lonを取得
+        if graph[name1]["lat"] is None or graph[name1]["lon"] is None:
+            pos1 = station_pos.get(cd1)
+            if pos1:
+                graph[name1]["lat"] = pos1["lat"]
+                graph[name1]["lon"] = pos1["lon"]
+
+        if graph[name2]["lat"] is None or graph[name2]["lon"] is None:
+            pos2 = station_pos.get(cd2)
+            if pos2:
+                graph[name2]["lat"] = pos2["lat"]
+                graph[name2]["lon"] = pos2["lon"]
+
+        graph[name1]["edges"].append(
             {
                 "station": name2,
                 "line": line_name,
@@ -135,7 +150,7 @@ for _, row in joins.iterrows():
                 "line_cd": str(line_cd),
             }
         )
-        graph[name2].append(
+        graph[name2]["edges"].append(
             {
                 "station": name1,
                 "line": line_name,
@@ -144,20 +159,7 @@ for _, row in joins.iterrows():
             }
         )
 
-line_set = set()
-# 最初の5駅分を表示
-for station, edges in list(graph.items()):
-    print(f"{station}:")
-    for edge in edges:
-        print(f"  └─ {edge['station']} ({edge['line']})")
-        line_set.add((edge["line_cd"], edge["line"]))
 
-for item in line_set:
-    print(item)
-
-print(len(line_set))
-print(len(graph))
-
-# 出力
-with open("graph.json", "w", encoding="utf-8") as f:
+# JSON出力
+with open("graph_with_pos.json", "w", encoding="utf-8") as f:
     json.dump(graph, f, ensure_ascii=False, indent=2)

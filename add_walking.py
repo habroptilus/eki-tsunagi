@@ -43,7 +43,7 @@ def add_walking_connections(graph_path: str, output_path: str):
     def connection_exists(from_station, to_station):
         return any(
             conn["station"] == to_station and conn["line"] == "徒歩"
-            for conn in graph.get(from_station, [])
+            for conn in graph[from_station].get("edges", [])
         )
 
     def add_connection(from_station, to_station):
@@ -51,7 +51,7 @@ def add_walking_connections(graph_path: str, output_path: str):
         ensure_entry(to_station)
 
         if not connection_exists(from_station, to_station):
-            graph[from_station].append(
+            graph[from_station]["edges"].append(
                 {"station": to_station, "line": "徒歩", "station_cd": "", "line_cd": ""}
             )
 
@@ -66,4 +66,4 @@ def add_walking_connections(graph_path: str, output_path: str):
 
 
 if __name__ == "__main__":
-    add_walking_connections("graph.json", "graph_with_walking.json")
+    add_walking_connections("graph_with_pos.json", "graph_with_pos_walking.json")
