@@ -1,5 +1,7 @@
 import json
+from collections import defaultdict
 
+# 徒歩接続ペア（駅名）
 walking_pairs = [
     ("有楽町", "日比谷"),
     ("御茶ノ水", "新御茶ノ水"),
@@ -29,35 +31,60 @@ walking_pairs = [
     ("鹿島田", "新川崎"),
     ("京急川崎", "川崎"),
     ("南越谷", "新越谷"),
+    ("鶴見", "京急鶴見"),
+    ("北朝霞", "朝霞台"),
+    ("新松戸", "幸谷"),
+    ("新八柱", "八柱"),
+    ("本八幡", "京成八幡"),
+    ("船橋", "京成船橋"),
+    ("幕張", "京成幕張"),
 ]
+
+
+def base_id(station_id: str) -> str:
+    return station_id.split("-")[0]
 
 
 def add_walking_connections(graph_path: str, output_path: str):
     with open(graph_path, "r", encoding="utf-8") as f:
         graph = json.load(f)
 
-    def ensure_entry(station_name):
-        if station_name not in graph:
-            graph[station_name] = []
+    # 駅名 → IDリスト の逆引き辞書作成
+    name_to_ids = defaultdict(list)
+    for station_id, station_data in graph.items():
+        name = station_data.get("name")
+        if name:
+            name_to_ids[name].append(station_id)
 
-    def connection_exists(from_station, to_station):
+    def connection_exists(from_id, to_id):
         return any(
-            conn["station"] == to_station and conn["line"] == "徒歩"
-            for conn in graph[from_station].get("edges", [])
+            conn.get("station_id") == to_id and conn.get("line") == "徒歩"
+            for conn in graph[from_id].get("edges", [])
         )
 
-    def add_connection(from_station, to_station):
-        ensure_entry(from_station)
-        ensure_entry(to_station)
+    def add_connection(from_id, to_id):
+        # base_id が一致しなければ徒歩接続しない
+        if base_id(from_id) != base_id(to_id):
+            return
 
-        if not connection_exists(from_station, to_station):
-            graph[from_station]["edges"].append(
-                {"station": to_station, "line": "徒歩", "station_cd": "", "line_cd": ""}
+        to_name = graph[to_id]["name"]
+        if not connection_exists(from_id, to_id):
+            graph[from_id]["edges"].append(
+                {
+                    "station": to_name,
+                    "station_id": to_id,
+                    "line": "徒歩",
+                }
             )
 
     for s1, s2 in walking_pairs:
-        add_connection(s1, s2)
-        add_connection(s2, s1)
+        ids1 = name_to_ids.get(s1, [])
+        ids2 = name_to_ids.get(s2, [])
+
+        for id1 in ids1:
+            for id2 in ids2:
+                add_connection(id1, id2)
+                add_connection(id2, id1)
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(graph, f, ensure_ascii=False, indent=2)
@@ -66,4 +93,4 @@ def add_walking_connections(graph_path: str, output_path: str):
 
 
 if __name__ == "__main__":
-    add_walking_connections("graph_with_pos.json", "graph_with_pos_walking.json")
+    add_walking_connections("graph_with_ids.json", "graph_with_ids_walking.json")
