@@ -8,6 +8,21 @@ stations = pd.read_csv("data/v2/station.csv")
 joins = pd.read_csv("data/v2/join.csv")
 lines = pd.read_csv("data/v2/line.csv")
 
+# 駅名の正規化マップ
+normalize_name_map = {
+    "市ヶ谷": "市ケ谷",
+    "明治神宮前〈原宿〉": "明治神宮前",
+    "押上（スカイツリー前）": "押上",
+    "押上〈スカイツリー前〉": "押上",
+    "新線新宿": "新宿",
+    "モノレール浜松町": "浜松町",
+}
+
+
+def normalize_name(name: str) -> str:
+    return normalize_name_map.get(name, name)
+
+
 # 東京近郊（埼玉・千葉・東京・神奈川）に該当するpref_cd
 valid_pref_cds = {11, 12, 13, 14}
 
@@ -107,24 +122,10 @@ for _, row in joins.iterrows():
     cd1, cd2, line_cd = row["station_cd1"], row["station_cd2"], row["line_cd"]
 
     if cd1 in valid_station_cds and cd2 in valid_station_cds:
+        # 使用箇所
         name1, name2 = cd_to_name[cd1], cd_to_name[cd2]
-
-        if name1 == "市ヶ谷":
-            name1 = "市ケ谷"
-        if name2 == "市ヶ谷":
-            name2 = "市ケ谷"
-        if name1 == "明治神宮前〈原宿〉":
-            name1 = "明治神宮前"
-        if name2 == "明治神宮前〈原宿〉":
-            name2 = "明治神宮前"
-        if name1 == "押上（スカイツリー前）":
-            name1 = "押上"
-        if name2 == "押上（スカイツリー前）":
-            name2 = "押上"
-        if name1 == "新線新宿":
-            name1 = "新宿"
-        if name2 == "新線新宿":
-            name2 = "新宿"
+        name1 = normalize_name(name1)
+        name2 = normalize_name(name2)
 
         if str(line_cd) not in major_lines:
             continue
