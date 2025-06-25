@@ -2630,6 +2630,12 @@
         "line": "JR京浜東北線",
         "station_cd": "1133233",
         "line_cd": "11332"
+      },
+      {
+        "station": "京急鶴見",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -3398,6 +3404,12 @@
         "line": "JR京浜東北線",
         "station_cd": "1133235",
         "line_cd": "11332"
+      },
+      {
+        "station": "京急東神奈川",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -3980,6 +3992,12 @@
         "line": "金沢シーサイドライン",
         "station_cd": "9931702",
         "line_cd": "99317"
+      },
+      {
+        "station": "杉田",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -9908,6 +9926,12 @@
         "line": "JR京浜東北線",
         "station_cd": "1133234",
         "line_cd": "11332"
+      },
+      {
+        "station": "京急新子安",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -14714,6 +14738,12 @@
         "line": "東急東横線",
         "station_cd": "2600115",
         "line_cd": "26001"
+      },
+      {
+        "station": "新綱島",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -16136,6 +16166,12 @@
         "line": "東急新横浜線",
         "station_cd": "2600903",
         "line_cd": "26009"
+      },
+      {
+        "station": "綱島",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -16448,6 +16484,12 @@
         "line": "京急本線",
         "station_cd": "2700119",
         "line_cd": "27001"
+      },
+      {
+        "station": "鶴見",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -16502,6 +16544,12 @@
         "line": "京急本線",
         "station_cd": "2700122",
         "line_cd": "27001"
+      },
+      {
+        "station": "新子安",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -16556,6 +16604,12 @@
         "line": "京急本線",
         "station_cd": "2700125",
         "line_cd": "27001"
+      },
+      {
+        "station": "東神奈川",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -16760,6 +16814,12 @@
         "line": "京急本線",
         "station_cd": "2700136",
         "line_cd": "27001"
+      },
+      {
+        "station": "新杉田",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },

@@ -27,7 +27,10 @@ walking_pairs = [
     ("板橋", "新板橋"),
     ("溝の口", "武蔵溝ノ口"),
     ("鹿島田", "新川崎"),
-    ("京急川崎", "川崎"),
+    ("川崎", "京急川崎"),
+    ("鶴見", "京急鶴見"),
+    ("東神奈川", "京急東神奈川"),
+    ("新子安", "京急新子安"),
     ("南越谷", "新越谷"),
     ("杉田", "新杉田"),
     ("綱島", "新綱島"),
@@ -43,6 +46,7 @@ def add_walking_connections(graph_path: str, output_path: str):
             graph[station_name] = []
 
     def connection_exists(from_station, to_station):
+        print(from_station, to_station)
         return any(
             conn["station"] == to_station and conn["line"] == "徒歩"
             for conn in graph[from_station].get("edges", [])
