@@ -1,10 +1,10 @@
 import json
 
 # ファイル読み込み
-with open("area_ts.json", encoding="utf-8") as f:
+with open("area.json", encoding="utf-8") as f:
     area_data = json.load(f)
 
-with open("graph.json", encoding="utf-8") as f:
+with open("graph_with_pos_walking.json", encoding="utf-8") as f:
     graph_data = json.load(f)
 
 # 駅名を収集
