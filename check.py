@@ -4,12 +4,15 @@ import json
 with open("area.json", encoding="utf-8") as f:
     area_data = json.load(f)
 
-# グラフデータの読み込み（東京・名古屋）
+# グラフデータの読み込み（東京・名古屋・大阪）
 with open("output/graph_tokyo.json", encoding="utf-8") as f:
     graph_tokyo = json.load(f)
 
 with open("output/graph_nagoya.json", encoding="utf-8") as f:
     graph_nagoya = json.load(f)
+
+with open("output/graph_osaka.json", encoding="utf-8") as f:
+    graph_osaka = json.load(f)
 
 # グラフ未定義の駅検出用
 missing_stations_total = {}
@@ -17,7 +20,12 @@ missing_stations_total = {}
 # 結果出力: ユニーク数 + グラフ未定義チェック
 for area_key, area_info in area_data.items():
     # 対象グラフを選択
-    graph = graph_nagoya if area_key == "nagoya" else graph_tokyo
+    if area_key == "nagoya":
+        graph = graph_nagoya
+    elif area_key == "osaka":
+        graph = graph_osaka
+    else:
+        graph = graph_tokyo
 
     # start/goalのユニーク数を計算
     start_set = set(area_info.get("start", []))
