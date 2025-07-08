@@ -9,9 +9,41 @@ def normalize_name(name: str, name_map: dict) -> str:
     return name_map.get(name, name)
 
 
+def apply_replacement_rules(station_name: str, line_cds: set, replacement_rules: list, major_lines: dict) -> str:
+    """
+    駅名に対してreplacement_rulesを適用する
+    
+    Args:
+        station_name: 対象の駅名
+        line_cds: その駅が通っている路線コードのset
+        replacement_rules: 置換ルールのリスト
+        major_lines: 有効な路線コードのdict
+        
+    Returns:
+        置換後の駅名
+        
+    Raises:
+        ValueError: targetにマッチしたがどのruleにもマッチしなかった場合
+    """
+    for rule in replacement_rules:
+        if station_name == rule["target"]:
+            for line_rule in rule["rules"]:
+                rule_line_cds = set(line_rule["lines"])
+                # その駅が通っている路線コードを文字列に変換
+                station_line_cds = {str(cd) for cd in line_cds}
+                if rule_line_cds.intersection(station_line_cds):
+                    return line_rule["dest"]
+            # targetにマッチしたがどのruleにもマッチしなかった場合
+            # デバッグ情報として文字列変換した路線コードも表示
+            valid_line_cds_str = {str(cd) for cd in line_cds if str(cd) in major_lines}
+            raise ValueError(f"Station '{station_name}' matched target but no replacement rule matched. Line codes: {line_cds}, Valid line codes: {valid_line_cds_str}")
+    return station_name
+
+
 def build_base_graph(config: dict, stations, joins, lines):
     major_lines = config["lines"]
     normalize_name_map = config["normalize_name_map"]
+    replacement_rules = config.get("replacement_rules", [])
     valid_pref_cds = set(config["valid_pref_cds"])
 
     filtered_stations = stations[stations["pref_cd"].isin(valid_pref_cds)]
@@ -22,6 +54,14 @@ def build_base_graph(config: dict, stations, joins, lines):
         orient="index"
     )
 
+    # 各駅が通っている路線コードを事前に計算
+    station_lines = defaultdict(set)
+    for _, row in joins.iterrows():
+        cd1, cd2, line_cd = row["station_cd1"], row["station_cd2"], row["line_cd"]
+        if cd1 in valid_station_cds and cd2 in valid_station_cds:
+            station_lines[cd1].add(line_cd)
+            station_lines[cd2].add(line_cd)
+
     graph = defaultdict(lambda: {"lat": None, "lon": None, "edges": []})
 
     for _, row in joins.iterrows():
@@ -30,6 +70,10 @@ def build_base_graph(config: dict, stations, joins, lines):
         if cd1 in valid_station_cds and cd2 in valid_station_cds:
             name1 = normalize_name(cd_to_name[cd1], normalize_name_map)
             name2 = normalize_name(cd_to_name[cd2], normalize_name_map)
+            
+            # replacement_rulesを適用
+            name1 = apply_replacement_rules(name1, station_lines[cd1], replacement_rules, major_lines)
+            name2 = apply_replacement_rules(name2, station_lines[cd2], replacement_rules, major_lines)
 
             if str(line_cd) not in major_lines:
                 continue
