@@ -332,6 +332,12 @@
         "line": "大阪環状線",
         "station_cd": "1162305",
         "line_cd": "11623"
+      },
+      {
+        "station": "芦原",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -1220,6 +1226,18 @@
         "line": "おおさか東線",
         "station_cd": "1164114",
         "line_cd": "11641"
+      },
+      {
+        "station": "野江内代",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "野江",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -1976,6 +1994,12 @@
         "line": "大阪メトロ堺筋線",
         "station_cd": "9962309",
         "line_cd": "99623"
+      },
+      {
+        "station": "岸里",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -3632,6 +3656,12 @@
         "line": "京阪本線",
         "station_cd": "3300136",
         "line_cd": "33001"
+      },
+      {
+        "station": "関目成育",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -3650,6 +3680,12 @@
         "line": "京阪本線",
         "station_cd": "3300137",
         "line_cd": "33001"
+      },
+      {
+        "station": "JR野江",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -4436,6 +4472,12 @@
         "line": "阪急京都本線",
         "station_cd": "3400325",
         "line_cd": "34003"
+      },
+      {
+        "station": "西中島南方",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -5360,6 +5402,12 @@
         "line": "大阪メトロ御堂筋線",
         "station_cd": "9961805",
         "line_cd": "99618"
+      },
+      {
+        "station": "南方",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -5474,6 +5522,12 @@
         "line": "大阪メトロ長堀鶴見緑地線",
         "station_cd": "9962406",
         "line_cd": "99624"
+      },
+      {
+        "station": "四ツ橋",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -5828,6 +5882,12 @@
         "line": "大阪メトロ谷町線",
         "station_cd": "9961906",
         "line_cd": "99619"
+      },
+      {
+        "station": "関目成育",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -5846,6 +5906,12 @@
         "line": "大阪メトロ谷町線",
         "station_cd": "9961907",
         "line_cd": "99619"
+      },
+      {
+        "station": "JR野江",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -6320,6 +6386,12 @@
         "line": "大阪メトロ四つ橋線",
         "station_cd": "9962005",
         "line_cd": "99620"
+      },
+      {
+        "station": "心斎橋",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -6356,6 +6428,12 @@
         "line": "大阪メトロ四つ橋線",
         "station_cd": "9962009",
         "line_cd": "99620"
+      },
+      {
+        "station": "天下茶屋",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -8228,6 +8306,18 @@
         "line": "大阪メトロ今里筋線",
         "station_cd": "9965208",
         "line_cd": "99652"
+      },
+      {
+        "station": "関目高殿",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "関目",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -8255,6 +8345,18 @@
       },
       {
         "station": "なんば",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      }
+    ]
+  },
+  "芦原": {
+    "lat": null,
+    "lon": null,
+    "edges": [
+      {
+        "station": "芦原橋",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
