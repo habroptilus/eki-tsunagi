@@ -470,6 +470,18 @@
         "line": "大阪環状線",
         "station_cd": "1162310",
         "line_cd": "11623"
+      },
+      {
+        "station": "新福島",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "福島(阪神線)",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -928,7 +940,13 @@
         "line_cd": "11625"
       },
       {
-        "station": "福島",
+        "station": "福島(大阪環状線)",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "福島(阪神線)",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
@@ -3898,13 +3916,13 @@
     "lon": 135.498312,
     "edges": [
       {
-        "station": "中津",
+        "station": "中津(阪急線)",
         "line": "阪急神戸本線",
         "station_cd": "3400102",
         "line_cd": "34001"
       },
       {
-        "station": "中津",
+        "station": "中津(阪急線)",
         "line": "阪急宝塚本線",
         "station_cd": "3400202",
         "line_cd": "34002"
@@ -3929,7 +3947,7 @@
       }
     ]
   },
-  "中津": {
+  "中津(阪急線)": {
     "lat": 34.709745,
     "lon": 135.493011,
     "edges": [
@@ -3956,18 +3974,6 @@
         "line": "阪急宝塚本線",
         "station_cd": "3400203",
         "line_cd": "34002"
-      },
-      {
-        "station": "西中島南方",
-        "line": "大阪メトロ御堂筋線",
-        "station_cd": "9961804",
-        "line_cd": "99618"
-      },
-      {
-        "station": "梅田",
-        "line": "大阪メトロ御堂筋線",
-        "station_cd": "9961806",
-        "line_cd": "99618"
       }
     ]
   },
@@ -3976,7 +3982,7 @@
     "lon": 135.48248,
     "edges": [
       {
-        "station": "中津",
+        "station": "中津(阪急線)",
         "line": "阪急神戸本線",
         "station_cd": "3400102",
         "line_cd": "34001"
@@ -3988,7 +3994,7 @@
         "line_cd": "34001"
       },
       {
-        "station": "中津",
+        "station": "中津(阪急線)",
         "line": "阪急宝塚本線",
         "station_cd": "3400202",
         "line_cd": "34002"
@@ -4784,6 +4790,18 @@
         "line": "阪神本線",
         "station_cd": "3500103",
         "line_cd": "35001"
+      },
+      {
+        "station": "福島(大阪環状線)",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "新福島",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -5398,7 +5416,7 @@
         "line_cd": "99618"
       },
       {
-        "station": "中津",
+        "station": "中津(地下鉄)",
         "line": "大阪メトロ御堂筋線",
         "station_cd": "9961805",
         "line_cd": "99618"
@@ -5411,12 +5429,30 @@
       }
     ]
   },
+  "中津(地下鉄)": {
+    "lat": 34.711191,
+    "lon": 135.496938,
+    "edges": [
+      {
+        "station": "西中島南方",
+        "line": "大阪メトロ御堂筋線",
+        "station_cd": "9961804",
+        "line_cd": "99618"
+      },
+      {
+        "station": "梅田",
+        "line": "大阪メトロ御堂筋線",
+        "station_cd": "9961806",
+        "line_cd": "99618"
+      }
+    ]
+  },
   "梅田": {
     "lat": 34.703765,
     "lon": 135.497496,
     "edges": [
       {
-        "station": "中津",
+        "station": "中津(地下鉄)",
         "line": "大阪メトロ御堂筋線",
         "station_cd": "9961805",
         "line_cd": "99618"
@@ -8315,18 +8351,6 @@
       },
       {
         "station": "関目",
-        "line": "徒歩",
-        "station_cd": "",
-        "line_cd": ""
-      }
-    ]
-  },
-  "福島": {
-    "lat": null,
-    "lon": null,
-    "edges": [
-      {
-        "station": "新福島",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
