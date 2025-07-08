@@ -314,6 +314,18 @@
         "line": "大和路線",
         "station_cd": "1160721",
         "line_cd": "11607"
+      },
+      {
+        "station": "大阪難波",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "なんば",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -334,7 +346,7 @@
         "line_cd": "11623"
       },
       {
-        "station": "芦原",
+        "station": "芦原町",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
@@ -1306,7 +1318,7 @@
         "line_cd": "35002"
       },
       {
-        "station": "JR難波",
+        "station": "ＪＲ難波",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
@@ -3278,6 +3290,12 @@
         "line": "南海汐見橋線",
         "station_cd": "3200903",
         "line_cd": "32009"
+      },
+      {
+        "station": "芦原橋",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -5608,7 +5626,7 @@
         "line_cd": "99622"
       },
       {
-        "station": "JR難波",
+        "station": "ＪＲ難波",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
@@ -8351,36 +8369,6 @@
       },
       {
         "station": "関目",
-        "line": "徒歩",
-        "station_cd": "",
-        "line_cd": ""
-      }
-    ]
-  },
-  "JR難波": {
-    "lat": null,
-    "lon": null,
-    "edges": [
-      {
-        "station": "大阪難波",
-        "line": "徒歩",
-        "station_cd": "",
-        "line_cd": ""
-      },
-      {
-        "station": "なんば",
-        "line": "徒歩",
-        "station_cd": "",
-        "line_cd": ""
-      }
-    ]
-  },
-  "芦原": {
-    "lat": null,
-    "lon": null,
-    "edges": [
-      {
-        "station": "芦原橋",
         "line": "徒歩",
         "station_cd": "",
         "line_cd": ""
