@@ -3068,6 +3068,12 @@
         "line": "JR武蔵野線",
         "station_cd": "1130509",
         "line_cd": "11305"
+      },
+      {
+        "station": "朝霞台",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -10340,6 +10346,12 @@
         "line": "東武東上線",
         "station_cd": "2100114",
         "line_cd": "21001"
+      },
+      {
+        "station": "北朝霞",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
@@ -10660,14 +10672,14 @@
         "line_cd": "21001"
       },
       {
-        "station": "小川町",
+        "station": "小川町(埼玉県)",
         "line": "東武東上線",
         "station_cd": "2100133",
         "line_cd": "21001"
       }
     ]
   },
-  "小川町": {
+  "小川町(埼玉県)": {
     "lat": 36.05903,
     "lon": 139.260412,
     "edges": [
@@ -10682,30 +10694,6 @@
         "line": "東武東上線",
         "station_cd": "2100134",
         "line_cd": "21001"
-      },
-      {
-        "station": "神保町",
-        "line": "都営新宿線",
-        "station_cd": "9930406",
-        "line_cd": "99304"
-      },
-      {
-        "station": "岩本町",
-        "line": "都営新宿線",
-        "station_cd": "9930408",
-        "line_cd": "99304"
-      },
-      {
-        "station": "新御茶ノ水",
-        "line": "徒歩",
-        "station_cd": "",
-        "line_cd": ""
-      },
-      {
-        "station": "淡路町",
-        "line": "徒歩",
-        "station_cd": "",
-        "line_cd": ""
       }
     ]
   },
@@ -10714,7 +10702,7 @@
     "lon": 139.237591,
     "edges": [
       {
-        "station": "小川町",
+        "station": "小川町(埼玉県)",
         "line": "東武東上線",
         "station_cd": "2100133",
         "line_cd": "21001"
@@ -22604,6 +22592,36 @@
         "line": "都営新宿線",
         "station_cd": "9930404",
         "line_cd": "99304"
+      }
+    ]
+  },
+  "小川町": {
+    "lat": 35.695056,
+    "lon": 139.766667,
+    "edges": [
+      {
+        "station": "神保町",
+        "line": "都営新宿線",
+        "station_cd": "9930406",
+        "line_cd": "99304"
+      },
+      {
+        "station": "岩本町",
+        "line": "都営新宿線",
+        "station_cd": "9930408",
+        "line_cd": "99304"
+      },
+      {
+        "station": "新御茶ノ水",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
+      },
+      {
+        "station": "淡路町",
+        "line": "徒歩",
+        "station_cd": "",
+        "line_cd": ""
       }
     ]
   },
