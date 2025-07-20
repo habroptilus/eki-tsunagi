@@ -1,0 +1,191 @@
+[
+  {
+    "start_stations": [
+      "西大島",
+      "門前仲町",
+      "松戸"
+    ],
+    "answer_stations": [
+      "浅草",
+      "金町",
+      "綾瀬",
+      "蔵前",
+      "清澄白河",
+      "北千住",
+      "錦糸町",
+      "両国",
+      "亀有",
+      "南千住",
+      "住吉"
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "新橋",
+      "葛西",
+      "仲御徒町"
+    ],
+    "answer_stations": [
+      "東京",
+      "西葛西",
+      "東陽町",
+      "門前仲町",
+      "南砂町",
+      "上野",
+      "茅場町",
+      "木場",
+      "八丁堀"
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "お台場海浜公園",
+      "浅草",
+      "銀座"
+    ],
+    "answer_stations": [
+      "新橋",
+      "東京",
+      "竹芝",
+      "汐留",
+      "上野",
+      "稲荷町",
+      "田原町",
+      "芝浦ふ頭",
+      "日の出"
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "南千住",
+      "辰巳",
+      "大手町"
+    ],
+    "answer_stations": [
+      "日本橋",
+      "東京",
+      "日暮里",
+      "門前仲町",
+      "上野",
+      "豊洲",
+      "茅場町",
+      "月島",
+      "三河島"
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "北千住",
+      "有明テニスの森",
+      "汐留"
+    ],
+    "answer_stations": [
+      "新橋",
+      "東京",
+      "日暮里",
+      "新豊洲",
+      "上野",
+      "豊洲",
+      "勝どき",
+      "築地市場",
+      "月島",
+      "南千住",
+      "三河島",
+      "市場前"
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "芝浦ふ頭",
+      "東雲",
+      "仲御徒町"
+    ],
+    "answer_stations": [
+      "潮見",
+      "東京",
+      "新橋",
+      "竹芝",
+      "新木場",
+      "汐留",
+      "上野",
+      "越中島",
+      "日の出",
+      "八丁堀"
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "蔵前",
+      "豊洲",
+      "有楽町"
+    ],
+    "answer_stations": [
+      "東京",
+      "新富町",
+      "秋葉原",
+      "月島",
+      "銀座一丁目",
+      "神田",
+      "新御徒町"
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "三越前",
+      "亀有",
+      "汐留"
+    ],
+    "answer_stations": [
+      "新橋",
+      "東京",
+      "浅草",
+      "綾瀬",
+      "秋葉原",
+      "北千住",
+      "南千住",
+      "神田",
+      "新御徒町"
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "八丁堀",
+      "浅草",
+      "茅場町"
+    ],
+    "answer_stations": [
+      "東京",
+      "秋葉原",
+      "神田",
+      "新御徒町"
+    ],
+    "max_connected_components": 3
+  },
+  {
+    "start_stations": [
+      "綾瀬",
+      "辰巳",
+      "東京"
+    ],
+    "answer_stations": [
+      "潮見",
+      "新木場",
+      "上野",
+      "北千住",
+      "南千住",
+      "越中島",
+      "三河島",
+      "日暮里",
+      "八丁堀"
+    ],
+    "max_connected_components": 6
+  }
+]

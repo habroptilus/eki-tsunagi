@@ -1,0 +1,68 @@
+[
+  {
+    "start_stations": [
+      "目白",
+      "赤坂",
+      "竹橋"
+    ],
+    "questions": [
+      {
+        "station": "白金高輪",
+        "is_correct": false
+      },
+      {
+        "station": "西日暮里",
+        "is_correct": false
+      },
+      {
+        "station": "霞ケ関",
+        "is_correct": true
+      },
+      {
+        "station": "飯田橋",
+        "is_correct": true
+      },
+      {
+        "station": "早稲田",
+        "is_correct": true
+      },
+      {
+        "station": "国会議事堂前",
+        "is_correct": true
+      },
+      {
+        "station": "大手町",
+        "is_correct": true
+      },
+      {
+        "station": "高田馬場",
+        "is_correct": true
+      },
+      {
+        "station": "九段下",
+        "is_correct": true
+      },
+      {
+        "station": "神楽坂",
+        "is_correct": true
+      },
+      {
+        "station": "鶯谷",
+        "is_correct": false
+      },
+      {
+        "station": "御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "小川町",
+        "is_correct": false
+      },
+      {
+        "station": "日比谷",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  }
+]

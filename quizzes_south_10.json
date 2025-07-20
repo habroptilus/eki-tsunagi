@@ -1,0 +1,730 @@
+[
+  {
+    "start_stations": [
+      "二子新地",
+      "不動前",
+      "大崎"
+    ],
+    "questions": [
+      {
+        "station": "宿河原",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵溝ノ口",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵中原",
+        "is_correct": true
+      },
+      {
+        "station": "溝の口",
+        "is_correct": true
+      },
+      {
+        "station": "原宿",
+        "is_correct": false
+      },
+      {
+        "station": "戸越公園",
+        "is_correct": false
+      },
+      {
+        "station": "高津",
+        "is_correct": true
+      },
+      {
+        "station": "荏原町",
+        "is_correct": false
+      },
+      {
+        "station": "目黒",
+        "is_correct": true
+      },
+      {
+        "station": "五反田",
+        "is_correct": true
+      },
+      {
+        "station": "桜新町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵新城",
+        "is_correct": true
+      },
+      {
+        "station": "西大井",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "九品仏",
+      "代々木上原",
+      "品川"
+    ],
+    "questions": [
+      {
+        "station": "明治神宮前",
+        "is_correct": true
+      },
+      {
+        "station": "成城学園前",
+        "is_correct": false
+      },
+      {
+        "station": "多摩川",
+        "is_correct": true
+      },
+      {
+        "station": "渋谷",
+        "is_correct": true
+      },
+      {
+        "station": "西小山",
+        "is_correct": false
+      },
+      {
+        "station": "洗足",
+        "is_correct": false
+      },
+      {
+        "station": "田園調布",
+        "is_correct": true
+      },
+      {
+        "station": "津田山",
+        "is_correct": false
+      },
+      {
+        "station": "新丸子",
+        "is_correct": true
+      },
+      {
+        "station": "代々木公園",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "百合ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "自由が丘",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "荏原中延",
+      "新丸子",
+      "西小山"
+    ],
+    "questions": [
+      {
+        "station": "田園調布",
+        "is_correct": true
+      },
+      {
+        "station": "高津",
+        "is_correct": false
+      },
+      {
+        "station": "世田谷代田",
+        "is_correct": false
+      },
+      {
+        "station": "恵比寿",
+        "is_correct": false
+      },
+      {
+        "station": "北千束",
+        "is_correct": true
+      },
+      {
+        "station": "大岡山",
+        "is_correct": true
+      },
+      {
+        "station": "洗足",
+        "is_correct": true
+      },
+      {
+        "station": "多摩川",
+        "is_correct": true
+      },
+      {
+        "station": "狛江",
+        "is_correct": false
+      },
+      {
+        "station": "旗の台",
+        "is_correct": true
+      },
+      {
+        "station": "二子玉川",
+        "is_correct": false
+      },
+      {
+        "station": "奥沢",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "和泉多摩川",
+      "町田",
+      "鶴見"
+    ],
+    "questions": [
+      {
+        "station": "鶴川",
+        "is_correct": true
+      },
+      {
+        "station": "下神明",
+        "is_correct": false
+      },
+      {
+        "station": "戸越",
+        "is_correct": false
+      },
+      {
+        "station": "百合ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵新城",
+        "is_correct": true
+      },
+      {
+        "station": "生田",
+        "is_correct": true
+      },
+      {
+        "station": "鷺沼",
+        "is_correct": false
+      },
+      {
+        "station": "宿河原",
+        "is_correct": true
+      },
+      {
+        "station": "津田山",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "二子新地",
+        "is_correct": false
+      },
+      {
+        "station": "久地",
+        "is_correct": true
+      },
+      {
+        "station": "柿生",
+        "is_correct": true
+      },
+      {
+        "station": "新百合ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "玉川学園前",
+        "is_correct": true
+      },
+      {
+        "station": "向ヶ丘遊園",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵溝ノ口",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵中原",
+        "is_correct": true
+      },
+      {
+        "station": "読売ランド前",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "登戸",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 10
+  },
+  {
+    "start_stations": [
+      "千歳船橋",
+      "参宮橋",
+      "尻手"
+    ],
+    "questions": [
+      {
+        "station": "代々木上原",
+        "is_correct": true
+      },
+      {
+        "station": "不動前",
+        "is_correct": false
+      },
+      {
+        "station": "豪徳寺",
+        "is_correct": true
+      },
+      {
+        "station": "世田谷代田",
+        "is_correct": true
+      },
+      {
+        "station": "二子玉川",
+        "is_correct": false
+      },
+      {
+        "station": "新宿",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "向河原",
+        "is_correct": false
+      },
+      {
+        "station": "渋谷",
+        "is_correct": true
+      },
+      {
+        "station": "経堂",
+        "is_correct": true
+      },
+      {
+        "station": "東北沢",
+        "is_correct": true
+      },
+      {
+        "station": "南新宿",
+        "is_correct": true
+      },
+      {
+        "station": "下北沢",
+        "is_correct": true
+      },
+      {
+        "station": "大崎広小路",
+        "is_correct": false
+      },
+      {
+        "station": "荏原町",
+        "is_correct": false
+      },
+      {
+        "station": "梅ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "代々木八幡",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "溝の口",
+      "和泉多摩川",
+      "北千束"
+    ],
+    "questions": [
+      {
+        "station": "新丸子",
+        "is_correct": true
+      },
+      {
+        "station": "梅ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "奥沢",
+        "is_correct": true
+      },
+      {
+        "station": "津田山",
+        "is_correct": true
+      },
+      {
+        "station": "宿河原",
+        "is_correct": true
+      },
+      {
+        "station": "百合ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵中原",
+        "is_correct": true
+      },
+      {
+        "station": "生田",
+        "is_correct": false
+      },
+      {
+        "station": "多摩川",
+        "is_correct": true
+      },
+      {
+        "station": "鷺沼",
+        "is_correct": false
+      },
+      {
+        "station": "渋谷",
+        "is_correct": false
+      },
+      {
+        "station": "田園調布",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵溝ノ口",
+        "is_correct": true
+      },
+      {
+        "station": "久地",
+        "is_correct": true
+      },
+      {
+        "station": "登戸",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵新城",
+        "is_correct": true
+      },
+      {
+        "station": "大岡山",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "宮崎台",
+      "渋谷",
+      "奥沢"
+    ],
+    "questions": [
+      {
+        "station": "武蔵中原",
+        "is_correct": true
+      },
+      {
+        "station": "溝の口",
+        "is_correct": true
+      },
+      {
+        "station": "用賀",
+        "is_correct": false
+      },
+      {
+        "station": "北千束",
+        "is_correct": false
+      },
+      {
+        "station": "多摩川",
+        "is_correct": true
+      },
+      {
+        "station": "梶が谷",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "大森",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "田園調布",
+        "is_correct": true
+      },
+      {
+        "station": "荏原町",
+        "is_correct": false
+      },
+      {
+        "station": "新丸子",
+        "is_correct": true
+      },
+      {
+        "station": "桜新町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵新城",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵溝ノ口",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "戸越銀座",
+      "新百合ヶ丘",
+      "自由が丘"
+    ],
+    "questions": [
+      {
+        "station": "登戸",
+        "is_correct": true
+      },
+      {
+        "station": "千歳船橋",
+        "is_correct": false
+      },
+      {
+        "station": "久地",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "読売ランド前",
+        "is_correct": true
+      },
+      {
+        "station": "二子玉川",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵新城",
+        "is_correct": true
+      },
+      {
+        "station": "大岡山",
+        "is_correct": true
+      },
+      {
+        "station": "旗の台",
+        "is_correct": true
+      },
+      {
+        "station": "多摩川",
+        "is_correct": true
+      },
+      {
+        "station": "津田山",
+        "is_correct": true
+      },
+      {
+        "station": "北千束",
+        "is_correct": true
+      },
+      {
+        "station": "緑が丘",
+        "is_correct": true
+      },
+      {
+        "station": "生田",
+        "is_correct": true
+      },
+      {
+        "station": "鶴川",
+        "is_correct": false
+      },
+      {
+        "station": "田園調布",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵中原",
+        "is_correct": true
+      },
+      {
+        "station": "百合ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵溝ノ口",
+        "is_correct": true
+      },
+      {
+        "station": "向ヶ丘遊園",
+        "is_correct": true
+      },
+      {
+        "station": "上野毛",
+        "is_correct": false
+      },
+      {
+        "station": "荏原中延",
+        "is_correct": true
+      },
+      {
+        "station": "恵比寿",
+        "is_correct": false
+      },
+      {
+        "station": "宿河原",
+        "is_correct": true
+      },
+      {
+        "station": "新丸子",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 11
+  },
+  {
+    "start_stations": [
+      "恵比寿",
+      "品川",
+      "下神明"
+    ],
+    "questions": [
+      {
+        "station": "大井町",
+        "is_correct": true
+      },
+      {
+        "station": "宮崎台",
+        "is_correct": false
+      },
+      {
+        "station": "渋谷",
+        "is_correct": true
+      },
+      {
+        "station": "自由が丘",
+        "is_correct": false
+      },
+      {
+        "station": "中延",
+        "is_correct": false
+      },
+      {
+        "station": "百合ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "蒲田",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 3
+  },
+  {
+    "start_stations": [
+      "津田山",
+      "生田",
+      "宮崎台"
+    ],
+    "questions": [
+      {
+        "station": "登戸",
+        "is_correct": true
+      },
+      {
+        "station": "上野毛",
+        "is_correct": false
+      },
+      {
+        "station": "溝の口",
+        "is_correct": true
+      },
+      {
+        "station": "喜多見",
+        "is_correct": false
+      },
+      {
+        "station": "向ヶ丘遊園",
+        "is_correct": true
+      },
+      {
+        "station": "梶が谷",
+        "is_correct": true
+      },
+      {
+        "station": "久地",
+        "is_correct": true
+      },
+      {
+        "station": "駒沢大学",
+        "is_correct": false
+      },
+      {
+        "station": "三軒茶屋",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵溝ノ口",
+        "is_correct": true
+      },
+      {
+        "station": "東北沢",
+        "is_correct": false
+      },
+      {
+        "station": "宿河原",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  }
+]
