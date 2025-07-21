@@ -489,21 +489,24 @@ def create_question_list(sorted_answer_stations, dummy_stations):
     return all_stations
 
 
-def generate_quiz(area_key="central"):
+def generate_quiz(area_key="central", min_max_components=4, max_retries=10):
     """
     クイズを生成する
 
     Args:
         area_key: area.jsonのキー（デフォルト: "central"）
+        min_max_components: 最大連結成分数の下限（デフォルト: 4）
+        max_retries: 最大再試行回数（デフォルト: 10）
 
     Returns:
-        スタート駅のリスト、正解駅のリスト
+        スタート駅のリスト、正解駅のリスト、最大連結成分数のタプル
+        失敗時は None, None, None
     """
     area_data, graph_data = load_data(area_key)
 
     if area_key not in area_data:
         print(f"エラー: エリア '{area_key}' が見つかりません")
-        return None, None
+        return None, None, None
 
     goal_candidates = area_data[area_key]["goal"]
 
@@ -514,65 +517,82 @@ def generate_quiz(area_key="central"):
         print(f"エラー: エリア '{area_key}' のユニークなgoal駅が3駅未満です")
         print(f"  元のgoal駅数: {len(goal_candidates)}")
         print(f"  ユニークなgoal駅数: {len(unique_goal_candidates)}")
-        return None, None
+        return None, None, None
 
-    # 3駅を非接続になるようにピック
-    start_stations = select_disconnected_stations(graph_data, unique_goal_candidates, 3)
+    # 再試行ループ
+    for attempt in range(max_retries):
+        print(f"🎯 クイズ生成試行 {attempt + 1}/{max_retries}")
+        
+        # 3駅を非接続になるようにピック
+        start_stations = select_disconnected_stations(graph_data, unique_goal_candidates, 3)
 
-    if not start_stations:
-        print("エラー: 非接続な3駅を見つけることができませんでした")
-        return None, None
+        if not start_stations:
+            print("エラー: 非接続な3駅を見つけることができませんでした")
+            continue
 
-    # 重複チェック（デバッグ用）
-    if len(start_stations) != len(set(start_stations)):
-        print(f"⚠️ 警告: スタート駅に重複があります: {start_stations}")
-        return None, None
+        # 重複チェック（デバッグ用）
+        if len(start_stations) != len(set(start_stations)):
+            print(f"⚠️ 警告: スタート駅に重複があります: {start_stations}")
+            continue
 
-    print(f"🚉 スタート駅: {start_stations}")
+        print(f"🚉 スタート駅: {start_stations}")
 
-    # 最小連結成分を計算
-    component = find_minimal_connected_component(graph_data, start_stations)
+        # 最小連結成分を計算
+        component = find_minimal_connected_component(graph_data, start_stations)
 
-    if not component:
-        return None, None
+        if not component:
+            print("エラー: 最小連結成分の計算に失敗しました")
+            continue
 
-    print(f"📊 連結成分のサイズ: {len(component)} 駅")
+        print(f"📊 連結成分のサイズ: {len(component)} 駅")
 
-    # スタート駅を除いた正解の駅
-    answer_stations = list(component - set(start_stations))
+        # スタート駅を除いた正解の駅
+        answer_stations = list(component - set(start_stations))
 
-    print(f"✅ 正解駅数: {len(answer_stations)} 駅")
+        print(f"✅ 正解駅数: {len(answer_stations)} 駅")
 
-    # 正解駅を正しい順序（未接続優先）で並び替え
-    sorted_answer_stations = sort_answer_stations_by_connectivity(
-        graph_data, start_stations, answer_stations
-    )
+        # 正解駅を正しい順序（未接続優先）で並び替え
+        sorted_answer_stations = sort_answer_stations_by_connectivity(
+            graph_data, start_stations, answer_stations
+        )
 
-    # 連結成分数の推移を分析（ソート済み順序を使用）
-    max_components, component_progression = analyze_connectivity_progression(
-        graph_data, start_stations, sorted_answer_stations
-    )
+        # 連結成分数の推移を分析（ソート済み順序を使用）
+        max_components, component_progression = analyze_connectivity_progression(
+            graph_data, start_stations, sorted_answer_stations
+        )
 
-    print(f"🔗 最大連結成分数: {max_components}")
+        print(f"🔗 最大連結成分数: {max_components}")
 
-    # ダミー駅を生成（同じエリアのgoal駅から）
-    dummy_stations = generate_dummy_stations(
-        graph_data, start_stations, answer_stations, unique_goal_candidates
-    )
+        # 下限チェック
+        if max_components >= min_max_components:
+            print(f"✅ 下限チェック通過: {max_components} >= {min_max_components}")
+            
+            # ダミー駅を生成（同じエリアのgoal駅から）
+            dummy_stations = generate_dummy_stations(
+                graph_data, start_stations, answer_stations, unique_goal_candidates
+            )
 
-    # questionリストを作成
-    questions = create_question_list(sorted_answer_stations, dummy_stations)
+            # questionリストを作成
+            questions = create_question_list(sorted_answer_stations, dummy_stations)
 
-    return start_stations, questions, max_components
+            return start_stations, questions, max_components
+        else:
+            print(f"⚠️ 下限チェック失敗: {max_components} < {min_max_components} - 再試行します")
+
+    # 全ての試行が失敗した場合
+    print(f"❌ {max_retries}回試行しましたが、下限 {min_max_components} を満たすクイズを生成できませんでした")
+    return None, None, None
 
 
-def generate_multiple_quizzes(area_key="central", iterations=10):
+
+def generate_multiple_quizzes(area_key="central", iterations=10, min_max_components=4):
     """
     複数のクイズを生成してJSON形式で出力
 
     Args:
         area_key: area.jsonのキー
         iterations: 生成するクイズの数
+        min_max_components: 最大連結成分数の下限
 
     Returns:
         クイズのリスト（辞書のリスト）
@@ -580,11 +600,12 @@ def generate_multiple_quizzes(area_key="central", iterations=10):
     quizzes = []
 
     print(f"🎯 {area_key}エリアで{iterations}個のクイズを生成中...")
+    print(f"📊 最大連結成分数下限: {min_max_components}")
     print("=" * 50)
 
     for i in range(iterations):
         print(f"\n📝 クイズ {i+1}/{iterations}")
-        result = generate_quiz(area_key)
+        result = generate_quiz(area_key, min_max_components)
 
         if result and len(result) == 3:
             start_stations, questions, max_components = result

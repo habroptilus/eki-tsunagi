@@ -36,7 +36,7 @@ def get_available_areas():
         return []
 
 
-def generate_all_area_quizzes(areas=None, iterations=10, output_dir=".", verbose=True):
+def generate_all_area_quizzes(areas=None, iterations=10, output_dir=".", verbose=True, min_max_components=4):
     """
     指定されたエリアのクイズを全て生成
     
@@ -45,6 +45,7 @@ def generate_all_area_quizzes(areas=None, iterations=10, output_dir=".", verbose
         iterations: 各エリアのクイズ数
         output_dir: 出力ディレクトリ
         verbose: 詳細出力の有無
+        min_max_components: 最大連結成分数の下限
         
     Returns:
         生成結果の辞書 {area_name: {"success": bool, "count": int, "filename": str}}
@@ -83,7 +84,7 @@ def generate_all_area_quizzes(areas=None, iterations=10, output_dir=".", verbose
         
         try:
             # クイズ生成
-            quizzes = generate_multiple_quizzes(area, iterations)
+            quizzes = generate_multiple_quizzes(area, iterations, min_max_components)
             
             if quizzes and len(quizzes) > 0:
                 # ファイル名生成
@@ -240,6 +241,13 @@ def main():
         help="利用可能なエリアを表示して終了"
     )
     
+    parser.add_argument(
+        "--min-components",
+        type=int,
+        default=4,
+        help="最大連結成分数の下限 (デフォルト: 4)"
+    )
+    
     args = parser.parse_args()
     
     # エリア一覧表示
@@ -262,7 +270,8 @@ def main():
         areas=areas,
         iterations=args.iterations,
         output_dir=args.output,
-        verbose=not args.quiet
+        verbose=not args.quiet,
+        min_max_components=args.min_components
     )
     
     # サマリーレポート作成

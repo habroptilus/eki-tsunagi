@@ -1,0 +1,92 @@
+{
+  "generated_at": "2025-07-21T14:19:40.108650",
+  "timestamp": "20250721_141939",
+  "summary": {
+    "total_areas": 8,
+    "successful_areas": 8,
+    "failed_areas": 0,
+    "total_quizzes": 80
+  },
+  "areas": {
+    "south": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_south_10.json",
+      "max_components_range": {
+        "min": 5,
+        "max": 9,
+        "avg": 7.3
+      }
+    },
+    "west": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_west_10.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 12,
+        "avg": 8.6
+      }
+    },
+    "north": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_north_10.json",
+      "max_components_range": {
+        "min": 5,
+        "max": 8,
+        "avg": 6.5
+      }
+    },
+    "east": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_east_10.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 7,
+        "avg": 5.8
+      }
+    },
+    "central": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_central_10.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 6,
+        "avg": 4.9
+      }
+    },
+    "yokohama": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_yokohama_10.json",
+      "max_components_range": {
+        "min": 5,
+        "max": 10,
+        "avg": 6.1
+      }
+    },
+    "nagoya": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_nagoya_10.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 13,
+        "avg": 6.9
+      }
+    },
+    "osaka": {
+      "success": true,
+      "count": 10,
+      "filename": "output/unite/quizzes_osaka_10.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 8,
+        "avg": 5.2
+      }
+    }
+  }
+}

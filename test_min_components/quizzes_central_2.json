@@ -1,0 +1,130 @@
+[
+  {
+    "start_stations": [
+      "六本木",
+      "西日暮里",
+      "上野広小路"
+    ],
+    "questions": [
+      {
+        "station": "銀座",
+        "is_correct": true
+      },
+      {
+        "station": "曙橋",
+        "is_correct": false
+      },
+      {
+        "station": "虎ノ門ヒルズ",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "新宿西口",
+        "is_correct": false
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "霞ケ関",
+        "is_correct": true
+      },
+      {
+        "station": "水道橋",
+        "is_correct": false
+      },
+      {
+        "station": "神谷町",
+        "is_correct": true
+      },
+      {
+        "station": "半蔵門",
+        "is_correct": false
+      },
+      {
+        "station": "竹橋",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "早稲田",
+      "千駄木",
+      "桜田門"
+    ],
+    "questions": [
+      {
+        "station": "新宿",
+        "is_correct": true
+      },
+      {
+        "station": "巣鴨",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "永田町",
+        "is_correct": true
+      },
+      {
+        "station": "四ツ谷",
+        "is_correct": true
+      },
+      {
+        "station": "五反田",
+        "is_correct": false
+      },
+      {
+        "station": "高田馬場",
+        "is_correct": true
+      },
+      {
+        "station": "小川町",
+        "is_correct": false
+      },
+      {
+        "station": "西日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "有楽町",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "虎ノ門ヒルズ",
+        "is_correct": false
+      },
+      {
+        "station": "新大久保",
+        "is_correct": true
+      },
+      {
+        "station": "広尾",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  }
+]
