@@ -88,7 +88,7 @@ def generate_all_area_quizzes(areas=None, iterations=10, output_dir=".", verbose
             
             if quizzes and len(quizzes) > 0:
                 # ファイル名生成
-                filename = f"quizzes_{area}_{iterations}.json"
+                filename = f"quizzes_{area}.json"
                 filepath = Path(output_dir) / filename
                 
                 # JSONファイルに保存
