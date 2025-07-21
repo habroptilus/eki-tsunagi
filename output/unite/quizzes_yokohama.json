@@ -1,0 +1,6774 @@
+[
+  {
+    "start_stations": [
+      "みなとみらい",
+      "高島町",
+      "二俣川"
+    ],
+    "questions": [
+      {
+        "station": "藤が丘",
+        "is_correct": false
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "上大岡",
+      "センター北",
+      "大船"
+    ],
+    "questions": [
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "川和町",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "根岸",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "港南中央",
+        "is_correct": true
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "山手",
+        "is_correct": false
+      },
+      {
+        "station": "石川町",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "新高島",
+      "あざみ野",
+      "東戸塚"
+    ],
+    "questions": [
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "川崎新町",
+        "is_correct": false
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": false
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "北山田",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "あざみ野",
+      "吉野町",
+      "戸部"
+    ],
+    "questions": [
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": false
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "西横浜",
+        "is_correct": false
+      },
+      {
+        "station": "星川",
+        "is_correct": false
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "都筑ふれあいの丘",
+      "日本大通り",
+      "片倉町"
+    ],
+    "questions": [
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "川和町",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "馬車道",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "白楽",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "日本大通り",
+      "菊名",
+      "新高島"
+    ],
+    "questions": [
+      {
+        "station": "小机",
+        "is_correct": false
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "黄金町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      },
+      {
+        "station": "馬車道",
+        "is_correct": true
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "鶴見市場",
+      "新杉田",
+      "長津田"
+    ],
+    "questions": [
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "東白楽",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "東山田",
+        "is_correct": false
+      },
+      {
+        "station": "綱島",
+        "is_correct": false
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "神奈川新町",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      },
+      {
+        "station": "洋光台",
+        "is_correct": true
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "阪東橋",
+      "花月総持寺",
+      "港南台"
+    ],
+    "questions": [
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "山手",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "藤が丘",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "吉野町",
+      "神奈川",
+      "大和"
+    ],
+    "questions": [
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": false
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": false
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ境",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": true
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "天王町",
+      "西谷",
+      "北新横浜"
+    ],
+    "questions": [
+      {
+        "station": "和田町",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": false
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": false
+      },
+      {
+        "station": "上星川",
+        "is_correct": true
+      },
+      {
+        "station": "星川",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "神奈川新町",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "伊勢佐木長者町",
+      "小机",
+      "羽沢横浜国大"
+    ],
+    "questions": [
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "新子安",
+      "生麦",
+      "仲町台"
+    ],
+    "questions": [
+      {
+        "station": "上星川",
+        "is_correct": false
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "関内",
+      "港南中央",
+      "保土ケ谷"
+    ],
+    "questions": [
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "生麦",
+        "is_correct": false
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "尻手",
+      "東神奈川",
+      "江田"
+    ],
+    "questions": [
+      {
+        "station": "中山",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": false
+      },
+      {
+        "station": "杉田",
+        "is_correct": false
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "戸部",
+      "西横浜",
+      "新横浜"
+    ],
+    "questions": [
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": false
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "大和",
+        "is_correct": false
+      },
+      {
+        "station": "神奈川新町",
+        "is_correct": false
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "生麦",
+      "阪東橋",
+      "センター南"
+    ],
+    "questions": [
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "北山田",
+        "is_correct": false
+      },
+      {
+        "station": "川和町",
+        "is_correct": false
+      },
+      {
+        "station": "新子安",
+        "is_correct": true
+      },
+      {
+        "station": "磯子",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "阪東橋",
+      "田奈",
+      "日ノ出町"
+    ],
+    "questions": [
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": true
+      },
+      {
+        "station": "戸部",
+        "is_correct": true
+      },
+      {
+        "station": "山手",
+        "is_correct": false
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "上大岡",
+      "川崎新町",
+      "桜木町"
+    ],
+    "questions": [
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": true
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "川和町",
+        "is_correct": false
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": true
+      },
+      {
+        "station": "大和",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "十日市場",
+      "岸根公園",
+      "川崎"
+    ],
+    "questions": [
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "新子安",
+        "is_correct": false
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "大倉山",
+      "あざみ野",
+      "反町"
+    ],
+    "questions": [
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "北山田",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "綱島",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "星川",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "新子安",
+      "片倉町",
+      "保土ケ谷"
+    ],
+    "questions": [
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": true
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "西横浜",
+        "is_correct": false
+      },
+      {
+        "station": "山手",
+        "is_correct": false
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "本郷台",
+      "川崎",
+      "小机"
+    ],
+    "questions": [
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "神奈川新町",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "石川町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "横浜",
+      "杉田",
+      "新羽"
+    ],
+    "questions": [
+      {
+        "station": "洋光台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "根岸",
+        "is_correct": false
+      },
+      {
+        "station": "新子安",
+        "is_correct": false
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "新杉田",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "高田",
+      "横浜",
+      "センター北"
+    ],
+    "questions": [
+      {
+        "station": "新子安",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "川和町",
+        "is_correct": false
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      },
+      {
+        "station": "北山田",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": false
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "大和",
+        "is_correct": false
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "藤が丘",
+      "尻手",
+      "高田"
+    ],
+    "questions": [
+      {
+        "station": "江田",
+        "is_correct": true
+      },
+      {
+        "station": "北山田",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "市が尾",
+        "is_correct": true
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": false
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "みなとみらい",
+      "黄金町",
+      "鶴見市場"
+    ],
+    "questions": [
+      {
+        "station": "生麦",
+        "is_correct": false
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "杉田",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": false
+      },
+      {
+        "station": "戸部",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": false
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": false
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "妙蓮寺",
+      "二俣川",
+      "中山"
+    ],
+    "questions": [
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": false
+      },
+      {
+        "station": "本郷台",
+        "is_correct": false
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "杉田",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "中川",
+      "神奈川新町",
+      "京急川崎"
+    ],
+    "questions": [
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "白楽",
+        "is_correct": false
+      },
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "西横浜",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "上永谷",
+      "鶴見",
+      "星川"
+    ],
+    "questions": [
+      {
+        "station": "西横浜",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "北山田",
+        "is_correct": false
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": false
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": false
+      },
+      {
+        "station": "天王町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "尻手",
+      "羽沢横浜国大",
+      "磯子"
+    ],
+    "questions": [
+      {
+        "station": "山手",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "石川町",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "根岸",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "生麦",
+        "is_correct": false
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "大船",
+      "上星川",
+      "東山田"
+    ],
+    "questions": [
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "京急川崎",
+        "is_correct": false
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": false
+      },
+      {
+        "station": "高田",
+        "is_correct": true
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "大船",
+      "川和町",
+      "あざみ野"
+    ],
+    "questions": [
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "新杉田",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "大船",
+      "新子安",
+      "天王町"
+    ],
+    "questions": [
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "川崎新町",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "西横浜",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "中川",
+      "阪東橋",
+      "東白楽"
+    ],
+    "questions": [
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "妙蓮寺",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "反町",
+        "is_correct": true
+      },
+      {
+        "station": "白楽",
+        "is_correct": true
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "東山田",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "上大岡",
+        "is_correct": false
+      },
+      {
+        "station": "根岸",
+        "is_correct": false
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "十日市場",
+      "大船",
+      "綱島"
+    ],
+    "questions": [
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": false
+      },
+      {
+        "station": "新綱島",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "新高島",
+      "東神奈川",
+      "天王町"
+    ],
+    "questions": [
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "西横浜",
+        "is_correct": true
+      },
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "舞岡",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "平沼橋",
+      "藤が丘",
+      "菊名"
+    ],
+    "questions": [
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": false
+      },
+      {
+        "station": "青葉台",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "新子安",
+      "子安",
+      "中川"
+    ],
+    "questions": [
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "東戸塚",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "子安",
+      "センター北",
+      "舞岡"
+    ],
+    "questions": [
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新子安",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "港南中央",
+        "is_correct": false
+      },
+      {
+        "station": "妙蓮寺",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "弘明寺",
+      "瀬谷",
+      "高島町"
+    ],
+    "questions": [
+      {
+        "station": "関内",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "戸部",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": true
+      },
+      {
+        "station": "南太田",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新子安",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "井土ヶ谷",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      },
+      {
+        "station": "山手",
+        "is_correct": false
+      },
+      {
+        "station": "黄金町",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ境",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": false
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "西谷",
+      "西横浜",
+      "川崎"
+    ],
+    "questions": [
+      {
+        "station": "大船",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "東白楽",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": false
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "三ツ沢上町",
+      "保土ケ谷",
+      "瀬谷"
+    ],
+    "questions": [
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "京急川崎",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ境",
+        "is_correct": true
+      },
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "二俣川",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "上大岡",
+      "あざみ野",
+      "都筑ふれあいの丘"
+    ],
+    "questions": [
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "川和町",
+        "is_correct": true
+      },
+      {
+        "station": "磯子",
+        "is_correct": false
+      },
+      {
+        "station": "港南中央",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": false
+      },
+      {
+        "station": "新子安",
+        "is_correct": false
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "上星川",
+        "is_correct": false
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "神奈川",
+      "本郷台",
+      "岸根公園"
+    ],
+    "questions": [
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新杉田",
+        "is_correct": false
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "弘明寺",
+      "センター南",
+      "湘南台"
+    ],
+    "questions": [
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "洋光台",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "立場",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "馬車道",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "踊場",
+        "is_correct": true
+      },
+      {
+        "station": "中田",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "港南中央",
+        "is_correct": true
+      },
+      {
+        "station": "上大岡",
+        "is_correct": true
+      },
+      {
+        "station": "下飯田",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "あざみ野",
+      "みなとみらい",
+      "八丁畷"
+    ],
+    "questions": [
+      {
+        "station": "黄金町",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "東山田",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "大和",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "星川",
+      "新羽",
+      "神奈川新町"
+    ],
+    "questions": [
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "上星川",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "藤が丘",
+        "is_correct": false
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "黄金町",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "京急川崎",
+      "鴨居",
+      "中川"
+    ],
+    "questions": [
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": false
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "川和町",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "白楽",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "生麦",
+      "東白楽",
+      "鶴見"
+    ],
+    "questions": [
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "反町",
+        "is_correct": true
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": false
+      },
+      {
+        "station": "杉田",
+        "is_correct": false
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": true
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": false
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "上大岡",
+      "西谷",
+      "新横浜"
+    ],
+    "questions": [
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "港南中央",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "岸根公園",
+      "洋光台",
+      "センター南"
+    ],
+    "questions": [
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "港南中央",
+        "is_correct": false
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "京急川崎",
+        "is_correct": false
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "センター北",
+      "子安",
+      "戸部"
+    ],
+    "questions": [
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": false
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": true
+      },
+      {
+        "station": "京急川崎",
+        "is_correct": false
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": false
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新子安",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "桜木町",
+      "杉田",
+      "花月総持寺"
+    ],
+    "questions": [
+      {
+        "station": "根岸",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "石川町",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "山手",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": false
+      },
+      {
+        "station": "新杉田",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "磯子",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "杉田",
+      "神奈川新町",
+      "川崎"
+    ],
+    "questions": [
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "星川",
+        "is_correct": false
+      },
+      {
+        "station": "港南台",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": false
+      },
+      {
+        "station": "新杉田",
+        "is_correct": true
+      },
+      {
+        "station": "根岸",
+        "is_correct": false
+      },
+      {
+        "station": "洋光台",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "中川",
+      "中山",
+      "仲町台"
+    ],
+    "questions": [
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "東山田",
+        "is_correct": false
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      },
+      {
+        "station": "川和町",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "関内",
+      "新高島",
+      "希望ヶ丘"
+    ],
+    "questions": [
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "北山田",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "東戸塚",
+        "is_correct": false
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "二俣川",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "北山田",
+      "伊勢佐木長者町",
+      "石川町"
+    ],
+    "questions": [
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": true
+      },
+      {
+        "station": "上永谷",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": false
+      },
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": false
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "東神奈川",
+      "舞岡",
+      "青葉台"
+    ],
+    "questions": [
+      {
+        "station": "京急新子安",
+        "is_correct": false
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": true
+      },
+      {
+        "station": "黄金町",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "石川町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "中川",
+      "川崎新町",
+      "川崎"
+    ],
+    "questions": [
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "西横浜",
+        "is_correct": false
+      },
+      {
+        "station": "港南中央",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": true
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "港南台",
+      "平沼橋",
+      "妙蓮寺"
+    ],
+    "questions": [
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "川和町",
+        "is_correct": false
+      },
+      {
+        "station": "港南中央",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "新杉田",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "吉野町",
+      "新高島",
+      "北新横浜"
+    ],
+    "questions": [
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "東山田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "市が尾",
+      "杉田",
+      "中山"
+    ],
+    "questions": [
+      {
+        "station": "センター南",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": true
+      },
+      {
+        "station": "洋光台",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新杉田",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "藤が丘",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 10
+  },
+  {
+    "start_stations": [
+      "八丁畷",
+      "川和町",
+      "横浜"
+    ],
+    "questions": [
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      },
+      {
+        "station": "東戸塚",
+        "is_correct": false
+      },
+      {
+        "station": "石川町",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": false
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "上大岡",
+      "日吉",
+      "阪東橋"
+    ],
+    "questions": [
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "蒔田",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "吉野町",
+        "is_correct": true
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": false
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": false
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "京急東神奈川",
+      "菊名",
+      "港南台"
+    ],
+    "questions": [
+      {
+        "station": "みなとみらい",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": false
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "馬車道",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "星川",
+        "is_correct": false
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "神奈川",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "大口",
+      "日吉",
+      "根岸"
+    ],
+    "questions": [
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "東戸塚",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "新綱島",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "京急川崎",
+        "is_correct": false
+      },
+      {
+        "station": "山手",
+        "is_correct": true
+      },
+      {
+        "station": "生麦",
+        "is_correct": false
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "石川町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "桜木町",
+      "北山田",
+      "花月総持寺"
+    ],
+    "questions": [
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "黄金町",
+        "is_correct": false
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": false
+      },
+      {
+        "station": "高田",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": false
+      },
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "新高島",
+      "高田",
+      "反町"
+    ],
+    "questions": [
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "磯子",
+        "is_correct": false
+      },
+      {
+        "station": "東戸塚",
+        "is_correct": false
+      },
+      {
+        "station": "杉田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "あざみ野",
+      "日ノ出町",
+      "新子安"
+    ],
+    "questions": [
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "磯子",
+        "is_correct": false
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "港南中央",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "戸部",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "上星川",
+        "is_correct": false
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "石川町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "反町",
+      "港南中央",
+      "新子安"
+    ],
+    "questions": [
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": false
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "北新横浜",
+      "中川",
+      "杉田"
+    ],
+    "questions": [
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "湘南台",
+        "is_correct": false
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "新杉田",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "洋光台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "石川町",
+      "鶴見市場",
+      "青葉台"
+    ],
+    "questions": [
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "根岸",
+        "is_correct": false
+      },
+      {
+        "station": "田奈",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "天王町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "本郷台",
+      "綱島",
+      "馬車道"
+    ],
+    "questions": [
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "上星川",
+        "is_correct": false
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "神奈川新町",
+      "岸根公園",
+      "下永谷"
+    ],
+    "questions": [
+      {
+        "station": "星川",
+        "is_correct": false
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "黄金町",
+        "is_correct": false
+      },
+      {
+        "station": "神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": false
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "八丁畷",
+      "吉野町",
+      "黄金町"
+    ],
+    "questions": [
+      {
+        "station": "神奈川新町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "井土ヶ谷",
+        "is_correct": true
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": true
+      },
+      {
+        "station": "南太田",
+        "is_correct": true
+      },
+      {
+        "station": "戸部",
+        "is_correct": true
+      },
+      {
+        "station": "藤が丘",
+        "is_correct": false
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": true
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "岸根公園",
+      "瀬谷",
+      "蒔田"
+    ],
+    "questions": [
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": true
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ境",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": false
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "馬車道",
+      "新横浜",
+      "西谷"
+    ],
+    "questions": [
+      {
+        "station": "綱島",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "星川",
+        "is_correct": false
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "岸根公園",
+      "あざみ野",
+      "鶴ヶ峰"
+    ],
+    "questions": [
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "保土ケ谷",
+        "is_correct": false
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": false
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": false
+      },
+      {
+        "station": "星川",
+        "is_correct": false
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "大船",
+      "東白楽",
+      "センター南"
+    ],
+    "questions": [
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "上大岡",
+        "is_correct": false
+      },
+      {
+        "station": "中山",
+        "is_correct": false
+      },
+      {
+        "station": "妙蓮寺",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "白楽",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": false
+      },
+      {
+        "station": "反町",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "鶴見",
+      "生麦",
+      "吉野町"
+    ],
+    "questions": [
+      {
+        "station": "大口",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "天王町",
+        "is_correct": false
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "京急新子安",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "新子安",
+        "is_correct": true
+      },
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "京急東神奈川",
+        "is_correct": false
+      },
+      {
+        "station": "中川",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "片倉町",
+      "花月総持寺",
+      "反町"
+    ],
+    "questions": [
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": true
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": false
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "西谷",
+        "is_correct": false
+      },
+      {
+        "station": "鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "西横浜",
+        "is_correct": false
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "関内",
+      "中山",
+      "根岸"
+    ],
+    "questions": [
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "洋光台",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "山手",
+        "is_correct": true
+      },
+      {
+        "station": "石川町",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "日吉",
+        "is_correct": false
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": false
+      },
+      {
+        "station": "白楽",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "伊勢佐木長者町",
+      "湘南台",
+      "本郷台"
+    ],
+    "questions": [
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "善行",
+        "is_correct": true
+      },
+      {
+        "station": "藤沢",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "上大岡",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "六会日大前",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": true
+      },
+      {
+        "station": "藤沢本町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "鶴見",
+      "元町・中華街",
+      "吉野町"
+    ],
+    "questions": [
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "みなとみらい",
+        "is_correct": true
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": false
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "子安",
+        "is_correct": false
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": true
+      },
+      {
+        "station": "馬車道",
+        "is_correct": true
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "新横浜",
+      "三ツ沢上町",
+      "磯子"
+    ],
+    "questions": [
+      {
+        "station": "山手",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      },
+      {
+        "station": "生麦",
+        "is_correct": false
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": false
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "根岸",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "石川町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "平沼橋",
+      "磯子",
+      "京急東神奈川"
+    ],
+    "questions": [
+      {
+        "station": "山手",
+        "is_correct": true
+      },
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": false
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": false
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "根岸",
+        "is_correct": true
+      },
+      {
+        "station": "上大岡",
+        "is_correct": false
+      },
+      {
+        "station": "石川町",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "仲町台",
+      "高島町",
+      "鴨居"
+    ],
+    "questions": [
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": true
+      },
+      {
+        "station": "本郷台",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "川和町",
+        "is_correct": true
+      },
+      {
+        "station": "新子安",
+        "is_correct": false
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "白楽",
+        "is_correct": false
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "上星川",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "上大岡",
+      "三ツ沢上町",
+      "横浜"
+    ],
+    "questions": [
+      {
+        "station": "花月総持寺",
+        "is_correct": false
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "日本大通り",
+        "is_correct": false
+      },
+      {
+        "station": "港南中央",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "江田",
+      "弘明寺",
+      "大口"
+    ],
+    "questions": [
+      {
+        "station": "高田",
+        "is_correct": false
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "戸部",
+        "is_correct": true
+      },
+      {
+        "station": "黄金町",
+        "is_correct": true
+      },
+      {
+        "station": "中川",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": false
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "あざみ野",
+        "is_correct": true
+      },
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": false
+      },
+      {
+        "station": "井土ヶ谷",
+        "is_correct": true
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "南太田",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "日吉本町",
+      "三ツ沢上町",
+      "湘南台"
+    ],
+    "questions": [
+      {
+        "station": "日ノ出町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "中田",
+        "is_correct": true
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "天王町",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      },
+      {
+        "station": "踊場",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢下町",
+        "is_correct": true
+      },
+      {
+        "station": "立場",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "下飯田",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "二俣川",
+      "新横浜",
+      "高田"
+    ],
+    "questions": [
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      },
+      {
+        "station": "京急鶴見",
+        "is_correct": false
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": false
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "藤が丘",
+        "is_correct": false
+      },
+      {
+        "station": "新綱島",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "舞岡",
+      "みなとみらい",
+      "京急川崎"
+    ],
+    "questions": [
+      {
+        "station": "川崎新町",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "上大岡",
+        "is_correct": false
+      },
+      {
+        "station": "新高島",
+        "is_correct": true
+      },
+      {
+        "station": "市が尾",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "片倉町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "京急新子安",
+      "三ツ沢下町",
+      "都筑ふれあいの丘"
+    ],
+    "questions": [
+      {
+        "station": "片倉町",
+        "is_correct": true
+      },
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "江田",
+        "is_correct": false
+      },
+      {
+        "station": "上大岡",
+        "is_correct": false
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      },
+      {
+        "station": "新子安",
+        "is_correct": true
+      },
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "岸根公園",
+        "is_correct": true
+      },
+      {
+        "station": "川和町",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ沢上町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "大倉山",
+      "長津田",
+      "関内"
+    ],
+    "questions": [
+      {
+        "station": "中山",
+        "is_correct": true
+      },
+      {
+        "station": "新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      },
+      {
+        "station": "東神奈川",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": true
+      },
+      {
+        "station": "小机",
+        "is_correct": true
+      },
+      {
+        "station": "鶴見市場",
+        "is_correct": false
+      },
+      {
+        "station": "和田町",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "大口",
+        "is_correct": true
+      },
+      {
+        "station": "菊名",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": true
+      },
+      {
+        "station": "川崎新町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "関内",
+      "北山田",
+      "新横浜"
+    ],
+    "questions": [
+      {
+        "station": "西横浜",
+        "is_correct": false
+      },
+      {
+        "station": "新羽",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "仲町台",
+        "is_correct": true
+      },
+      {
+        "station": "羽沢横浜国大",
+        "is_correct": true
+      },
+      {
+        "station": "港南中央",
+        "is_correct": false
+      },
+      {
+        "station": "吉野町",
+        "is_correct": false
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "大口",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "鶴見市場",
+      "戸部",
+      "上大岡"
+    ],
+    "questions": [
+      {
+        "station": "南太田",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": true
+      },
+      {
+        "station": "井土ヶ谷",
+        "is_correct": true
+      },
+      {
+        "station": "十日市場",
+        "is_correct": false
+      },
+      {
+        "station": "弘明寺",
+        "is_correct": true
+      },
+      {
+        "station": "八丁畷",
+        "is_correct": true
+      },
+      {
+        "station": "北新横浜",
+        "is_correct": false
+      },
+      {
+        "station": "川崎",
+        "is_correct": true
+      },
+      {
+        "station": "大船",
+        "is_correct": false
+      },
+      {
+        "station": "黄金町",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "日ノ出町",
+        "is_correct": true
+      },
+      {
+        "station": "田奈",
+        "is_correct": false
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "港南中央",
+      "西横浜",
+      "大船"
+    ],
+    "questions": [
+      {
+        "station": "杉田",
+        "is_correct": false
+      },
+      {
+        "station": "仲町台",
+        "is_correct": false
+      },
+      {
+        "station": "小机",
+        "is_correct": false
+      },
+      {
+        "station": "磯子",
+        "is_correct": false
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": true
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "長津田",
+        "is_correct": false
+      },
+      {
+        "station": "上永谷",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "西横浜",
+      "日吉本町",
+      "仲町台"
+    ],
+    "questions": [
+      {
+        "station": "青葉台",
+        "is_correct": false
+      },
+      {
+        "station": "十日市場",
+        "is_correct": false
+      },
+      {
+        "station": "北山田",
+        "is_correct": true
+      },
+      {
+        "station": "馬車道",
+        "is_correct": false
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "蒔田",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "高田",
+        "is_correct": true
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "元町・中華街",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "大和",
+      "天王町",
+      "蒔田"
+    ],
+    "questions": [
+      {
+        "station": "伊勢佐木長者町",
+        "is_correct": true
+      },
+      {
+        "station": "大倉山",
+        "is_correct": false
+      },
+      {
+        "station": "鴨居",
+        "is_correct": false
+      },
+      {
+        "station": "桜木町",
+        "is_correct": true
+      },
+      {
+        "station": "山手",
+        "is_correct": false
+      },
+      {
+        "station": "二俣川",
+        "is_correct": true
+      },
+      {
+        "station": "三ツ境",
+        "is_correct": true
+      },
+      {
+        "station": "和田町",
+        "is_correct": true
+      },
+      {
+        "station": "平沼橋",
+        "is_correct": true
+      },
+      {
+        "station": "西谷",
+        "is_correct": true
+      },
+      {
+        "station": "星川",
+        "is_correct": true
+      },
+      {
+        "station": "瀬谷",
+        "is_correct": true
+      },
+      {
+        "station": "下永谷",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": true
+      },
+      {
+        "station": "希望ヶ丘",
+        "is_correct": true
+      },
+      {
+        "station": "上星川",
+        "is_correct": true
+      },
+      {
+        "station": "港南台",
+        "is_correct": false
+      },
+      {
+        "station": "西横浜",
+        "is_correct": true
+      },
+      {
+        "station": "関内",
+        "is_correct": true
+      },
+      {
+        "station": "吉野町",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "阪東橋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 10
+  },
+  {
+    "start_stations": [
+      "高田",
+      "川和町",
+      "下永谷"
+    ],
+    "questions": [
+      {
+        "station": "元住吉",
+        "is_correct": true
+      },
+      {
+        "station": "横浜",
+        "is_correct": true
+      },
+      {
+        "station": "北山田",
+        "is_correct": true
+      },
+      {
+        "station": "センター南",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵小杉",
+        "is_correct": true
+      },
+      {
+        "station": "石川町",
+        "is_correct": false
+      },
+      {
+        "station": "鶴ヶ峰",
+        "is_correct": false
+      },
+      {
+        "station": "日吉",
+        "is_correct": true
+      },
+      {
+        "station": "日吉本町",
+        "is_correct": true
+      },
+      {
+        "station": "天王町",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚",
+        "is_correct": true
+      },
+      {
+        "station": "センター北",
+        "is_correct": true
+      },
+      {
+        "station": "尻手",
+        "is_correct": false
+      },
+      {
+        "station": "都筑ふれあいの丘",
+        "is_correct": true
+      },
+      {
+        "station": "二俣川",
+        "is_correct": false
+      },
+      {
+        "station": "東山田",
+        "is_correct": true
+      },
+      {
+        "station": "舞岡",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  }
+]

@@ -1,0 +1,6490 @@
+[
+  {
+    "start_stations": [
+      "一之江",
+      "三ノ輪",
+      "西葛西"
+    ],
+    "questions": [
+      {
+        "station": "新富町",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": false
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "入谷",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "船堀",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 10
+  },
+  {
+    "start_stations": [
+      "平井",
+      "北綾瀬",
+      "有明テニスの森"
+    ],
+    "questions": [
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "品川シーサイド",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "亀戸",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": false
+      },
+      {
+        "station": "市場前",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "西葛西",
+      "両国",
+      "大島"
+    ],
+    "questions": [
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": false
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "大手町",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "金町",
+        "is_correct": false
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "大井町",
+      "勝どき",
+      "両国"
+    ],
+    "questions": [
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": false
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "築地市場",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "西大島",
+      "市場前",
+      "東陽町"
+    ],
+    "questions": [
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "錦糸町",
+      "潮見",
+      "北綾瀬"
+    ],
+    "questions": [
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": false
+      },
+      {
+        "station": "平井",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "船堀",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "入谷",
+      "本所吾妻橋",
+      "西葛西"
+    ],
+    "questions": [
+      {
+        "station": "新富町",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "亀戸",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "東日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "瑞江",
+        "is_correct": false
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "一之江",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "東陽町",
+      "浜町",
+      "東日本橋"
+    ],
+    "questions": [
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": false
+      },
+      {
+        "station": "人形町",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": false
+      },
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "新小岩",
+      "篠崎",
+      "東大島"
+    ],
+    "questions": [
+      {
+        "station": "金町",
+        "is_correct": false
+      },
+      {
+        "station": "一之江",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "船堀",
+        "is_correct": true
+      },
+      {
+        "station": "築地",
+        "is_correct": false
+      },
+      {
+        "station": "本八幡",
+        "is_correct": true
+      },
+      {
+        "station": "瑞江",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "葛西",
+      "新木場",
+      "新小岩"
+    ],
+    "questions": [
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "篠崎",
+        "is_correct": false
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "台場",
+      "木場",
+      "一之江"
+    ],
+    "questions": [
+      {
+        "station": "東日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "築地市場",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "船堀",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": false
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "お台場海浜公園",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "勝どき",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "市川",
+      "豊洲",
+      "銀座一丁目"
+    ],
+    "questions": [
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": false
+      },
+      {
+        "station": "新富町",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": false
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "御徒町",
+      "国際展示場",
+      "岩本町"
+    ],
+    "questions": [
+      {
+        "station": "門前仲町",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "篠崎",
+        "is_correct": false
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "綾瀬",
+      "浦安",
+      "西大島"
+    ],
+    "questions": [
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "押上",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": false
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "東銀座",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "とうきょうスカイツリー",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "田町",
+      "天王洲アイル",
+      "市場前"
+    ],
+    "questions": [
+      {
+        "station": "新御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "有明",
+        "is_correct": true
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "一之江",
+        "is_correct": false
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": false
+      },
+      {
+        "station": "築地市場",
+        "is_correct": false
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "有楽町",
+      "錦糸町",
+      "西葛西"
+    ],
+    "questions": [
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "大門",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "新御徒町",
+      "船堀",
+      "品川シーサイド"
+    ],
+    "questions": [
+      {
+        "station": "本八幡",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "東大島",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": false
+      },
+      {
+        "station": "台場",
+        "is_correct": false
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "門前仲町",
+      "葛西",
+      "東銀座"
+    ],
+    "questions": [
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "亀有",
+        "is_correct": false
+      },
+      {
+        "station": "水天宮前",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": false
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "築地",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "入谷",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "月島",
+      "東大島",
+      "日本橋"
+    ],
+    "questions": [
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "亀戸",
+        "is_correct": false
+      },
+      {
+        "station": "台場",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "田原町",
+      "市場前",
+      "新橋"
+    ],
+    "questions": [
+      {
+        "station": "瑞江",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": true
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "北綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "浅草",
+      "京橋",
+      "新富町"
+    ],
+    "questions": [
+      {
+        "station": "汐留",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": false
+      },
+      {
+        "station": "越中島",
+        "is_correct": false
+      },
+      {
+        "station": "勝どき",
+        "is_correct": false
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "汐留",
+      "三ノ輪",
+      "大手町"
+    ],
+    "questions": [
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "菊川",
+        "is_correct": false
+      },
+      {
+        "station": "本八幡",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "入谷",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "新豊洲",
+      "潮見",
+      "亀有"
+    ],
+    "questions": [
+      {
+        "station": "西日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": false
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "台場",
+        "is_correct": false
+      },
+      {
+        "station": "本八幡",
+        "is_correct": false
+      },
+      {
+        "station": "町屋",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "小岩",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "舞浜",
+      "馬喰町",
+      "本八幡"
+    ],
+    "questions": [
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "市川塩浜",
+        "is_correct": true
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": false
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "新浦安",
+        "is_correct": true
+      },
+      {
+        "station": "下総中山",
+        "is_correct": true
+      },
+      {
+        "station": "西船橋",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": false
+      },
+      {
+        "station": "大門",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "両国",
+      "新木場",
+      "有明"
+    ],
+    "questions": [
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "お台場海浜公園",
+        "is_correct": false
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "東雲",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "銀座",
+      "新富町",
+      "国際展示場"
+    ],
+    "questions": [
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "新御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "入谷",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "浅草橋",
+      "汐留",
+      "芝浦ふ頭"
+    ],
+    "questions": [
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "越中島",
+        "is_correct": false
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": false
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "台場",
+      "東銀座",
+      "亀戸"
+    ],
+    "questions": [
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "菊川",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": false
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "お台場海浜公園",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "東雲",
+      "馬喰町",
+      "木場"
+    ],
+    "questions": [
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "大門",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": false
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "東雲",
+      "新橋",
+      "両国"
+    ],
+    "questions": [
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "金町",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "押上",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": false
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "亀有",
+      "市川",
+      "南砂町"
+    ],
+    "questions": [
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "押上",
+        "is_correct": true
+      },
+      {
+        "station": "とうきょうスカイツリー",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "小伝馬町",
+      "大島",
+      "竹芝"
+    ],
+    "questions": [
+      {
+        "station": "浅草",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": false
+      },
+      {
+        "station": "人形町",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "水天宮前",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "葛西",
+      "浜松町",
+      "八丁堀"
+    ],
+    "questions": [
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "小岩",
+        "is_correct": false
+      },
+      {
+        "station": "両国",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "東大島",
+      "西葛西",
+      "北綾瀬"
+    ],
+    "questions": [
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "大門",
+        "is_correct": false
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": false
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": false
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "天王洲アイル",
+      "月島",
+      "北綾瀬"
+    ],
+    "questions": [
+      {
+        "station": "東陽町",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "西日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": true
+      },
+      {
+        "station": "水天宮前",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "新富町",
+        "is_correct": true
+      },
+      {
+        "station": "有楽町",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": false
+      },
+      {
+        "station": "町屋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "西葛西",
+      "潮見",
+      "辰巳"
+    ],
+    "questions": [
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "亀戸",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "両国",
+      "上野",
+      "京橋"
+    ],
+    "questions": [
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "御徒町",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "東陽町",
+        "is_correct": false
+      },
+      {
+        "station": "銀座",
+        "is_correct": true
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "築地市場",
+      "本八幡",
+      "南千住"
+    ],
+    "questions": [
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": false
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "東日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "三河島",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "人形町",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "南千住",
+      "本所吾妻橋",
+      "一之江"
+    ],
+    "questions": [
+      {
+        "station": "大手町",
+        "is_correct": false
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "入谷",
+        "is_correct": false
+      },
+      {
+        "station": "篠崎",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "押上",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": false
+      },
+      {
+        "station": "瑞江",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "本八幡",
+        "is_correct": true
+      },
+      {
+        "station": "御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "亀有",
+      "北綾瀬",
+      "上野"
+    ],
+    "questions": [
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "三河島",
+        "is_correct": true
+      },
+      {
+        "station": "平井",
+        "is_correct": false
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "田原町",
+      "浜松町",
+      "銀座一丁目"
+    ],
+    "questions": [
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": false
+      },
+      {
+        "station": "押上",
+        "is_correct": false
+      },
+      {
+        "station": "有楽町",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "浅草橋",
+      "有楽町",
+      "綾瀬"
+    ],
+    "questions": [
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "押上",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "平井",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "稲荷町",
+      "市場前",
+      "葛西臨海公園"
+    ],
+    "questions": [
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "天王洲アイル",
+      "金町",
+      "茅場町"
+    ],
+    "questions": [
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": false
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "亀有",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "浦安",
+        "is_correct": false
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "三河島",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "潮見",
+      "東大島",
+      "北綾瀬"
+    ],
+    "questions": [
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "町屋",
+        "is_correct": true
+      },
+      {
+        "station": "新御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "押上",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "西日暮里",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "有明テニスの森",
+      "門前仲町",
+      "亀戸"
+    ],
+    "questions": [
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": false
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "市場前",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "豊洲",
+      "大井町",
+      "水天宮前"
+    ],
+    "questions": [
+      {
+        "station": "浦安",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": false
+      },
+      {
+        "station": "北綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "勝どき",
+      "大門",
+      "西葛西"
+    ],
+    "questions": [
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": false
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "築地市場",
+        "is_correct": true
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": false
+      },
+      {
+        "station": "人形町",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "月島",
+      "北千住",
+      "葛西臨海公園"
+    ],
+    "questions": [
+      {
+        "station": "森下",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": false
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "台場",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "田原町",
+      "亀有",
+      "品川シーサイド"
+    ],
+    "questions": [
+      {
+        "station": "水天宮前",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": false
+      },
+      {
+        "station": "篠崎",
+        "is_correct": false
+      },
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "一之江",
+      "田原町",
+      "銀座"
+    ],
+    "questions": [
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": false
+      },
+      {
+        "station": "船堀",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "築地市場",
+      "小伝馬町",
+      "大井町"
+    ],
+    "questions": [
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "築地",
+        "is_correct": false
+      },
+      {
+        "station": "潮見",
+        "is_correct": false
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "浅草橋",
+      "一之江",
+      "森下"
+    ],
+    "questions": [
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": false
+      },
+      {
+        "station": "東大島",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": true
+      },
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "大島",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": false
+      },
+      {
+        "station": "船堀",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "勝どき",
+      "浦安",
+      "葛西臨海公園"
+    ],
+    "questions": [
+      {
+        "station": "小岩",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": false
+      },
+      {
+        "station": "御徒町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "松戸",
+      "人形町",
+      "神田"
+    ],
+    "questions": [
+      {
+        "station": "亀有",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "大手町",
+        "is_correct": false
+      },
+      {
+        "station": "新御徒町",
+        "is_correct": true
+      },
+      {
+        "station": "築地",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "金町",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": false
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "小伝馬町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "浅草",
+      "新橋",
+      "両国"
+    ],
+    "questions": [
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "瑞江",
+        "is_correct": false
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": false
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "田原町",
+      "葛西臨海公園",
+      "西大島"
+    ],
+    "questions": [
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "水天宮前",
+        "is_correct": false
+      },
+      {
+        "station": "とうきょうスカイツリー",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "押上",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "お台場海浜公園",
+      "亀戸",
+      "亀有"
+    ],
+    "questions": [
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "浦安",
+        "is_correct": false
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "築地",
+        "is_correct": false
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "水天宮前",
+      "上野",
+      "瑞江"
+    ],
+    "questions": [
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "本八幡",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "勝どき",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "篠崎",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": true
+      },
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "日の出",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "有明",
+      "新木場",
+      "蔵前"
+    ],
+    "questions": [
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "船堀",
+        "is_correct": false
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": true
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": true
+      },
+      {
+        "station": "篠崎",
+        "is_correct": false
+      },
+      {
+        "station": "新富町",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "西葛西",
+      "東陽町",
+      "京橋"
+    ],
+    "questions": [
+      {
+        "station": "瑞江",
+        "is_correct": false
+      },
+      {
+        "station": "新小岩",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "築地市場",
+        "is_correct": false
+      },
+      {
+        "station": "日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "田原町",
+      "有明",
+      "松戸"
+    ],
+    "questions": [
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "亀有",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "金町",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": false
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "菊川",
+        "is_correct": false
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "新日本橋",
+      "お台場海浜公園",
+      "上野"
+    ],
+    "questions": [
+      {
+        "station": "東雲",
+        "is_correct": false
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "上野",
+      "亀有",
+      "竹芝"
+    ],
+    "questions": [
+      {
+        "station": "蔵前",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": false
+      },
+      {
+        "station": "西日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "品川シーサイド",
+        "is_correct": false
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "町屋",
+        "is_correct": true
+      },
+      {
+        "station": "東日本橋",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "住吉",
+      "両国",
+      "芝浦ふ頭"
+    ],
+    "questions": [
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "お台場海浜公園",
+      "新小岩",
+      "北千住"
+    ],
+    "questions": [
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "北綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "綾瀬",
+      "押上",
+      "お台場海浜公園"
+    ],
+    "questions": [
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "小岩",
+        "is_correct": false
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "とうきょうスカイツリー",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "新富町",
+        "is_correct": false
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "台場",
+      "勝どき",
+      "住吉"
+    ],
+    "questions": [
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "築地市場",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "お台場海浜公園",
+        "is_correct": true
+      },
+      {
+        "station": "亀戸",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "築地市場",
+      "秋葉原",
+      "人形町"
+    ],
+    "questions": [
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "小伝馬町",
+        "is_correct": true
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "市川",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "勝どき",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "京橋",
+      "篠崎",
+      "勝どき"
+    ],
+    "questions": [
+      {
+        "station": "浜松町",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "本所吾妻橋",
+        "is_correct": false
+      },
+      {
+        "station": "上野",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "森下",
+        "is_correct": false
+      },
+      {
+        "station": "東日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "人形町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": false
+      },
+      {
+        "station": "本八幡",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "門前仲町",
+      "大門",
+      "浅草"
+    ],
+    "questions": [
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "森下",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": false
+      },
+      {
+        "station": "葛西",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "葛西臨海公園",
+      "日本橋",
+      "品川シーサイド"
+    ],
+    "questions": [
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": true
+      },
+      {
+        "station": "入谷",
+        "is_correct": false
+      },
+      {
+        "station": "日の出",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": false
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": false
+      },
+      {
+        "station": "押上",
+        "is_correct": false
+      },
+      {
+        "station": "大手町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "茅場町",
+      "市場前",
+      "大井町"
+    ],
+    "questions": [
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "小岩",
+        "is_correct": false
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "舞浜",
+      "国際展示場",
+      "勝どき"
+    ],
+    "questions": [
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": false
+      },
+      {
+        "station": "大島",
+        "is_correct": false
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": true
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "東京",
+      "東陽町",
+      "宝町"
+    ],
+    "questions": [
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "東銀座",
+        "is_correct": true
+      },
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "東大島",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "築地",
+      "浦安",
+      "入谷"
+    ],
+    "questions": [
+      {
+        "station": "銀座一丁目",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "葛西",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "瑞江",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "辰巳",
+      "お台場海浜公園",
+      "菊川"
+    ],
+    "questions": [
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "篠崎",
+        "is_correct": false
+      },
+      {
+        "station": "勝どき",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": false
+      },
+      {
+        "station": "入谷",
+        "is_correct": false
+      },
+      {
+        "station": "築地市場",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "南砂町",
+      "小伝馬町",
+      "錦糸町"
+    ],
+    "questions": [
+      {
+        "station": "本所吾妻橋",
+        "is_correct": false
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "人形町",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "汐留",
+        "is_correct": false
+      },
+      {
+        "station": "船堀",
+        "is_correct": false
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "有楽町",
+        "is_correct": false
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "葛西臨海公園",
+      "北千住",
+      "東銀座"
+    ],
+    "questions": [
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "三河島",
+        "is_correct": true
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "築地",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": false
+      },
+      {
+        "station": "森下",
+        "is_correct": false
+      },
+      {
+        "station": "築地市場",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "有楽町",
+      "越中島",
+      "清澄白河"
+    ],
+    "questions": [
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "市場前",
+        "is_correct": false
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "新小岩",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "入谷",
+      "浅草橋",
+      "押上"
+    ],
+    "questions": [
+      {
+        "station": "八丁堀",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "御徒町",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "西大島",
+        "is_correct": false
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "新日本橋",
+      "台場",
+      "葛西"
+    ],
+    "questions": [
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": true
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": false
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": false
+      },
+      {
+        "station": "西葛西",
+        "is_correct": true
+      },
+      {
+        "station": "お台場海浜公園",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "北綾瀬",
+      "本八幡",
+      "馬喰町"
+    ],
+    "questions": [
+      {
+        "station": "押上",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "浦安",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "神田",
+        "is_correct": false
+      },
+      {
+        "station": "大門",
+        "is_correct": false
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": false
+      },
+      {
+        "station": "とうきょうスカイツリー",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "八丁堀",
+      "押上",
+      "小岩"
+    ],
+    "questions": [
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "お台場海浜公園",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "築地市場",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "篠崎",
+      "大手町",
+      "菊川"
+    ],
+    "questions": [
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "水天宮前",
+        "is_correct": true
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "浅草橋",
+        "is_correct": false
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "本八幡",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "天王洲アイル",
+      "新橋",
+      "馬喰横山"
+    ],
+    "questions": [
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "両国",
+        "is_correct": false
+      },
+      {
+        "station": "浜松町",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "瑞江",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "北千住",
+      "宝町",
+      "新御徒町"
+    ],
+    "questions": [
+      {
+        "station": "神田",
+        "is_correct": true
+      },
+      {
+        "station": "小岩",
+        "is_correct": false
+      },
+      {
+        "station": "日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": false
+      },
+      {
+        "station": "勝どき",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "秋葉原",
+        "is_correct": true
+      },
+      {
+        "station": "有明テニスの森",
+        "is_correct": false
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "市川",
+      "小伝馬町",
+      "西大島"
+    ],
+    "questions": [
+      {
+        "station": "浜松町",
+        "is_correct": false
+      },
+      {
+        "station": "金町",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": false
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "人形町",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "仲御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "水天宮前",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "人形町",
+      "国際展示場",
+      "芝浦ふ頭"
+    ],
+    "questions": [
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "大島",
+        "is_correct": false
+      },
+      {
+        "station": "京橋",
+        "is_correct": false
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "竹芝",
+        "is_correct": true
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": false
+      },
+      {
+        "station": "日の出",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "東雲",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "大井町",
+      "東日本橋",
+      "有明テニスの森"
+    ],
+    "questions": [
+      {
+        "station": "天王洲アイル",
+        "is_correct": true
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "台場",
+        "is_correct": false
+      },
+      {
+        "station": "品川シーサイド",
+        "is_correct": true
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "入谷",
+        "is_correct": false
+      },
+      {
+        "station": "三越前",
+        "is_correct": false
+      },
+      {
+        "station": "有明",
+        "is_correct": true
+      },
+      {
+        "station": "品川",
+        "is_correct": true
+      },
+      {
+        "station": "東京テレポート",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "葛西臨海公園",
+      "平井",
+      "市川"
+    ],
+    "questions": [
+      {
+        "station": "一之江",
+        "is_correct": false
+      },
+      {
+        "station": "北綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "市川塩浜",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": false
+      },
+      {
+        "station": "西船橋",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "新浦安",
+        "is_correct": true
+      },
+      {
+        "station": "船橋",
+        "is_correct": true
+      },
+      {
+        "station": "月島",
+        "is_correct": false
+      },
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "舞浜",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "市川",
+      "市場前",
+      "月島"
+    ],
+    "questions": [
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "岩本町",
+        "is_correct": false
+      },
+      {
+        "station": "住吉",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "葛西臨海公園",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "芝浦ふ頭",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "北綾瀬",
+      "篠崎",
+      "築地市場"
+    ],
+    "questions": [
+      {
+        "station": "三河島",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "新小岩",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "一之江",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "浜町",
+        "is_correct": false
+      },
+      {
+        "station": "市川",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": false
+      },
+      {
+        "station": "新橋",
+        "is_correct": true
+      },
+      {
+        "station": "舞浜",
+        "is_correct": false
+      },
+      {
+        "station": "汐留",
+        "is_correct": true
+      },
+      {
+        "station": "本八幡",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "新日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "潮見",
+      "人形町",
+      "有明"
+    ],
+    "questions": [
+      {
+        "station": "東雲",
+        "is_correct": true
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "田原町",
+        "is_correct": false
+      },
+      {
+        "station": "浜松町",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": false
+      },
+      {
+        "station": "国際展示場",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "新豊洲",
+      "東陽町",
+      "東日本橋"
+    ],
+    "questions": [
+      {
+        "station": "有明",
+        "is_correct": false
+      },
+      {
+        "station": "竹芝",
+        "is_correct": false
+      },
+      {
+        "station": "東雲",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": false
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "人形町",
+        "is_correct": true
+      },
+      {
+        "station": "一之江",
+        "is_correct": false
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "葛西臨海公園",
+      "東雲",
+      "築地市場"
+    ],
+    "questions": [
+      {
+        "station": "綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "新木場",
+        "is_correct": true
+      },
+      {
+        "station": "銀座",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": false
+      },
+      {
+        "station": "新御徒町",
+        "is_correct": false
+      },
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "宝町",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": true
+      },
+      {
+        "station": "勝どき",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 4
+  },
+  {
+    "start_stations": [
+      "金町",
+      "稲荷町",
+      "新木場"
+    ],
+    "questions": [
+      {
+        "station": "お台場海浜公園",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "東京",
+        "is_correct": true
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "一之江",
+        "is_correct": false
+      },
+      {
+        "station": "越中島",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "潮見",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "亀有",
+        "is_correct": true
+      },
+      {
+        "station": "大井町",
+        "is_correct": false
+      },
+      {
+        "station": "田原町",
+        "is_correct": true
+      },
+      {
+        "station": "浅草",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 7
+  },
+  {
+    "start_stations": [
+      "岩本町",
+      "西葛西",
+      "人形町"
+    ],
+    "questions": [
+      {
+        "station": "新橋",
+        "is_correct": false
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "東陽町",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "東日本橋",
+        "is_correct": true
+      },
+      {
+        "station": "木場",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": true
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "銀座",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": false
+      },
+      {
+        "station": "押上",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰横山",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "住吉",
+      "東日本橋",
+      "有明テニスの森"
+    ],
+    "questions": [
+      {
+        "station": "月島",
+        "is_correct": true
+      },
+      {
+        "station": "銀座一丁目",
+        "is_correct": false
+      },
+      {
+        "station": "小伝馬町",
+        "is_correct": false
+      },
+      {
+        "station": "新豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "北綾瀬",
+        "is_correct": false
+      },
+      {
+        "station": "馬喰町",
+        "is_correct": true
+      },
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "稲荷町",
+        "is_correct": false
+      },
+      {
+        "station": "天王洲アイル",
+        "is_correct": false
+      },
+      {
+        "station": "豊洲",
+        "is_correct": true
+      },
+      {
+        "station": "市場前",
+        "is_correct": true
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "錦糸町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "越中島",
+      "住吉",
+      "築地"
+    ],
+    "questions": [
+      {
+        "station": "門前仲町",
+        "is_correct": true
+      },
+      {
+        "station": "茅場町",
+        "is_correct": true
+      },
+      {
+        "station": "南砂町",
+        "is_correct": false
+      },
+      {
+        "station": "辰巳",
+        "is_correct": false
+      },
+      {
+        "station": "八丁堀",
+        "is_correct": true
+      },
+      {
+        "station": "台場",
+        "is_correct": false
+      },
+      {
+        "station": "田町",
+        "is_correct": false
+      },
+      {
+        "station": "清澄白河",
+        "is_correct": true
+      },
+      {
+        "station": "蔵前",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 4
+  }
+]

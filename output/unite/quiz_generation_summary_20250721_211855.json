@@ -1,0 +1,92 @@
+{
+  "generated_at": "2025-07-21T21:18:57.874555",
+  "timestamp": "20250721_211855",
+  "summary": {
+    "total_areas": 8,
+    "successful_areas": 8,
+    "failed_areas": 0,
+    "total_quizzes": 800
+  },
+  "areas": {
+    "south": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_south.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 13,
+        "avg": 6.91
+      }
+    },
+    "west": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_west.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 14,
+        "avg": 7.7
+      }
+    },
+    "north": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_north.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 12,
+        "avg": 7.4
+      }
+    },
+    "east": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_east.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 10,
+        "avg": 5.71
+      }
+    },
+    "central": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_central.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 7,
+        "avg": 4.85
+      }
+    },
+    "yokohama": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_yokohama.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 10,
+        "avg": 6.14
+      }
+    },
+    "nagoya": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_nagoya.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 11,
+        "avg": 6.29
+      }
+    },
+    "osaka": {
+      "success": true,
+      "count": 100,
+      "filename": "output/unite/quizzes_osaka.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 9,
+        "avg": 5.5
+      }
+    }
+  }
+}
