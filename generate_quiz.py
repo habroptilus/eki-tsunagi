@@ -9,13 +9,40 @@ import random
 from collections import deque
 
 
-def load_data():
-    """area.jsonとgraph_tokyo.jsonを読み込む"""
+def load_data(area_key="central"):
+    """
+    エリアに応じたデータを読み込む
+    
+    Args:
+        area_key: エリア名
+        
+    Returns:
+        area_data, graph_data
+    """
     with open("area.json", "r", encoding="utf-8") as f:
         area_data = json.load(f)
 
-    with open("output/graph_tokyo_walking.json", "r", encoding="utf-8") as f:
-        graph_data = json.load(f)
+    # エリアに応じたグラフファイルを選択
+    graph_file_map = {
+        "central": "output/graph_tokyo_walking.json",
+        "south": "output/graph_tokyo_walking.json", 
+        "west": "output/graph_tokyo_walking.json",
+        "north": "output/graph_tokyo_walking.json",
+        "east": "output/graph_tokyo_walking.json",
+        "yokohama": "output/graph_tokyo_walking.json",  # 横浜も東京グラフを使用
+        "osaka": "output/graph_osaka_walking.json",
+        "nagoya": "output/graph_nagoya_walking.json"
+    }
+    
+    graph_file = graph_file_map.get(area_key, "output/graph_tokyo_walking.json")
+    
+    try:
+        with open(graph_file, "r", encoding="utf-8") as f:
+            graph_data = json.load(f)
+    except FileNotFoundError:
+        print(f"警告: グラフファイル {graph_file} が見つかりません。東京グラフを使用します。")
+        with open("output/graph_tokyo_walking.json", "r", encoding="utf-8") as f:
+            graph_data = json.load(f)
 
     return area_data, graph_data
 
@@ -472,7 +499,7 @@ def generate_quiz(area_key="central"):
     Returns:
         スタート駅のリスト、正解駅のリスト
     """
-    area_data, graph_data = load_data()
+    area_data, graph_data = load_data(area_key)
 
     if area_key not in area_data:
         print(f"エラー: エリア '{area_key}' が見つかりません")

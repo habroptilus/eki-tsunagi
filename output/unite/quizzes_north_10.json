@@ -1,0 +1,810 @@
+[
+  {
+    "start_stations": [
+      "新板橋",
+      "蒲生",
+      "北松戸"
+    ],
+    "questions": [
+      {
+        "station": "新三郷",
+        "is_correct": true
+      },
+      {
+        "station": "東川口",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "越谷レイクタウン",
+        "is_correct": true
+      },
+      {
+        "station": "南流山",
+        "is_correct": true
+      },
+      {
+        "station": "地下鉄成増",
+        "is_correct": false
+      },
+      {
+        "station": "南浦和",
+        "is_correct": true
+      },
+      {
+        "station": "新越谷",
+        "is_correct": true
+      },
+      {
+        "station": "鳩ヶ谷",
+        "is_correct": false
+      },
+      {
+        "station": "志村坂上",
+        "is_correct": false
+      },
+      {
+        "station": "池袋",
+        "is_correct": true
+      },
+      {
+        "station": "吉川",
+        "is_correct": true
+      },
+      {
+        "station": "新松戸",
+        "is_correct": true
+      },
+      {
+        "station": "浦和",
+        "is_correct": true
+      },
+      {
+        "station": "南越谷",
+        "is_correct": true
+      },
+      {
+        "station": "朝霞台",
+        "is_correct": false
+      },
+      {
+        "station": "馬橋",
+        "is_correct": true
+      },
+      {
+        "station": "板橋",
+        "is_correct": true
+      },
+      {
+        "station": "三郷",
+        "is_correct": true
+      },
+      {
+        "station": "吉川美南",
+        "is_correct": true
+      },
+      {
+        "station": "東浦和",
+        "is_correct": true
+      },
+      {
+        "station": "戸田公園",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "梅島",
+      "赤羽",
+      "鶯谷"
+    ],
+    "questions": [
+      {
+        "station": "川口元郷",
+        "is_correct": false
+      },
+      {
+        "station": "板橋区役所前",
+        "is_correct": false
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "南流山",
+        "is_correct": false
+      },
+      {
+        "station": "新井宿",
+        "is_correct": false
+      },
+      {
+        "station": "三河島",
+        "is_correct": true
+      },
+      {
+        "station": "本蓮沼",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "五反野",
+        "is_correct": true
+      },
+      {
+        "station": "小菅",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "日暮里",
+        "is_correct": true
+      },
+      {
+        "station": "尾久",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "新高島平",
+      "西巣鴨",
+      "武蔵浦和"
+    ],
+    "questions": [
+      {
+        "station": "蒲生",
+        "is_correct": false
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "板橋区役所前",
+        "is_correct": true
+      },
+      {
+        "station": "大塚",
+        "is_correct": true
+      },
+      {
+        "station": "三郷",
+        "is_correct": false
+      },
+      {
+        "station": "蓮根",
+        "is_correct": true
+      },
+      {
+        "station": "本蓮沼",
+        "is_correct": true
+      },
+      {
+        "station": "亀有",
+        "is_correct": false
+      },
+      {
+        "station": "南浦和",
+        "is_correct": true
+      },
+      {
+        "station": "小菅",
+        "is_correct": false
+      },
+      {
+        "station": "巣鴨",
+        "is_correct": true
+      },
+      {
+        "station": "志村坂上",
+        "is_correct": true
+      },
+      {
+        "station": "志村三丁目",
+        "is_correct": true
+      },
+      {
+        "station": "西台",
+        "is_correct": true
+      },
+      {
+        "station": "高島平",
+        "is_correct": true
+      },
+      {
+        "station": "板橋本町",
+        "is_correct": true
+      },
+      {
+        "station": "浦和",
+        "is_correct": true
+      },
+      {
+        "station": "新板橋",
+        "is_correct": true
+      },
+      {
+        "station": "馬橋",
+        "is_correct": false
+      },
+      {
+        "station": "池袋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "竹ノ塚",
+      "戸塚安行",
+      "北綾瀬"
+    ],
+    "questions": [
+      {
+        "station": "蕨",
+        "is_correct": false
+      },
+      {
+        "station": "梅島",
+        "is_correct": true
+      },
+      {
+        "station": "南越谷",
+        "is_correct": true
+      },
+      {
+        "station": "川口元郷",
+        "is_correct": false
+      },
+      {
+        "station": "戸田",
+        "is_correct": false
+      },
+      {
+        "station": "獨協大学前",
+        "is_correct": true
+      },
+      {
+        "station": "小菅",
+        "is_correct": true
+      },
+      {
+        "station": "蒲生",
+        "is_correct": true
+      },
+      {
+        "station": "新田",
+        "is_correct": true
+      },
+      {
+        "station": "新越谷",
+        "is_correct": true
+      },
+      {
+        "station": "田端",
+        "is_correct": false
+      },
+      {
+        "station": "五反野",
+        "is_correct": true
+      },
+      {
+        "station": "草加",
+        "is_correct": true
+      },
+      {
+        "station": "東川口",
+        "is_correct": true
+      },
+      {
+        "station": "綾瀬",
+        "is_correct": true
+      },
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "谷塚",
+        "is_correct": true
+      },
+      {
+        "station": "地下鉄成増",
+        "is_correct": false
+      },
+      {
+        "station": "西新井",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "朝霞",
+      "入谷",
+      "吉川美南"
+    ],
+    "questions": [
+      {
+        "station": "北千住",
+        "is_correct": true
+      },
+      {
+        "station": "八潮",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵浦和",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "南流山",
+        "is_correct": true
+      },
+      {
+        "station": "北朝霞",
+        "is_correct": true
+      },
+      {
+        "station": "上野",
+        "is_correct": true
+      },
+      {
+        "station": "三郷",
+        "is_correct": true
+      },
+      {
+        "station": "朝霞台",
+        "is_correct": true
+      },
+      {
+        "station": "尾久",
+        "is_correct": true
+      },
+      {
+        "station": "新三郷",
+        "is_correct": true
+      },
+      {
+        "station": "五反野",
+        "is_correct": false
+      },
+      {
+        "station": "志茂",
+        "is_correct": false
+      },
+      {
+        "station": "越谷レイクタウン",
+        "is_correct": false
+      },
+      {
+        "station": "六町",
+        "is_correct": true
+      },
+      {
+        "station": "浦和",
+        "is_correct": true
+      },
+      {
+        "station": "西浦和",
+        "is_correct": true
+      },
+      {
+        "station": "戸田公園",
+        "is_correct": false
+      },
+      {
+        "station": "南千住",
+        "is_correct": true
+      },
+      {
+        "station": "南浦和",
+        "is_correct": true
+      },
+      {
+        "station": "青井",
+        "is_correct": true
+      },
+      {
+        "station": "三郷中央",
+        "is_correct": true
+      },
+      {
+        "station": "三ノ輪",
+        "is_correct": true
+      },
+      {
+        "station": "草加",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 9
+  },
+  {
+    "start_stations": [
+      "西巣鴨",
+      "鳩ヶ谷",
+      "朝霞台"
+    ],
+    "questions": [
+      {
+        "station": "三ノ輪",
+        "is_correct": false
+      },
+      {
+        "station": "東川口",
+        "is_correct": true
+      },
+      {
+        "station": "南浦和",
+        "is_correct": true
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      },
+      {
+        "station": "西浦和",
+        "is_correct": true
+      },
+      {
+        "station": "平和台",
+        "is_correct": false
+      },
+      {
+        "station": "大塚",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "東浦和",
+        "is_correct": true
+      },
+      {
+        "station": "浦和",
+        "is_correct": true
+      },
+      {
+        "station": "川口元郷",
+        "is_correct": false
+      },
+      {
+        "station": "戸塚安行",
+        "is_correct": true
+      },
+      {
+        "station": "巣鴨",
+        "is_correct": true
+      },
+      {
+        "station": "浮間舟渡",
+        "is_correct": false
+      },
+      {
+        "station": "北朝霞",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵浦和",
+        "is_correct": true
+      },
+      {
+        "station": "池袋",
+        "is_correct": true
+      },
+      {
+        "station": "新井宿",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "小竹向原",
+      "越谷レイクタウン",
+      "竹ノ塚"
+    ],
+    "questions": [
+      {
+        "station": "小菅",
+        "is_correct": false
+      },
+      {
+        "station": "獨協大学前",
+        "is_correct": true
+      },
+      {
+        "station": "蒲生",
+        "is_correct": true
+      },
+      {
+        "station": "池袋",
+        "is_correct": true
+      },
+      {
+        "station": "南浦和",
+        "is_correct": true
+      },
+      {
+        "station": "平和台",
+        "is_correct": false
+      },
+      {
+        "station": "東川口",
+        "is_correct": true
+      },
+      {
+        "station": "浦和",
+        "is_correct": true
+      },
+      {
+        "station": "朝霞",
+        "is_correct": false
+      },
+      {
+        "station": "南越谷",
+        "is_correct": true
+      },
+      {
+        "station": "谷塚",
+        "is_correct": true
+      },
+      {
+        "station": "草加",
+        "is_correct": true
+      },
+      {
+        "station": "新越谷",
+        "is_correct": true
+      },
+      {
+        "station": "東浦和",
+        "is_correct": true
+      },
+      {
+        "station": "千川",
+        "is_correct": true
+      },
+      {
+        "station": "要町",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "鶯谷",
+        "is_correct": false
+      },
+      {
+        "station": "新田",
+        "is_correct": true
+      },
+      {
+        "station": "五反野",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 8
+  },
+  {
+    "start_stations": [
+      "西巣鴨",
+      "朝霞",
+      "西浦和"
+    ],
+    "questions": [
+      {
+        "station": "志村坂上",
+        "is_correct": false
+      },
+      {
+        "station": "大塚",
+        "is_correct": true
+      },
+      {
+        "station": "本蓮沼",
+        "is_correct": false
+      },
+      {
+        "station": "浦和",
+        "is_correct": true
+      },
+      {
+        "station": "巣鴨",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "朝霞台",
+        "is_correct": true
+      },
+      {
+        "station": "南浦和",
+        "is_correct": true
+      },
+      {
+        "station": "谷塚",
+        "is_correct": false
+      },
+      {
+        "station": "草加",
+        "is_correct": false
+      },
+      {
+        "station": "北朝霞",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽岩淵",
+        "is_correct": false
+      },
+      {
+        "station": "武蔵浦和",
+        "is_correct": true
+      },
+      {
+        "station": "池袋",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 5
+  },
+  {
+    "start_stations": [
+      "本蓮沼",
+      "北戸田",
+      "北赤羽"
+    ],
+    "questions": [
+      {
+        "station": "志村三丁目",
+        "is_correct": false
+      },
+      {
+        "station": "板橋区役所前",
+        "is_correct": true
+      },
+      {
+        "station": "板橋",
+        "is_correct": true
+      },
+      {
+        "station": "千川",
+        "is_correct": false
+      },
+      {
+        "station": "戸田公園",
+        "is_correct": true
+      },
+      {
+        "station": "池袋",
+        "is_correct": true
+      },
+      {
+        "station": "鶯谷",
+        "is_correct": false
+      },
+      {
+        "station": "赤羽岩淵",
+        "is_correct": false
+      },
+      {
+        "station": "西川口",
+        "is_correct": false
+      },
+      {
+        "station": "戸田",
+        "is_correct": true
+      },
+      {
+        "station": "浮間舟渡",
+        "is_correct": true
+      },
+      {
+        "station": "赤羽",
+        "is_correct": true
+      },
+      {
+        "station": "新板橋",
+        "is_correct": true
+      },
+      {
+        "station": "板橋本町",
+        "is_correct": true
+      }
+    ],
+    "max_connected_components": 6
+  },
+  {
+    "start_stations": [
+      "氷川台",
+      "北戸田",
+      "北朝霞"
+    ],
+    "questions": [
+      {
+        "station": "和光市",
+        "is_correct": true
+      },
+      {
+        "station": "鳩ヶ谷",
+        "is_correct": false
+      },
+      {
+        "station": "地下鉄赤塚",
+        "is_correct": true
+      },
+      {
+        "station": "志茂",
+        "is_correct": false
+      },
+      {
+        "station": "板橋本町",
+        "is_correct": false
+      },
+      {
+        "station": "西浦和",
+        "is_correct": true
+      },
+      {
+        "station": "朝霞",
+        "is_correct": true
+      },
+      {
+        "station": "武蔵浦和",
+        "is_correct": true
+      },
+      {
+        "station": "平和台",
+        "is_correct": true
+      },
+      {
+        "station": "朝霞台",
+        "is_correct": true
+      },
+      {
+        "station": "新三郷",
+        "is_correct": false
+      },
+      {
+        "station": "地下鉄成増",
+        "is_correct": true
+      },
+      {
+        "station": "松戸",
+        "is_correct": false
+      }
+    ],
+    "max_connected_components": 5
+  }
+]

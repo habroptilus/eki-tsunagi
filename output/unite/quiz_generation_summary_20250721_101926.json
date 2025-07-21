@@ -1,0 +1,92 @@
+{
+  "generated_at": "2025-07-21T10:19:26.911459",
+  "timestamp": "20250721_101926",
+  "summary": {
+    "total_areas": 8,
+    "successful_areas": 8,
+    "failed_areas": 0,
+    "total_quizzes": 80
+  },
+  "areas": {
+    "south": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_south_10.json",
+      "max_components_range": {
+        "min": 5,
+        "max": 10,
+        "avg": 7.5
+      }
+    },
+    "west": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_west_10.json",
+      "max_components_range": {
+        "min": 5,
+        "max": 10,
+        "avg": 7.6
+      }
+    },
+    "north": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_north_10.json",
+      "max_components_range": {
+        "min": 5,
+        "max": 9,
+        "avg": 7.1
+      }
+    },
+    "east": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_east_10.json",
+      "max_components_range": {
+        "min": 3,
+        "max": 8,
+        "avg": 4.8
+      }
+    },
+    "central": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_central_10.json",
+      "max_components_range": {
+        "min": 4,
+        "max": 7,
+        "avg": 5.3
+      }
+    },
+    "yokohama": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_yokohama_10.json",
+      "max_components_range": {
+        "min": 3,
+        "max": 8,
+        "avg": 6.0
+      }
+    },
+    "nagoya": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_nagoya_10.json",
+      "max_components_range": {
+        "min": 3,
+        "max": 13,
+        "avg": 7.0
+      }
+    },
+    "osaka": {
+      "success": true,
+      "count": 10,
+      "filename": "quizzes_osaka_10.json",
+      "max_components_range": {
+        "min": 3,
+        "max": 7,
+        "avg": 4.8
+      }
+    }
+  }
+}
