@@ -1,0 +1,1276 @@
+[
+  {
+    "goal_station": "東大島",
+    "start_stations": [
+      "東京",
+      "新橋",
+      "本八幡"
+    ],
+    "distances": [
+      7,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "舞浜",
+    "start_stations": [
+      "錦糸町",
+      "銀座",
+      "新橋"
+    ],
+    "distances": [
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "上野",
+    "start_stations": [
+      "新木場",
+      "森下",
+      "本八幡"
+    ],
+    "distances": [
+      5,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "東日本橋",
+    "start_stations": [
+      "新橋",
+      "新木場",
+      "本八幡"
+    ],
+    "distances": [
+      4,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "京橋",
+    "start_stations": [
+      "新木場",
+      "本八幡",
+      "森下"
+    ],
+    "distances": [
+      6,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "浦安",
+    "start_stations": [
+      "新橋",
+      "銀座",
+      "東京"
+    ],
+    "distances": [
+      10,
+      10,
+      9
+    ]
+  },
+  {
+    "goal_station": "綾瀬",
+    "start_stations": [
+      "本八幡",
+      "東京",
+      "森下"
+    ],
+    "distances": [
+      9,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "西大島",
+    "start_stations": [
+      "本八幡",
+      "新橋",
+      "新木場"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "築地",
+    "start_stations": [
+      "新木場",
+      "錦糸町",
+      "森下"
+    ],
+    "distances": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "日本橋",
+    "start_stations": [
+      "本八幡",
+      "新木場",
+      "錦糸町"
+    ],
+    "distances": [
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "本所吾妻橋",
+    "start_stations": [
+      "銀座",
+      "森下",
+      "東京"
+    ],
+    "distances": [
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "築地市場",
+    "start_stations": [
+      "新木場",
+      "森下",
+      "本八幡"
+    ],
+    "distances": [
+      5,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "日の出",
+    "start_stations": [
+      "新木場",
+      "銀座",
+      "本八幡"
+    ],
+    "distances": [
+      8,
+      4,
+      10
+    ]
+  },
+  {
+    "goal_station": "芝浦ふ頭",
+    "start_stations": [
+      "東京",
+      "新木場",
+      "錦糸町"
+    ],
+    "distances": [
+      5,
+      9,
+      8
+    ]
+  },
+  {
+    "goal_station": "新御徒町",
+    "start_stations": [
+      "新木場",
+      "本八幡",
+      "銀座"
+    ],
+    "distances": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "葛西臨海公園",
+    "start_stations": [
+      "上野",
+      "東京",
+      "新橋"
+    ],
+    "distances": [
+      6,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "松戸",
+    "start_stations": [
+      "本八幡",
+      "上野",
+      "東京"
+    ],
+    "distances": [
+      10,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "田町",
+    "start_stations": [
+      "本八幡",
+      "森下",
+      "錦糸町"
+    ],
+    "distances": [
+      9,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "東銀座",
+    "start_stations": [
+      "錦糸町",
+      "本八幡",
+      "森下"
+    ],
+    "distances": [
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "門前仲町",
+    "start_stations": [
+      "銀座",
+      "新木場",
+      "本八幡"
+    ],
+    "distances": [
+      4,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "船堀",
+    "start_stations": [
+      "東京",
+      "錦糸町",
+      "森下"
+    ],
+    "distances": [
+      8,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "馬喰横山",
+    "start_stations": [
+      "新橋",
+      "上野",
+      "新木場"
+    ],
+    "distances": [
+      4,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "国際展示場",
+    "start_stations": [
+      "銀座",
+      "錦糸町",
+      "東京"
+    ],
+    "distances": [
+      5,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "汐留",
+    "start_stations": [
+      "錦糸町",
+      "本八幡",
+      "森下"
+    ],
+    "distances": [
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "大井町",
+    "start_stations": [
+      "森下",
+      "新木場",
+      "本八幡"
+    ],
+    "distances": [
+      7,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "清澄白河",
+    "start_stations": [
+      "上野",
+      "本八幡",
+      "東京"
+    ],
+    "distances": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "三ノ輪",
+    "start_stations": [
+      "本八幡",
+      "新木場",
+      "錦糸町"
+    ],
+    "distances": [
+      8,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "浜松町",
+    "start_stations": [
+      "錦糸町",
+      "本八幡",
+      "新木場"
+    ],
+    "distances": [
+      5,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "南千住",
+    "start_stations": [
+      "東京",
+      "森下",
+      "銀座"
+    ],
+    "distances": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "瑞江",
+    "start_stations": [
+      "新橋",
+      "森下",
+      "銀座"
+    ],
+    "distances": [
+      9,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "品川シーサイド",
+    "start_stations": [
+      "本八幡",
+      "上野",
+      "新木場"
+    ],
+    "distances": [
+      9,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "月島",
+    "start_stations": [
+      "本八幡",
+      "新橋",
+      "上野"
+    ],
+    "distances": [
+      7,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "天王洲アイル",
+    "start_stations": [
+      "本八幡",
+      "錦糸町",
+      "森下"
+    ],
+    "distances": [
+      9,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "木場",
+    "start_stations": [
+      "上野",
+      "新木場",
+      "本八幡"
+    ],
+    "distances": [
+      5,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "亀有",
+    "start_stations": [
+      "東京",
+      "銀座",
+      "新木場"
+    ],
+    "distances": [
+      7,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "有明",
+    "start_stations": [
+      "銀座",
+      "新橋",
+      "本八幡"
+    ],
+    "distances": [
+      6,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "東京",
+    "start_stations": [
+      "森下",
+      "本八幡",
+      "新木場"
+    ],
+    "distances": [
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "大島",
+    "start_stations": [
+      "新木場",
+      "銀座",
+      "東京"
+    ],
+    "distances": [
+      8,
+      7,
+      6
+    ]
+  },
+  {
+    "goal_station": "錦糸町",
+    "start_stations": [
+      "上野",
+      "新橋",
+      "銀座"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "有明テニスの森",
+    "start_stations": [
+      "森下",
+      "錦糸町",
+      "本八幡"
+    ],
+    "distances": [
+      7,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "台場",
+    "start_stations": [
+      "新木場",
+      "錦糸町",
+      "銀座"
+    ],
+    "distances": [
+      8,
+      10,
+      7
+    ]
+  },
+  {
+    "goal_station": "一之江",
+    "start_stations": [
+      "銀座",
+      "新木場",
+      "錦糸町"
+    ],
+    "distances": [
+      10,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "蔵前",
+    "start_stations": [
+      "銀座",
+      "本八幡",
+      "上野"
+    ],
+    "distances": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "小伝馬町",
+    "start_stations": [
+      "新木場",
+      "新橋",
+      "森下"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "両国",
+    "start_stations": [
+      "本八幡",
+      "新木場",
+      "上野"
+    ],
+    "distances": [
+      4,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "辰巳",
+    "start_stations": [
+      "錦糸町",
+      "銀座",
+      "森下"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "新橋",
+    "start_stations": [
+      "本八幡",
+      "森下",
+      "錦糸町"
+    ],
+    "distances": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "亀戸",
+    "start_stations": [
+      "新橋",
+      "銀座",
+      "東京"
+    ],
+    "distances": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "八丁堀",
+    "start_stations": [
+      "森下",
+      "錦糸町",
+      "本八幡"
+    ],
+    "distances": [
+      4,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "浅草",
+    "start_stations": [
+      "新木場",
+      "東京",
+      "新橋"
+    ],
+    "distances": [
+      8,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "北綾瀬",
+    "start_stations": [
+      "新橋",
+      "錦糸町",
+      "新木場"
+    ],
+    "distances": [
+      8,
+      7,
+      11
+    ]
+  },
+  {
+    "goal_station": "南砂町",
+    "start_stations": [
+      "新橋",
+      "錦糸町",
+      "東京"
+    ],
+    "distances": [
+      7,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "三越前",
+    "start_stations": [
+      "錦糸町",
+      "新木場",
+      "本八幡"
+    ],
+    "distances": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "人形町",
+    "start_stations": [
+      "新木場",
+      "本八幡",
+      "新橋"
+    ],
+    "distances": [
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "水天宮前",
+    "start_stations": [
+      "新木場",
+      "銀座",
+      "新橋"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "新小岩",
+    "start_stations": [
+      "銀座",
+      "東京",
+      "新橋"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "新日本橋",
+    "start_stations": [
+      "森下",
+      "本八幡",
+      "新木場"
+    ],
+    "distances": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "東陽町",
+    "start_stations": [
+      "東京",
+      "銀座",
+      "森下"
+    ],
+    "distances": [
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "岩本町",
+    "start_stations": [
+      "新橋",
+      "銀座",
+      "新木場"
+    ],
+    "distances": [
+      4,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "宝町",
+    "start_stations": [
+      "新木場",
+      "森下",
+      "本八幡"
+    ],
+    "distances": [
+      6,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "浅草橋",
+    "start_stations": [
+      "新橋",
+      "銀座",
+      "新木場"
+    ],
+    "distances": [
+      4,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "茅場町",
+    "start_stations": [
+      "錦糸町",
+      "新木場",
+      "本八幡"
+    ],
+    "distances": [
+      4,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "押上",
+    "start_stations": [
+      "本八幡",
+      "上野",
+      "銀座"
+    ],
+    "distances": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "菊川",
+    "start_stations": [
+      "銀座",
+      "東京",
+      "本八幡"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "葛西",
+    "start_stations": [
+      "新橋",
+      "新木場",
+      "上野"
+    ],
+    "distances": [
+      9,
+      9,
+      9
+    ]
+  },
+  {
+    "goal_station": "神田",
+    "start_stations": [
+      "錦糸町",
+      "本八幡",
+      "森下"
+    ],
+    "distances": [
+      4,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "金町",
+    "start_stations": [
+      "森下",
+      "上野",
+      "新木場"
+    ],
+    "distances": [
+      8,
+      7,
+      12
+    ]
+  },
+  {
+    "goal_station": "稲荷町",
+    "start_stations": [
+      "新木場",
+      "本八幡",
+      "錦糸町"
+    ],
+    "distances": [
+      6,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "住吉",
+    "start_stations": [
+      "新橋",
+      "上野",
+      "銀座"
+    ],
+    "distances": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "東雲",
+    "start_stations": [
+      "錦糸町",
+      "本八幡",
+      "森下"
+    ],
+    "distances": [
+      8,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "大門",
+    "start_stations": [
+      "新木場",
+      "錦糸町",
+      "森下"
+    ],
+    "distances": [
+      6,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "潮見",
+    "start_stations": [
+      "本八幡",
+      "錦糸町",
+      "銀座"
+    ],
+    "distances": [
+      8,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "新豊洲",
+    "start_stations": [
+      "錦糸町",
+      "上野",
+      "森下"
+    ],
+    "distances": [
+      6,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "銀座",
+    "start_stations": [
+      "錦糸町",
+      "新木場",
+      "森下"
+    ],
+    "distances": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "本八幡",
+    "start_stations": [
+      "新木場",
+      "銀座",
+      "新橋"
+    ],
+    "distances": [
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "新富町",
+    "start_stations": [
+      "上野",
+      "本八幡",
+      "新木場"
+    ],
+    "distances": [
+      4,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "お台場海浜公園",
+    "start_stations": [
+      "上野",
+      "新橋",
+      "錦糸町"
+    ],
+    "distances": [
+      7,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "竹芝",
+    "start_stations": [
+      "森下",
+      "上野",
+      "本八幡"
+    ],
+    "distances": [
+      7,
+      4,
+      9
+    ]
+  },
+  {
+    "goal_station": "小岩",
+    "start_stations": [
+      "銀座",
+      "新木場",
+      "森下"
+    ],
+    "distances": [
+      6,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "市川",
+    "start_stations": [
+      "上野",
+      "新橋",
+      "銀座"
+    ],
+    "distances": [
+      6,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "入谷",
+    "start_stations": [
+      "新木場",
+      "本八幡",
+      "錦糸町"
+    ],
+    "distances": [
+      6,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "豊洲",
+    "start_stations": [
+      "森下",
+      "本八幡",
+      "銀座"
+    ],
+    "distances": [
+      4,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "有楽町",
+    "start_stations": [
+      "森下",
+      "本八幡",
+      "新木場"
+    ],
+    "distances": [
+      6,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "森下",
+    "start_stations": [
+      "新橋",
+      "上野",
+      "本八幡"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "田原町",
+    "start_stations": [
+      "本八幡",
+      "銀座",
+      "新木場"
+    ],
+    "distances": [
+      7,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "大手町",
+    "start_stations": [
+      "本八幡",
+      "新木場",
+      "森下"
+    ],
+    "distances": [
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "銀座一丁目",
+    "start_stations": [
+      "新木場",
+      "錦糸町",
+      "本八幡"
+    ],
+    "distances": [
+      5,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "西葛西",
+    "start_stations": [
+      "上野",
+      "東京",
+      "新木場"
+    ],
+    "distances": [
+      8,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "北千住",
+    "start_stations": [
+      "東京",
+      "錦糸町",
+      "新橋"
+    ],
+    "distances": [
+      5,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "勝どき",
+    "start_stations": [
+      "東京",
+      "森下",
+      "銀座"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "越中島",
+    "start_stations": [
+      "森下",
+      "錦糸町",
+      "本八幡"
+    ],
+    "distances": [
+      5,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "仲御徒町",
+    "start_stations": [
+      "新木場",
+      "森下",
+      "本八幡"
+    ],
+    "distances": [
+      6,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "篠崎",
+    "start_stations": [
+      "新木場",
+      "森下",
+      "錦糸町"
+    ],
+    "distances": [
+      8,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "御徒町",
+    "start_stations": [
+      "本八幡",
+      "錦糸町",
+      "新木場"
+    ],
+    "distances": [
+      7,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "平井",
+    "start_stations": [
+      "銀座",
+      "新橋",
+      "上野"
+    ],
+    "distances": [
+      6,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "市場前",
+    "start_stations": [
+      "新橋",
+      "森下",
+      "新木場"
+    ],
+    "distances": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "浜町",
+    "start_stations": [
+      "本八幡",
+      "銀座",
+      "新橋"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "新木場",
+    "start_stations": [
+      "上野",
+      "新橋",
+      "銀座"
+    ],
+    "distances": [
+      5,
+      5,
+      5
+    ]
+  }
+]

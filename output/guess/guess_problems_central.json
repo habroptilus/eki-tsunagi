@@ -1,0 +1,1224 @@
+[
+  {
+    "goal_station": "末広町",
+    "start_stations": [
+      "日比谷",
+      "渋谷",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "原宿",
+    "start_stations": [
+      "飯田橋",
+      "六本木",
+      "日比谷"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "二重橋前",
+    "start_stations": [
+      "渋谷",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "若松河田",
+    "start_stations": [
+      "池袋",
+      "六本木",
+      "渋谷"
+    ],
+    "distances": [
+      4,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "神谷町",
+    "start_stations": [
+      "渋谷",
+      "東京",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "御成門",
+    "start_stations": [
+      "東京",
+      "六本木",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "西日暮里",
+    "start_stations": [
+      "六本木",
+      "渋谷",
+      "日比谷"
+    ],
+    "distances": [
+      8,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "乃木坂",
+    "start_stations": [
+      "日比谷",
+      "池袋",
+      "東京"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "秋葉原",
+    "start_stations": [
+      "池袋",
+      "六本木",
+      "日比谷"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "国会議事堂前",
+    "start_stations": [
+      "品川",
+      "飯田橋",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "溜池山王",
+    "start_stations": [
+      "池袋",
+      "渋谷",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "上野広小路",
+    "start_stations": [
+      "六本木",
+      "池袋",
+      "日比谷"
+    ],
+    "distances": [
+      7,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "千駄ケ谷",
+    "start_stations": [
+      "日比谷",
+      "飯田橋",
+      "品川"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "白金台",
+    "start_stations": [
+      "品川",
+      "東京",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "田町",
+    "start_stations": [
+      "飯田橋",
+      "日比谷",
+      "六本木"
+    ],
+    "distances": [
+      7,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "外苑前",
+    "start_stations": [
+      "東京",
+      "飯田橋",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "田端",
+    "start_stations": [
+      "品川",
+      "六本木",
+      "飯田橋"
+    ],
+    "distances": [
+      5,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "六本木",
+    "start_stations": [
+      "飯田橋",
+      "品川",
+      "日比谷"
+    ],
+    "distances": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "江戸川橋",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "白山",
+    "start_stations": [
+      "東京",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "市ケ谷",
+    "start_stations": [
+      "品川",
+      "日比谷",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "目黒",
+    "start_stations": [
+      "日比谷",
+      "飯田橋",
+      "東京"
+    ],
+    "distances": [
+      6,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "信濃町",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "駒込",
+    "start_stations": [
+      "東京",
+      "六本木",
+      "渋谷"
+    ],
+    "distances": [
+      5,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "北参道",
+    "start_stations": [
+      "飯田橋",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      4,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "浜松町",
+    "start_stations": [
+      "池袋",
+      "六本木",
+      "飯田橋"
+    ],
+    "distances": [
+      5,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "高田馬場",
+    "start_stations": [
+      "日比谷",
+      "品川",
+      "東京"
+    ],
+    "distances": [
+      7,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "新宿御苑前",
+    "start_stations": [
+      "日比谷",
+      "品川",
+      "六本木"
+    ],
+    "distances": [
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "四谷三丁目",
+    "start_stations": [
+      "東京",
+      "日比谷",
+      "品川"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "千駄木",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      8,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "麹町",
+    "start_stations": [
+      "品川",
+      "東京",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "内幸町",
+    "start_stations": [
+      "飯田橋",
+      "渋谷",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "千石",
+    "start_stations": [
+      "渋谷",
+      "六本木",
+      "東京"
+    ],
+    "distances": [
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "虎ノ門ヒルズ",
+    "start_stations": [
+      "池袋",
+      "飯田橋",
+      "渋谷"
+    ],
+    "distances": [
+      6,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "東京",
+    "start_stations": [
+      "六本木",
+      "池袋",
+      "飯田橋"
+    ],
+    "distances": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "飯田橋",
+    "start_stations": [
+      "日比谷",
+      "六本木",
+      "渋谷"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "東新宿",
+    "start_stations": [
+      "日比谷",
+      "品川",
+      "飯田橋"
+    ],
+    "distances": [
+      7,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "桜田門",
+    "start_stations": [
+      "渋谷",
+      "池袋",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "五反田",
+    "start_stations": [
+      "日比谷",
+      "池袋",
+      "六本木"
+    ],
+    "distances": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "神保町",
+    "start_stations": [
+      "六本木",
+      "渋谷",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "本郷三丁目",
+    "start_stations": [
+      "池袋",
+      "品川",
+      "渋谷"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "国立競技場",
+    "start_stations": [
+      "品川",
+      "東京",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "早稲田",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "渋谷"
+    ],
+    "distances": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "目白",
+    "start_stations": [
+      "日比谷",
+      "品川",
+      "東京"
+    ],
+    "distances": [
+      7,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "牛込神楽坂",
+    "start_stations": [
+      "渋谷",
+      "東京",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "池袋",
+    "start_stations": [
+      "日比谷",
+      "六本木",
+      "飯田橋"
+    ],
+    "distances": [
+      6,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "本駒込",
+    "start_stations": [
+      "池袋",
+      "品川",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "新橋",
+    "start_stations": [
+      "池袋",
+      "飯田橋",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "新大塚",
+    "start_stations": [
+      "六本木",
+      "品川",
+      "日比谷"
+    ],
+    "distances": [
+      6,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "新宿三丁目",
+    "start_stations": [
+      "東京",
+      "六本木",
+      "日比谷"
+    ],
+    "distances": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "九段下",
+    "start_stations": [
+      "渋谷",
+      "池袋",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "竹橋",
+    "start_stations": [
+      "渋谷",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "小川町",
+    "start_stations": [
+      "六本木",
+      "品川",
+      "渋谷"
+    ],
+    "distances": [
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "雑司が谷",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      6,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "霞ケ関",
+    "start_stations": [
+      "飯田橋",
+      "渋谷",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "大崎",
+    "start_stations": [
+      "池袋",
+      "日比谷",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "春日",
+    "start_stations": [
+      "品川",
+      "池袋",
+      "日比谷"
+    ],
+    "distances": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "牛込柳町",
+    "start_stations": [
+      "渋谷",
+      "品川",
+      "六本木"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "上野御徒町",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "池袋"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "日暮里",
+    "start_stations": [
+      "六本木",
+      "渋谷",
+      "日比谷"
+    ],
+    "distances": [
+      7,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "根津",
+    "start_stations": [
+      "池袋",
+      "東京",
+      "日比谷"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "東大前",
+    "start_stations": [
+      "六本木",
+      "品川",
+      "東京"
+    ],
+    "distances": [
+      7,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "六本木一丁目",
+    "start_stations": [
+      "池袋",
+      "東京",
+      "渋谷"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "赤坂",
+    "start_stations": [
+      "六本木",
+      "池袋",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "神楽坂",
+    "start_stations": [
+      "六本木",
+      "東京",
+      "日比谷"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "巣鴨",
+    "start_stations": [
+      "品川",
+      "東京",
+      "六本木"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "新大久保",
+    "start_stations": [
+      "東京",
+      "飯田橋",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "水道橋",
+    "start_stations": [
+      "池袋",
+      "渋谷",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "後楽園",
+    "start_stations": [
+      "日比谷",
+      "品川",
+      "六本木"
+    ],
+    "distances": [
+      5,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "代々木",
+    "start_stations": [
+      "東京",
+      "飯田橋",
+      "日比谷"
+    ],
+    "distances": [
+      4,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "半蔵門",
+    "start_stations": [
+      "渋谷",
+      "池袋",
+      "日比谷"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "鶯谷",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "池袋"
+    ],
+    "distances": [
+      7,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "護国寺",
+    "start_stations": [
+      "渋谷",
+      "品川",
+      "六本木"
+    ],
+    "distances": [
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "青山一丁目",
+    "start_stations": [
+      "飯田橋",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "有楽町",
+    "start_stations": [
+      "飯田橋",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "湯島",
+    "start_stations": [
+      "六本木",
+      "飯田橋",
+      "渋谷"
+    ],
+    "distances": [
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "日比谷",
+    "start_stations": [
+      "池袋",
+      "飯田橋",
+      "六本木"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "曙橋",
+    "start_stations": [
+      "東京",
+      "品川",
+      "六本木"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "新御茶ノ水",
+    "start_stations": [
+      "渋谷",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "三田",
+    "start_stations": [
+      "池袋",
+      "飯田橋",
+      "日比谷"
+    ],
+    "distances": [
+      5,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "麻布十番",
+    "start_stations": [
+      "品川",
+      "日比谷",
+      "東京"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "茗荷谷",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "品川"
+    ],
+    "distances": [
+      7,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "東池袋",
+    "start_stations": [
+      "六本木",
+      "東京",
+      "日比谷"
+    ],
+    "distances": [
+      6,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "泉岳寺",
+    "start_stations": [
+      "飯田橋",
+      "池袋",
+      "日比谷"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "新宿西口",
+    "start_stations": [
+      "六本木",
+      "飯田橋",
+      "日比谷"
+    ],
+    "distances": [
+      6,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "白金高輪",
+    "start_stations": [
+      "東京",
+      "日比谷",
+      "飯田橋"
+    ],
+    "distances": [
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "淡路町",
+    "start_stations": [
+      "渋谷",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "広尾",
+    "start_stations": [
+      "日比谷",
+      "池袋",
+      "東京"
+    ],
+    "distances": [
+      5,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "高輪台",
+    "start_stations": [
+      "六本木",
+      "日比谷",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "御徒町",
+    "start_stations": [
+      "日比谷",
+      "六本木",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "芝公園",
+    "start_stations": [
+      "池袋",
+      "六本木",
+      "渋谷"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "西早稲田",
+    "start_stations": [
+      "六本木",
+      "飯田橋",
+      "渋谷"
+    ],
+    "distances": [
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "赤羽橋",
+    "start_stations": [
+      "池袋",
+      "飯田橋",
+      "渋谷"
+    ],
+    "distances": [
+      6,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "大塚",
+    "start_stations": [
+      "飯田橋",
+      "六本木",
+      "日比谷"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  }
+]

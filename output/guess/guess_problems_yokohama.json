@@ -1,0 +1,1341 @@
+[
+  {
+    "goal_station": "青葉台",
+    "start_stations": [
+      "横浜",
+      "戸塚",
+      "鶴見"
+    ],
+    "distances": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "goal_station": "鴨居",
+    "start_stations": [
+      "戸塚",
+      "西谷",
+      "センター南"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "大和",
+    "start_stations": [
+      "新横浜",
+      "戸塚",
+      "二俣川"
+    ],
+    "distances": [
+      8,
+      9,
+      4
+    ]
+  },
+  {
+    "goal_station": "菊名",
+    "start_stations": [
+      "二俣川",
+      "センター南",
+      "上大岡"
+    ],
+    "distances": [
+      5,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "大船",
+    "start_stations": [
+      "上大岡",
+      "新横浜",
+      "西谷"
+    ],
+    "distances": [
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "新横浜",
+    "start_stations": [
+      "戸塚",
+      "センター南",
+      "鶴見"
+    ],
+    "distances": [
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "新羽",
+    "start_stations": [
+      "二俣川",
+      "横浜",
+      "上大岡"
+    ],
+    "distances": [
+      6,
+      5,
+      11
+    ]
+  },
+  {
+    "goal_station": "日本大通り",
+    "start_stations": [
+      "西谷",
+      "横浜",
+      "センター南"
+    ],
+    "distances": [
+      7,
+      4,
+      11
+    ]
+  },
+  {
+    "goal_station": "日吉本町",
+    "start_stations": [
+      "二俣川",
+      "鶴見",
+      "横浜"
+    ],
+    "distances": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "鶴見",
+    "start_stations": [
+      "上大岡",
+      "西谷",
+      "二俣川"
+    ],
+    "distances": [
+      8,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "下永谷",
+    "start_stations": [
+      "鶴見",
+      "新横浜",
+      "センター南"
+    ],
+    "distances": [
+      5,
+      6,
+      10
+    ]
+  },
+  {
+    "goal_station": "元町・中華街",
+    "start_stations": [
+      "西谷",
+      "上大岡",
+      "新横浜"
+    ],
+    "distances": [
+      8,
+      11,
+      8
+    ]
+  },
+  {
+    "goal_station": "伊勢佐木長者町",
+    "start_stations": [
+      "戸塚",
+      "鶴見",
+      "西谷"
+    ],
+    "distances": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "川崎新町",
+    "start_stations": [
+      "戸塚",
+      "センター南",
+      "上大岡"
+    ],
+    "distances": [
+      5,
+      11,
+      10
+    ]
+  },
+  {
+    "goal_station": "鶴見市場",
+    "start_stations": [
+      "新横浜",
+      "上大岡",
+      "西谷"
+    ],
+    "distances": [
+      7,
+      10,
+      7
+    ]
+  },
+  {
+    "goal_station": "綱島",
+    "start_stations": [
+      "鶴見",
+      "上大岡",
+      "二俣川"
+    ],
+    "distances": [
+      6,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "平沼橋",
+    "start_stations": [
+      "新横浜",
+      "センター南",
+      "二俣川"
+    ],
+    "distances": [
+      4,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "北山田",
+    "start_stations": [
+      "西谷",
+      "戸塚",
+      "二俣川"
+    ],
+    "distances": [
+      8,
+      8,
+      10
+    ]
+  },
+  {
+    "goal_station": "東戸塚",
+    "start_stations": [
+      "上大岡",
+      "センター南",
+      "新横浜"
+    ],
+    "distances": [
+      6,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "白楽",
+    "start_stations": [
+      "上大岡",
+      "センター南",
+      "二俣川"
+    ],
+    "distances": [
+      9,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "阪東橋",
+    "start_stations": [
+      "鶴見",
+      "西谷",
+      "新横浜"
+    ],
+    "distances": [
+      6,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "日ノ出町",
+    "start_stations": [
+      "センター南",
+      "鶴見",
+      "新横浜"
+    ],
+    "distances": [
+      9,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "三ツ沢上町",
+    "start_stations": [
+      "上大岡",
+      "鶴見",
+      "西谷"
+    ],
+    "distances": [
+      8,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "戸部",
+    "start_stations": [
+      "西谷",
+      "新横浜",
+      "センター南"
+    ],
+    "distances": [
+      4,
+      4,
+      8
+    ]
+  },
+  {
+    "goal_station": "八丁畷",
+    "start_stations": [
+      "上大岡",
+      "センター南",
+      "戸塚"
+    ],
+    "distances": [
+      9,
+      10,
+      4
+    ]
+  },
+  {
+    "goal_station": "岸根公園",
+    "start_stations": [
+      "横浜",
+      "戸塚",
+      "上大岡"
+    ],
+    "distances": [
+      4,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "三ツ沢下町",
+    "start_stations": [
+      "センター南",
+      "上大岡",
+      "新横浜"
+    ],
+    "distances": [
+      8,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "戸塚",
+    "start_stations": [
+      "西谷",
+      "センター南",
+      "上大岡"
+    ],
+    "distances": [
+      4,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "東山田",
+    "start_stations": [
+      "上大岡",
+      "二俣川",
+      "横浜"
+    ],
+    "distances": [
+      12,
+      9,
+      6
+    ]
+  },
+  {
+    "goal_station": "北新横浜",
+    "start_stations": [
+      "上大岡",
+      "二俣川",
+      "横浜"
+    ],
+    "distances": [
+      10,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "新杉田",
+    "start_stations": [
+      "鶴見",
+      "戸塚",
+      "西谷"
+    ],
+    "distances": [
+      8,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "羽沢横浜国大",
+    "start_stations": [
+      "鶴見",
+      "上大岡",
+      "センター南"
+    ],
+    "distances": [
+      4,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "鶴ヶ峰",
+    "start_stations": [
+      "上大岡",
+      "戸塚",
+      "センター南"
+    ],
+    "distances": [
+      10,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "新子安",
+    "start_stations": [
+      "新横浜",
+      "上大岡",
+      "センター南"
+    ],
+    "distances": [
+      4,
+      8,
+      8
+    ]
+  },
+  {
+    "goal_station": "京急鶴見",
+    "start_stations": [
+      "二俣川",
+      "戸塚",
+      "新横浜"
+    ],
+    "distances": [
+      8,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "杉田",
+    "start_stations": [
+      "戸塚",
+      "新横浜",
+      "西谷"
+    ],
+    "distances": [
+      6,
+      10,
+      10
+    ]
+  },
+  {
+    "goal_station": "上永谷",
+    "start_stations": [
+      "二俣川",
+      "鶴見",
+      "センター南"
+    ],
+    "distances": [
+      9,
+      6,
+      11
+    ]
+  },
+  {
+    "goal_station": "中川",
+    "start_stations": [
+      "新横浜",
+      "鶴見",
+      "横浜"
+    ],
+    "distances": [
+      6,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "小机",
+    "start_stations": [
+      "鶴見",
+      "上大岡",
+      "横浜"
+    ],
+    "distances": [
+      6,
+      10,
+      4
+    ]
+  },
+  {
+    "goal_station": "弘明寺",
+    "start_stations": [
+      "戸塚",
+      "横浜",
+      "鶴見"
+    ],
+    "distances": [
+      6,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "舞岡",
+    "start_stations": [
+      "鶴見",
+      "二俣川",
+      "西谷"
+    ],
+    "distances": [
+      4,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "都筑ふれあいの丘",
+    "start_stations": [
+      "戸塚",
+      "二俣川",
+      "横浜"
+    ],
+    "distances": [
+      9,
+      9,
+      8
+    ]
+  },
+  {
+    "goal_station": "川和町",
+    "start_stations": [
+      "西谷",
+      "鶴見",
+      "横浜"
+    ],
+    "distances": [
+      6,
+      9,
+      7
+    ]
+  },
+  {
+    "goal_station": "磯子",
+    "start_stations": [
+      "上大岡",
+      "戸塚",
+      "鶴見"
+    ],
+    "distances": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "田奈",
+    "start_stations": [
+      "新横浜",
+      "センター南",
+      "横浜"
+    ],
+    "distances": [
+      6,
+      6,
+      9
+    ]
+  },
+  {
+    "goal_station": "西谷",
+    "start_stations": [
+      "センター南",
+      "戸塚",
+      "鶴見"
+    ],
+    "distances": [
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "あざみ野",
+    "start_stations": [
+      "西谷",
+      "鶴見",
+      "二俣川"
+    ],
+    "distances": [
+      9,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "神奈川新町",
+    "start_stations": [
+      "二俣川",
+      "上大岡",
+      "センター南"
+    ],
+    "distances": [
+      8,
+      9,
+      9
+    ]
+  },
+  {
+    "goal_station": "長津田",
+    "start_stations": [
+      "戸塚",
+      "西谷",
+      "新横浜"
+    ],
+    "distances": [
+      9,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "星川",
+    "start_stations": [
+      "二俣川",
+      "横浜",
+      "新横浜"
+    ],
+    "distances": [
+      5,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "子安",
+    "start_stations": [
+      "横浜",
+      "西谷",
+      "戸塚"
+    ],
+    "distances": [
+      4,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "港南台",
+    "start_stations": [
+      "二俣川",
+      "新横浜",
+      "西谷"
+    ],
+    "distances": [
+      9,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "根岸",
+    "start_stations": [
+      "鶴見",
+      "西谷",
+      "戸塚"
+    ],
+    "distances": [
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "藤が丘",
+    "start_stations": [
+      "新横浜",
+      "センター南",
+      "戸塚"
+    ],
+    "distances": [
+      8,
+      6,
+      12
+    ]
+  },
+  {
+    "goal_station": "市が尾",
+    "start_stations": [
+      "西谷",
+      "センター南",
+      "横浜"
+    ],
+    "distances": [
+      11,
+      5,
+      12
+    ]
+  },
+  {
+    "goal_station": "高島町",
+    "start_stations": [
+      "西谷",
+      "二俣川",
+      "新横浜"
+    ],
+    "distances": [
+      4,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "山手",
+    "start_stations": [
+      "センター南",
+      "新横浜",
+      "横浜"
+    ],
+    "distances": [
+      11,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "保土ケ谷",
+    "start_stations": [
+      "上大岡",
+      "新横浜",
+      "センター南"
+    ],
+    "distances": [
+      7,
+      4,
+      8
+    ]
+  },
+  {
+    "goal_station": "蒔田",
+    "start_stations": [
+      "西谷",
+      "戸塚",
+      "新横浜"
+    ],
+    "distances": [
+      9,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "生麦",
+    "start_stations": [
+      "横浜",
+      "戸塚",
+      "二俣川"
+    ],
+    "distances": [
+      4,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "東神奈川",
+    "start_stations": [
+      "センター南",
+      "二俣川",
+      "上大岡"
+    ],
+    "distances": [
+      7,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "中山",
+    "start_stations": [
+      "戸塚",
+      "上大岡",
+      "横浜"
+    ],
+    "distances": [
+      7,
+      12,
+      6
+    ]
+  },
+  {
+    "goal_station": "黄金町",
+    "start_stations": [
+      "新横浜",
+      "西谷",
+      "上大岡"
+    ],
+    "distances": [
+      6,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "みなとみらい",
+    "start_stations": [
+      "センター南",
+      "二俣川",
+      "上大岡"
+    ],
+    "distances": [
+      9,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "十日市場",
+    "start_stations": [
+      "戸塚",
+      "二俣川",
+      "鶴見"
+    ],
+    "distances": [
+      8,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "仲町台",
+    "start_stations": [
+      "西谷",
+      "横浜",
+      "二俣川"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "京急川崎",
+    "start_stations": [
+      "二俣川",
+      "新横浜",
+      "上大岡"
+    ],
+    "distances": [
+      7,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "瀬谷",
+    "start_stations": [
+      "センター南",
+      "横浜",
+      "新横浜"
+    ],
+    "distances": [
+      11,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "大倉山",
+    "start_stations": [
+      "上大岡",
+      "戸塚",
+      "横浜"
+    ],
+    "distances": [
+      10,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "二俣川",
+    "start_stations": [
+      "上大岡",
+      "鶴見",
+      "戸塚"
+    ],
+    "distances": [
+      11,
+      7,
+      6
+    ]
+  },
+  {
+    "goal_station": "大口",
+    "start_stations": [
+      "上大岡",
+      "西谷",
+      "二俣川"
+    ],
+    "distances": [
+      8,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "反町",
+    "start_stations": [
+      "上大岡",
+      "西谷",
+      "二俣川"
+    ],
+    "distances": [
+      7,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "石川町",
+    "start_stations": [
+      "新横浜",
+      "戸塚",
+      "西谷"
+    ],
+    "distances": [
+      6,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "横浜",
+    "start_stations": [
+      "二俣川",
+      "上大岡",
+      "センター南"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "高田",
+    "start_stations": [
+      "二俣川",
+      "上大岡",
+      "横浜"
+    ],
+    "distances": [
+      8,
+      11,
+      5
+    ]
+  },
+  {
+    "goal_station": "京急東神奈川",
+    "start_stations": [
+      "西谷",
+      "新横浜",
+      "二俣川"
+    ],
+    "distances": [
+      5,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "新高島",
+    "start_stations": [
+      "上大岡",
+      "西谷",
+      "新横浜"
+    ],
+    "distances": [
+      7,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "江田",
+    "start_stations": [
+      "新横浜",
+      "戸塚",
+      "西谷"
+    ],
+    "distances": [
+      8,
+      12,
+      10
+    ]
+  },
+  {
+    "goal_station": "港南中央",
+    "start_stations": [
+      "西谷",
+      "二俣川",
+      "新横浜"
+    ],
+    "distances": [
+      8,
+      10,
+      8
+    ]
+  },
+  {
+    "goal_station": "関内",
+    "start_stations": [
+      "新横浜",
+      "上大岡",
+      "センター南"
+    ],
+    "distances": [
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "goal_station": "洋光台",
+    "start_stations": [
+      "鶴見",
+      "横浜",
+      "戸塚"
+    ],
+    "distances": [
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "片倉町",
+    "start_stations": [
+      "西谷",
+      "センター南",
+      "戸塚"
+    ],
+    "distances": [
+      4,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "センター南",
+    "start_stations": [
+      "横浜",
+      "戸塚",
+      "西谷"
+    ],
+    "distances": [
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "日吉",
+    "start_stations": [
+      "センター南",
+      "二俣川",
+      "鶴見"
+    ],
+    "distances": [
+      6,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "桜木町",
+    "start_stations": [
+      "新横浜",
+      "西谷",
+      "上大岡"
+    ],
+    "distances": [
+      4,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "妙蓮寺",
+    "start_stations": [
+      "鶴見",
+      "横浜",
+      "二俣川"
+    ],
+    "distances": [
+      5,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "神奈川",
+    "start_stations": [
+      "西谷",
+      "センター南",
+      "二俣川"
+    ],
+    "distances": [
+      4,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "京急新子安",
+    "start_stations": [
+      "戸塚",
+      "上大岡",
+      "新横浜"
+    ],
+    "distances": [
+      4,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "本郷台",
+    "start_stations": [
+      "センター南",
+      "鶴見",
+      "上大岡"
+    ],
+    "distances": [
+      10,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "上大岡",
+    "start_stations": [
+      "戸塚",
+      "西谷",
+      "二俣川"
+    ],
+    "distances": [
+      5,
+      9,
+      11
+    ]
+  },
+  {
+    "goal_station": "馬車道",
+    "start_stations": [
+      "センター南",
+      "二俣川",
+      "上大岡"
+    ],
+    "distances": [
+      10,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "希望ヶ丘",
+    "start_stations": [
+      "センター南",
+      "上大岡",
+      "横浜"
+    ],
+    "distances": [
+      9,
+      12,
+      6
+    ]
+  },
+  {
+    "goal_station": "上星川",
+    "start_stations": [
+      "横浜",
+      "戸塚",
+      "上大岡"
+    ],
+    "distances": [
+      4,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "吉野町",
+    "start_stations": [
+      "西谷",
+      "センター南",
+      "横浜"
+    ],
+    "distances": [
+      8,
+      12,
+      5
+    ]
+  },
+  {
+    "goal_station": "東白楽",
+    "start_stations": [
+      "センター南",
+      "鶴見",
+      "新横浜"
+    ],
+    "distances": [
+      8,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "尻手",
+    "start_stations": [
+      "二俣川",
+      "上大岡",
+      "新横浜"
+    ],
+    "distances": [
+      7,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "センター北",
+    "start_stations": [
+      "西谷",
+      "横浜",
+      "新横浜"
+    ],
+    "distances": [
+      7,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "西横浜",
+    "start_stations": [
+      "西谷",
+      "上大岡",
+      "新横浜"
+    ],
+    "distances": [
+      5,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "花月総持寺",
+    "start_stations": [
+      "戸塚",
+      "センター南",
+      "横浜"
+    ],
+    "distances": [
+      5,
+      11,
+      4
+    ]
+  },
+  {
+    "goal_station": "川崎",
+    "start_stations": [
+      "二俣川",
+      "センター南",
+      "上大岡"
+    ],
+    "distances": [
+      6,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "和田町",
+    "start_stations": [
+      "上大岡",
+      "センター南",
+      "新横浜"
+    ],
+    "distances": [
+      11,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "湘南台",
+    "start_stations": [
+      "二俣川",
+      "新横浜",
+      "戸塚"
+    ],
+    "distances": [
+      7,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "天王町",
+    "start_stations": [
+      "新横浜",
+      "鶴見",
+      "二俣川"
+    ],
+    "distances": [
+      6,
+      5,
+      6
+    ]
+  }
+]

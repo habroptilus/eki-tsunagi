@@ -1,0 +1,1367 @@
+[
+  {
+    "goal_station": "原宿",
+    "start_stations": [
+      "千歳烏山",
+      "桜上水",
+      "成城学園前"
+    ],
+    "distances": [
+      11,
+      7,
+      12
+    ]
+  },
+  {
+    "goal_station": "梅ヶ丘",
+    "start_stations": [
+      "池袋",
+      "永福町",
+      "中野"
+    ],
+    "distances": [
+      8,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "高井戸",
+    "start_stations": [
+      "桜上水",
+      "下北沢",
+      "明大前"
+    ],
+    "distances": [
+      6,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "世田谷代田",
+    "start_stations": [
+      "中井",
+      "明大前",
+      "つつじヶ丘"
+    ],
+    "distances": [
+      9,
+      4,
+      12
+    ]
+  },
+  {
+    "goal_station": "中野新橋",
+    "start_stations": [
+      "明大前",
+      "経堂",
+      "池袋"
+    ],
+    "distances": [
+      6,
+      11,
+      4
+    ]
+  },
+  {
+    "goal_station": "喜多見",
+    "start_stations": [
+      "経堂",
+      "永福町",
+      "下北沢"
+    ],
+    "distances": [
+      4,
+      10,
+      8
+    ]
+  },
+  {
+    "goal_station": "新宿",
+    "start_stations": [
+      "千歳烏山",
+      "練馬",
+      "鷺ノ宮"
+    ],
+    "distances": [
+      9,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "西武新宿",
+    "start_stations": [
+      "成城学園前",
+      "千歳烏山",
+      "久我山"
+    ],
+    "distances": [
+      12,
+      10,
+      10
+    ]
+  },
+  {
+    "goal_station": "要町",
+    "start_stations": [
+      "鷺ノ宮",
+      "桜上水",
+      "練馬"
+    ],
+    "distances": [
+      10,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "井荻",
+    "start_stations": [
+      "中井",
+      "池袋",
+      "中野"
+    ],
+    "distances": [
+      7,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "千川",
+    "start_stations": [
+      "経堂",
+      "鷺ノ宮",
+      "久我山"
+    ],
+    "distances": [
+      11,
+      11,
+      12
+    ]
+  },
+  {
+    "goal_station": "代々木八幡",
+    "start_stations": [
+      "久我山",
+      "中井",
+      "経堂"
+    ],
+    "distances": [
+      12,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "沼袋",
+    "start_stations": [
+      "永福町",
+      "久我山",
+      "練馬"
+    ],
+    "distances": [
+      9,
+      12,
+      5
+    ]
+  },
+  {
+    "goal_station": "神泉",
+    "start_stations": [
+      "成城学園前",
+      "千歳烏山",
+      "練馬"
+    ],
+    "distances": [
+      10,
+      11,
+      8
+    ]
+  },
+  {
+    "goal_station": "渋谷",
+    "start_stations": [
+      "練馬",
+      "つつじヶ丘",
+      "明大前"
+    ],
+    "distances": [
+      7,
+      12,
+      4
+    ]
+  },
+  {
+    "goal_station": "東高円寺",
+    "start_stations": [
+      "鷺ノ宮",
+      "中井",
+      "桜上水"
+    ],
+    "distances": [
+      9,
+      4,
+      9
+    ]
+  },
+  {
+    "goal_station": "登戸",
+    "start_stations": [
+      "桜上水",
+      "下北沢",
+      "中野"
+    ],
+    "distances": [
+      12,
+      11,
+      11
+    ]
+  },
+  {
+    "goal_station": "東中野",
+    "start_stations": [
+      "明大前",
+      "練馬",
+      "経堂"
+    ],
+    "distances": [
+      5,
+      4,
+      10
+    ]
+  },
+  {
+    "goal_station": "阿佐ケ谷",
+    "start_stations": [
+      "千歳烏山",
+      "池袋",
+      "練馬"
+    ],
+    "distances": [
+      12,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "中井",
+    "start_stations": [
+      "下北沢",
+      "鷺ノ宮",
+      "永福町"
+    ],
+    "distances": [
+      8,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "東北沢",
+    "start_stations": [
+      "経堂",
+      "つつじヶ丘",
+      "桜上水"
+    ],
+    "distances": [
+      5,
+      12,
+      6
+    ]
+  },
+  {
+    "goal_station": "富士見台",
+    "start_stations": [
+      "中井",
+      "明大前",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      11,
+      7
+    ]
+  },
+  {
+    "goal_station": "桜上水",
+    "start_stations": [
+      "経堂",
+      "中野",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "方南町",
+    "start_stations": [
+      "下北沢",
+      "永福町",
+      "明大前"
+    ],
+    "distances": [
+      10,
+      9,
+      8
+    ]
+  },
+  {
+    "goal_station": "千歳船橋",
+    "start_stations": [
+      "下北沢",
+      "池袋",
+      "中井"
+    ],
+    "distances": [
+      5,
+      10,
+      12
+    ]
+  },
+  {
+    "goal_station": "豪徳寺",
+    "start_stations": [
+      "成城学園前",
+      "つつじヶ丘",
+      "明大前"
+    ],
+    "distances": [
+      4,
+      10,
+      4
+    ]
+  },
+  {
+    "goal_station": "上井草",
+    "start_stations": [
+      "練馬",
+      "池袋",
+      "中野"
+    ],
+    "distances": [
+      11,
+      12,
+      10
+    ]
+  },
+  {
+    "goal_station": "中村橋",
+    "start_stations": [
+      "中井",
+      "明大前",
+      "永福町"
+    ],
+    "distances": [
+      4,
+      10,
+      11
+    ]
+  },
+  {
+    "goal_station": "小竹向原",
+    "start_stations": [
+      "下北沢",
+      "中野",
+      "中井"
+    ],
+    "distances": [
+      9,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "和泉多摩川",
+    "start_stations": [
+      "永福町",
+      "中野",
+      "明大前"
+    ],
+    "distances": [
+      12,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "高田馬場",
+    "start_stations": [
+      "久我山",
+      "練馬",
+      "上石神井"
+    ],
+    "distances": [
+      10,
+      5,
+      11
+    ]
+  },
+  {
+    "goal_station": "桜台",
+    "start_stations": [
+      "明大前",
+      "中井",
+      "鷺ノ宮"
+    ],
+    "distances": [
+      8,
+      4,
+      9
+    ]
+  },
+  {
+    "goal_station": "三鷹台",
+    "start_stations": [
+      "中井",
+      "練馬",
+      "経堂"
+    ],
+    "distances": [
+      9,
+      12,
+      12
+    ]
+  },
+  {
+    "goal_station": "新井薬師前",
+    "start_stations": [
+      "明大前",
+      "永福町",
+      "桜上水"
+    ],
+    "distances": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "久我山",
+    "start_stations": [
+      "桜上水",
+      "池袋",
+      "永福町"
+    ],
+    "distances": [
+      8,
+      10,
+      5
+    ]
+  },
+  {
+    "goal_station": "浜田山",
+    "start_stations": [
+      "経堂",
+      "下北沢",
+      "成城学園前"
+    ],
+    "distances": [
+      8,
+      6,
+      11
+    ]
+  },
+  {
+    "goal_station": "成城学園前",
+    "start_stations": [
+      "永福町",
+      "中野",
+      "桜上水"
+    ],
+    "distances": [
+      9,
+      12,
+      8
+    ]
+  },
+  {
+    "goal_station": "鷺ノ宮",
+    "start_stations": [
+      "明大前",
+      "池袋",
+      "永福町"
+    ],
+    "distances": [
+      11,
+      9,
+      12
+    ]
+  },
+  {
+    "goal_station": "都庁前",
+    "start_stations": [
+      "つつじヶ丘",
+      "明大前",
+      "成城学園前"
+    ],
+    "distances": [
+      12,
+      4,
+      12
+    ]
+  },
+  {
+    "goal_station": "下落合",
+    "start_stations": [
+      "経堂",
+      "明大前",
+      "練馬"
+    ],
+    "distances": [
+      11,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "狛江",
+    "start_stations": [
+      "経堂",
+      "永福町",
+      "下北沢"
+    ],
+    "distances": [
+      5,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "石神井公園",
+    "start_stations": [
+      "練馬",
+      "中井",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "椎名町",
+    "start_stations": [
+      "中井",
+      "千歳烏山",
+      "下北沢"
+    ],
+    "distances": [
+      5,
+      11,
+      7
+    ]
+  },
+  {
+    "goal_station": "参宮橋",
+    "start_stations": [
+      "千歳烏山",
+      "久我山",
+      "明大前"
+    ],
+    "distances": [
+      11,
+      11,
+      5
+    ]
+  },
+  {
+    "goal_station": "初台",
+    "start_stations": [
+      "経堂",
+      "千歳烏山",
+      "成城学園前"
+    ],
+    "distances": [
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "goal_station": "光が丘",
+    "start_stations": [
+      "鷺ノ宮",
+      "池袋",
+      "中井"
+    ],
+    "distances": [
+      11,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "新代田",
+    "start_stations": [
+      "中野",
+      "桜上水",
+      "千歳烏山"
+    ],
+    "distances": [
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "goal_station": "中野",
+    "start_stations": [
+      "久我山",
+      "経堂",
+      "下北沢"
+    ],
+    "distances": [
+      8,
+      9,
+      6
+    ]
+  },
+  {
+    "goal_station": "富士見ヶ丘",
+    "start_stations": [
+      "明大前",
+      "千歳烏山",
+      "経堂"
+    ],
+    "distances": [
+      5,
+      11,
+      10
+    ]
+  },
+  {
+    "goal_station": "代々木公園",
+    "start_stations": [
+      "練馬",
+      "明大前",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "目白",
+    "start_stations": [
+      "練馬",
+      "鷺ノ宮",
+      "久我山"
+    ],
+    "distances": [
+      6,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "上石神井",
+    "start_stations": [
+      "中野",
+      "中井",
+      "鷺ノ宮"
+    ],
+    "distances": [
+      11,
+      9,
+      4
+    ]
+  },
+  {
+    "goal_station": "都立家政",
+    "start_stations": [
+      "中井",
+      "中野",
+      "桜上水"
+    ],
+    "distances": [
+      4,
+      6,
+      12
+    ]
+  },
+  {
+    "goal_station": "つつじヶ丘",
+    "start_stations": [
+      "下北沢",
+      "明大前",
+      "池袋"
+    ],
+    "distances": [
+      11,
+      8,
+      12
+    ]
+  },
+  {
+    "goal_station": "池袋",
+    "start_stations": [
+      "下北沢",
+      "中井",
+      "永福町"
+    ],
+    "distances": [
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "新江古田",
+    "start_stations": [
+      "桜上水",
+      "上石神井",
+      "久我山"
+    ],
+    "distances": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "goal_station": "中野富士見町",
+    "start_stations": [
+      "鷺ノ宮",
+      "池袋",
+      "永福町"
+    ],
+    "distances": [
+      9,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "西新宿五丁目",
+    "start_stations": [
+      "千歳烏山",
+      "下北沢",
+      "上石神井"
+    ],
+    "distances": [
+      11,
+      7,
+      12
+    ]
+  },
+  {
+    "goal_station": "調布",
+    "start_stations": [
+      "明大前",
+      "桜上水",
+      "千歳烏山"
+    ],
+    "distances": [
+      12,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "池ノ上",
+    "start_stations": [
+      "池袋",
+      "桜上水",
+      "成城学園前"
+    ],
+    "distances": [
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "下高井戸",
+    "start_stations": [
+      "千歳烏山",
+      "つつじヶ丘",
+      "中井"
+    ],
+    "distances": [
+      5,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "柴崎",
+    "start_stations": [
+      "経堂",
+      "桜上水",
+      "明大前"
+    ],
+    "distances": [
+      12,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "武蔵関",
+    "start_stations": [
+      "中井",
+      "鷺ノ宮",
+      "中野"
+    ],
+    "distances": [
+      10,
+      5,
+      12
+    ]
+  },
+  {
+    "goal_station": "大泉学園",
+    "start_stations": [
+      "池袋",
+      "練馬",
+      "中井"
+    ],
+    "distances": [
+      10,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "南阿佐ケ谷",
+    "start_stations": [
+      "中野",
+      "明大前",
+      "鷺ノ宮"
+    ],
+    "distances": [
+      4,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "布田",
+    "start_stations": [
+      "永福町",
+      "千歳烏山",
+      "桜上水"
+    ],
+    "distances": [
+      12,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "下井草",
+    "start_stations": [
+      "明大前",
+      "中井",
+      "池袋"
+    ],
+    "distances": [
+      12,
+      6,
+      10
+    ]
+  },
+  {
+    "goal_station": "落合南長崎",
+    "start_stations": [
+      "桜上水",
+      "上石神井",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      10,
+      5
+    ]
+  },
+  {
+    "goal_station": "練馬高野台",
+    "start_stations": [
+      "鷺ノ宮",
+      "中井",
+      "池袋"
+    ],
+    "distances": [
+      11,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "仙川",
+    "start_stations": [
+      "経堂",
+      "桜上水",
+      "下北沢"
+    ],
+    "distances": [
+      10,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "国領",
+    "start_stations": [
+      "千歳烏山",
+      "桜上水",
+      "永福町"
+    ],
+    "distances": [
+      4,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "大久保",
+    "start_stations": [
+      "練馬",
+      "経堂",
+      "下北沢"
+    ],
+    "distances": [
+      5,
+      9,
+      6
+    ]
+  },
+  {
+    "goal_station": "下北沢",
+    "start_stations": [
+      "練馬",
+      "中井",
+      "中野"
+    ],
+    "distances": [
+      11,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "永福町",
+    "start_stations": [
+      "つつじヶ丘",
+      "中野",
+      "成城学園前"
+    ],
+    "distances": [
+      9,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "荻窪",
+    "start_stations": [
+      "池袋",
+      "練馬",
+      "中井"
+    ],
+    "distances": [
+      5,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "練馬春日町",
+    "start_stations": [
+      "中井",
+      "池袋",
+      "中野"
+    ],
+    "distances": [
+      5,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "祖師ヶ谷大蔵",
+    "start_stations": [
+      "明大前",
+      "中野",
+      "下北沢"
+    ],
+    "distances": [
+      7,
+      11,
+      6
+    ]
+  },
+  {
+    "goal_station": "代田橋",
+    "start_stations": [
+      "鷺ノ宮",
+      "中井",
+      "経堂"
+    ],
+    "distances": [
+      10,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "新大久保",
+    "start_stations": [
+      "永福町",
+      "明大前",
+      "成城学園前"
+    ],
+    "distances": [
+      5,
+      4,
+      12
+    ]
+  },
+  {
+    "goal_station": "経堂",
+    "start_stations": [
+      "千歳烏山",
+      "桜上水",
+      "中野"
+    ],
+    "distances": [
+      9,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "野方",
+    "start_stations": [
+      "下北沢",
+      "上石神井",
+      "練馬"
+    ],
+    "distances": [
+      11,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "八幡山",
+    "start_stations": [
+      "久我山",
+      "つつじヶ丘",
+      "経堂"
+    ],
+    "distances": [
+      10,
+      4,
+      7
+    ]
+  },
+  {
+    "goal_station": "豊島園",
+    "start_stations": [
+      "下北沢",
+      "永福町",
+      "中野"
+    ],
+    "distances": [
+      12,
+      11,
+      6
+    ]
+  },
+  {
+    "goal_station": "代々木",
+    "start_stations": [
+      "久我山",
+      "明大前",
+      "千歳烏山"
+    ],
+    "distances": [
+      10,
+      4,
+      10
+    ]
+  },
+  {
+    "goal_station": "新桜台",
+    "start_stations": [
+      "永福町",
+      "明大前",
+      "下北沢"
+    ],
+    "distances": [
+      9,
+      8,
+      10
+    ]
+  },
+  {
+    "goal_station": "練馬",
+    "start_stations": [
+      "鷺ノ宮",
+      "池袋",
+      "明大前"
+    ],
+    "distances": [
+      8,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "南新宿",
+    "start_stations": [
+      "つつじヶ丘",
+      "永福町",
+      "久我山"
+    ],
+    "distances": [
+      12,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "江古田",
+    "start_stations": [
+      "下北沢",
+      "経堂",
+      "中井"
+    ],
+    "distances": [
+      9,
+      12,
+      5
+    ]
+  },
+  {
+    "goal_station": "吉祥寺",
+    "start_stations": [
+      "明大前",
+      "永福町",
+      "鷺ノ宮"
+    ],
+    "distances": [
+      9,
+      8,
+      12
+    ]
+  },
+  {
+    "goal_station": "笹塚",
+    "start_stations": [
+      "練馬",
+      "久我山",
+      "桜上水"
+    ],
+    "distances": [
+      7,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "上北沢",
+    "start_stations": [
+      "中井",
+      "練馬",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      12,
+      7
+    ]
+  },
+  {
+    "goal_station": "代々木上原",
+    "start_stations": [
+      "桜上水",
+      "成城学園前",
+      "練馬"
+    ],
+    "distances": [
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "goal_station": "東松原",
+    "start_stations": [
+      "練馬",
+      "千歳烏山",
+      "つつじヶ丘"
+    ],
+    "distances": [
+      10,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "明大前",
+    "start_stations": [
+      "鷺ノ宮",
+      "つつじヶ丘",
+      "成城学園前"
+    ],
+    "distances": [
+      11,
+      8,
+      8
+    ]
+  },
+  {
+    "goal_station": "西永福",
+    "start_stations": [
+      "成城学園前",
+      "経堂",
+      "中井"
+    ],
+    "distances": [
+      10,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "西新宿",
+    "start_stations": [
+      "上石神井",
+      "永福町",
+      "練馬"
+    ],
+    "distances": [
+      12,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "東長崎",
+    "start_stations": [
+      "下北沢",
+      "千歳烏山",
+      "経堂"
+    ],
+    "distances": [
+      8,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "井の頭公園",
+    "start_stations": [
+      "中井",
+      "池袋",
+      "桜上水"
+    ],
+    "distances": [
+      8,
+      8,
+      10
+    ]
+  },
+  {
+    "goal_station": "新高円寺",
+    "start_stations": [
+      "練馬",
+      "桜上水",
+      "明大前"
+    ],
+    "distances": [
+      8,
+      10,
+      8
+    ]
+  },
+  {
+    "goal_station": "中野坂上",
+    "start_stations": [
+      "桜上水",
+      "千歳烏山",
+      "永福町"
+    ],
+    "distances": [
+      7,
+      11,
+      6
+    ]
+  },
+  {
+    "goal_station": "芦花公園",
+    "start_stations": [
+      "明大前",
+      "永福町",
+      "中野"
+    ],
+    "distances": [
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "goal_station": "新中野",
+    "start_stations": [
+      "上石神井",
+      "明大前",
+      "桜上水"
+    ],
+    "distances": [
+      12,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "幡ヶ谷",
+    "start_stations": [
+      "成城学園前",
+      "久我山",
+      "千歳烏山"
+    ],
+    "distances": [
+      11,
+      9,
+      9
+    ]
+  },
+  {
+    "goal_station": "千歳烏山",
+    "start_stations": [
+      "桜上水",
+      "成城学園前",
+      "久我山"
+    ],
+    "distances": [
+      4,
+      12,
+      12
+    ]
+  },
+  {
+    "goal_station": "駒場東大前",
+    "start_stations": [
+      "成城学園前",
+      "永福町",
+      "久我山"
+    ],
+    "distances": [
+      9,
+      6,
+      11
+    ]
+  }
+]

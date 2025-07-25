@@ -1,0 +1,1224 @@
+[
+  {
+    "goal_station": "戸田公園",
+    "start_stations": [
+      "池袋",
+      "西日暮里",
+      "北千住"
+    ],
+    "distances": [
+      4,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "東浦和",
+    "start_stations": [
+      "西日暮里",
+      "北千住",
+      "池袋"
+    ],
+    "distances": [
+      7,
+      9,
+      4
+    ]
+  },
+  {
+    "goal_station": "西日暮里",
+    "start_stations": [
+      "池袋",
+      "南浦和",
+      "東川口"
+    ],
+    "distances": [
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "上野",
+    "start_stations": [
+      "南浦和",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      4,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "獨協大学前",
+    "start_stations": [
+      "西日暮里",
+      "赤羽",
+      "東川口"
+    ],
+    "distances": [
+      10,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "綾瀬",
+    "start_stations": [
+      "東川口",
+      "池袋",
+      "赤羽"
+    ],
+    "distances": [
+      11,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "氷川台",
+    "start_stations": [
+      "池袋",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      4,
+      9,
+      7
+    ]
+  },
+  {
+    "goal_station": "西浦和",
+    "start_stations": [
+      "東川口",
+      "赤羽",
+      "西日暮里"
+    ],
+    "distances": [
+      4,
+      4,
+      8
+    ]
+  },
+  {
+    "goal_station": "北赤羽",
+    "start_stations": [
+      "西日暮里",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      5,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "浦和美園",
+    "start_stations": [
+      "池袋",
+      "北千住",
+      "西日暮里"
+    ],
+    "distances": [
+      6,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "板橋本町",
+    "start_stations": [
+      "南浦和",
+      "北千住",
+      "池袋"
+    ],
+    "distances": [
+      7,
+      9,
+      4
+    ]
+  },
+  {
+    "goal_station": "蕨",
+    "start_stations": [
+      "西日暮里",
+      "池袋",
+      "北千住"
+    ],
+    "distances": [
+      7,
+      4,
+      9
+    ]
+  },
+  {
+    "goal_station": "吉川美南",
+    "start_stations": [
+      "西日暮里",
+      "南浦和",
+      "赤羽"
+    ],
+    "distances": [
+      10,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "西台",
+    "start_stations": [
+      "池袋",
+      "南浦和",
+      "赤羽"
+    ],
+    "distances": [
+      9,
+      12,
+      10
+    ]
+  },
+  {
+    "goal_station": "要町",
+    "start_stations": [
+      "南浦和",
+      "西日暮里",
+      "北千住"
+    ],
+    "distances": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "平和台",
+    "start_stations": [
+      "北千住",
+      "南浦和",
+      "池袋"
+    ],
+    "distances": [
+      12,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "西新井",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      6,
+      11
+    ]
+  },
+  {
+    "goal_station": "地下鉄赤塚",
+    "start_stations": [
+      "南浦和",
+      "東川口",
+      "池袋"
+    ],
+    "distances": [
+      8,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "松戸",
+    "start_stations": [
+      "西日暮里",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      6,
+      11,
+      12
+    ]
+  },
+  {
+    "goal_station": "戸塚安行",
+    "start_stations": [
+      "池袋",
+      "西日暮里",
+      "北千住"
+    ],
+    "distances": [
+      6,
+      9,
+      11
+    ]
+  },
+  {
+    "goal_station": "千川",
+    "start_stations": [
+      "南浦和",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      5,
+      9,
+      7
+    ]
+  },
+  {
+    "goal_station": "田端",
+    "start_stations": [
+      "赤羽",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      4,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "谷塚",
+    "start_stations": [
+      "赤羽",
+      "南浦和",
+      "西日暮里"
+    ],
+    "distances": [
+      11,
+      9,
+      8
+    ]
+  },
+  {
+    "goal_station": "蒲生",
+    "start_stations": [
+      "赤羽",
+      "南浦和",
+      "池袋"
+    ],
+    "distances": [
+      7,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "地下鉄成増",
+    "start_stations": [
+      "東川口",
+      "西日暮里",
+      "南浦和"
+    ],
+    "distances": [
+      9,
+      12,
+      7
+    ]
+  },
+  {
+    "goal_station": "越谷レイクタウン",
+    "start_stations": [
+      "赤羽",
+      "北千住",
+      "南浦和"
+    ],
+    "distances": [
+      6,
+      10,
+      4
+    ]
+  },
+  {
+    "goal_station": "三ノ輪",
+    "start_stations": [
+      "南浦和",
+      "池袋",
+      "東川口"
+    ],
+    "distances": [
+      6,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "新井宿",
+    "start_stations": [
+      "南浦和",
+      "北千住",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      12,
+      7
+    ]
+  },
+  {
+    "goal_station": "小竹向原",
+    "start_stations": [
+      "南浦和",
+      "東川口",
+      "北千住"
+    ],
+    "distances": [
+      6,
+      8,
+      10
+    ]
+  },
+  {
+    "goal_station": "駒込",
+    "start_stations": [
+      "北千住",
+      "東川口",
+      "赤羽"
+    ],
+    "distances": [
+      4,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "新松戸",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "東川口"
+    ],
+    "distances": [
+      6,
+      8,
+      8
+    ]
+  },
+  {
+    "goal_station": "南千住",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      7,
+      6
+    ]
+  },
+  {
+    "goal_station": "志木",
+    "start_stations": [
+      "赤羽",
+      "東川口",
+      "池袋"
+    ],
+    "distances": [
+      7,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "三郷中央",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "赤羽"
+    ],
+    "distances": [
+      4,
+      6,
+      10
+    ]
+  },
+  {
+    "goal_station": "東川口",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "赤羽"
+    ],
+    "distances": [
+      10,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "新座",
+    "start_stations": [
+      "南浦和",
+      "西日暮里",
+      "池袋"
+    ],
+    "distances": [
+      4,
+      10,
+      7
+    ]
+  },
+  {
+    "goal_station": "新板橋",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "東川口"
+    ],
+    "distances": [
+      7,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "町屋",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      7,
+      6
+    ]
+  },
+  {
+    "goal_station": "亀有",
+    "start_stations": [
+      "池袋",
+      "赤羽",
+      "西日暮里"
+    ],
+    "distances": [
+      9,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "八潮",
+    "start_stations": [
+      "西日暮里",
+      "南浦和",
+      "赤羽"
+    ],
+    "distances": [
+      5,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "六町",
+    "start_stations": [
+      "南浦和",
+      "西日暮里",
+      "赤羽"
+    ],
+    "distances": [
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "goal_station": "赤羽",
+    "start_stations": [
+      "西日暮里",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      4,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "西川口",
+    "start_stations": [
+      "西日暮里",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      6,
+      8,
+      4
+    ]
+  },
+  {
+    "goal_station": "志茂",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "池袋"
+    ],
+    "distances": [
+      7,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "五反野",
+    "start_stations": [
+      "東川口",
+      "池袋",
+      "赤羽"
+    ],
+    "distances": [
+      11,
+      9,
+      8
+    ]
+  },
+  {
+    "goal_station": "十条",
+    "start_stations": [
+      "西日暮里",
+      "東川口",
+      "北千住"
+    ],
+    "distances": [
+      5,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "朝霞台",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "東川口"
+    ],
+    "distances": [
+      12,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "梅島",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "西日暮里"
+    ],
+    "distances": [
+      10,
+      11,
+      5
+    ]
+  },
+  {
+    "goal_station": "南鳩ヶ谷",
+    "start_stations": [
+      "池袋",
+      "赤羽",
+      "北千住"
+    ],
+    "distances": [
+      8,
+      7,
+      10
+    ]
+  },
+  {
+    "goal_station": "西巣鴨",
+    "start_stations": [
+      "東川口",
+      "西日暮里",
+      "北千住"
+    ],
+    "distances": [
+      8,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "武蔵浦和",
+    "start_stations": [
+      "池袋",
+      "西日暮里",
+      "北千住"
+    ],
+    "distances": [
+      4,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "東十条",
+    "start_stations": [
+      "西日暮里",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      4,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "本蓮沼",
+    "start_stations": [
+      "東川口",
+      "北千住",
+      "赤羽"
+    ],
+    "distances": [
+      10,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "南流山",
+    "start_stations": [
+      "西日暮里",
+      "池袋",
+      "赤羽"
+    ],
+    "distances": [
+      7,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "池袋",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "東川口"
+    ],
+    "distances": [
+      7,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "志村三丁目",
+    "start_stations": [
+      "西日暮里",
+      "北千住",
+      "池袋"
+    ],
+    "distances": [
+      10,
+      12,
+      7
+    ]
+  },
+  {
+    "goal_station": "板橋区役所前",
+    "start_stations": [
+      "赤羽",
+      "東川口",
+      "西日暮里"
+    ],
+    "distances": [
+      4,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "川口元郷",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "西日暮里"
+    ],
+    "distances": [
+      5,
+      7,
+      7
+    ]
+  },
+  {
+    "goal_station": "北綾瀬",
+    "start_stations": [
+      "池袋",
+      "西日暮里",
+      "南浦和"
+    ],
+    "distances": [
+      9,
+      4,
+      10
+    ]
+  },
+  {
+    "goal_station": "王子神谷",
+    "start_stations": [
+      "東川口",
+      "北千住",
+      "西日暮里"
+    ],
+    "distances": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "王子",
+    "start_stations": [
+      "南浦和",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "越谷",
+    "start_stations": [
+      "北千住",
+      "池袋",
+      "南浦和"
+    ],
+    "distances": [
+      12,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "西ケ原",
+    "start_stations": [
+      "北千住",
+      "南浦和",
+      "池袋"
+    ],
+    "distances": [
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "戸田",
+    "start_stations": [
+      "西日暮里",
+      "池袋",
+      "東川口"
+    ],
+    "distances": [
+      8,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "北朝霞",
+    "start_stations": [
+      "西日暮里",
+      "東川口",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "和光市",
+    "start_stations": [
+      "西日暮里",
+      "南浦和",
+      "池袋"
+    ],
+    "distances": [
+      12,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "鳩ヶ谷",
+    "start_stations": [
+      "北千住",
+      "赤羽",
+      "南浦和"
+    ],
+    "distances": [
+      11,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "馬橋",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "北千住"
+    ],
+    "distances": [
+      9,
+      11,
+      6
+    ]
+  },
+  {
+    "goal_station": "日暮里",
+    "start_stations": [
+      "池袋",
+      "南浦和",
+      "東川口"
+    ],
+    "distances": [
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "志村坂上",
+    "start_stations": [
+      "北千住",
+      "西日暮里",
+      "東川口"
+    ],
+    "distances": [
+      11,
+      9,
+      11
+    ]
+  },
+  {
+    "goal_station": "金町",
+    "start_stations": [
+      "池袋",
+      "赤羽",
+      "西日暮里"
+    ],
+    "distances": [
+      10,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "草加",
+    "start_stations": [
+      "池袋",
+      "北千住",
+      "赤羽"
+    ],
+    "distances": [
+      11,
+      7,
+      10
+    ]
+  },
+  {
+    "goal_station": "竹ノ塚",
+    "start_stations": [
+      "東川口",
+      "北千住",
+      "西日暮里"
+    ],
+    "distances": [
+      8,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "蓮根",
+    "start_stations": [
+      "赤羽",
+      "池袋",
+      "南浦和"
+    ],
+    "distances": [
+      9,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "巣鴨",
+    "start_stations": [
+      "北千住",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      5,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "鶯谷",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "北千住"
+    ],
+    "distances": [
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "goal_station": "入谷",
+    "start_stations": [
+      "東川口",
+      "池袋",
+      "南浦和"
+    ],
+    "distances": [
+      7,
+      4,
+      5
+    ]
+  },
+  {
+    "goal_station": "上中里",
+    "start_stations": [
+      "池袋",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      4,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "三郷",
+    "start_stations": [
+      "赤羽",
+      "北千住",
+      "東川口"
+    ],
+    "distances": [
+      10,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "青井",
+    "start_stations": [
+      "赤羽",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      7,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "南越谷",
+    "start_stations": [
+      "池袋",
+      "北千住",
+      "西日暮里"
+    ],
+    "distances": [
+      6,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "北戸田",
+    "start_stations": [
+      "赤羽",
+      "池袋",
+      "西日暮里"
+    ],
+    "distances": [
+      4,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "北千住",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "赤羽"
+    ],
+    "distances": [
+      10,
+      8,
+      6
+    ]
+  },
+  {
+    "goal_station": "小菅",
+    "start_stations": [
+      "池袋",
+      "赤羽",
+      "東川口"
+    ],
+    "distances": [
+      8,
+      7,
+      11
+    ]
+  },
+  {
+    "goal_station": "北松戸",
+    "start_stations": [
+      "西日暮里",
+      "赤羽",
+      "東川口"
+    ],
+    "distances": [
+      7,
+      11,
+      10
+    ]
+  },
+  {
+    "goal_station": "赤羽岩淵",
+    "start_stations": [
+      "南浦和",
+      "東川口",
+      "北千住"
+    ],
+    "distances": [
+      7,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "吉川",
+    "start_stations": [
+      "西日暮里",
+      "南浦和",
+      "北千住"
+    ],
+    "distances": [
+      11,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "川口",
+    "start_stations": [
+      "西日暮里",
+      "東川口",
+      "北千住"
+    ],
+    "distances": [
+      5,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "新田",
+    "start_stations": [
+      "北千住",
+      "赤羽",
+      "池袋"
+    ],
+    "distances": [
+      9,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "板橋",
+    "start_stations": [
+      "南浦和",
+      "東川口",
+      "西日暮里"
+    ],
+    "distances": [
+      4,
+      6,
+      6
+    ]
+  },
+  {
+    "goal_station": "朝霞",
+    "start_stations": [
+      "東川口",
+      "池袋",
+      "南浦和"
+    ],
+    "distances": [
+      7,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "浮間舟渡",
+    "start_stations": [
+      "北千住",
+      "東川口",
+      "南浦和"
+    ],
+    "distances": [
+      8,
+      6,
+      4
+    ]
+  },
+  {
+    "goal_station": "大塚",
+    "start_stations": [
+      "東川口",
+      "南浦和",
+      "西日暮里"
+    ],
+    "distances": [
+      6,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "新三郷",
+    "start_stations": [
+      "赤羽",
+      "北千住",
+      "西日暮里"
+    ],
+    "distances": [
+      9,
+      7,
+      9
+    ]
+  }
+]

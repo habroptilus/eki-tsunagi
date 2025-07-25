@@ -1,0 +1,56 @@
+{
+  "generated_at": "2025-07-25T21:06:32.739816",
+  "settings": {
+    "min_distance": 4,
+    "max_distance": 12,
+    "seed": null
+  },
+  "summary": {
+    "total_areas": 8,
+    "successful_areas": 8,
+    "failed_areas": 0,
+    "total_problems": 783
+  },
+  "areas": {
+    "south": {
+      "success": true,
+      "count": 99,
+      "filename": "output/guess/guess_problems_south.json"
+    },
+    "west": {
+      "success": true,
+      "count": 105,
+      "filename": "output/guess/guess_problems_west.json"
+    },
+    "north": {
+      "success": true,
+      "count": 94,
+      "filename": "output/guess/guess_problems_north.json"
+    },
+    "east": {
+      "success": true,
+      "count": 98,
+      "filename": "output/guess/guess_problems_east.json"
+    },
+    "central": {
+      "success": true,
+      "count": 94,
+      "filename": "output/guess/guess_problems_central.json"
+    },
+    "yokohama": {
+      "success": true,
+      "count": 103,
+      "filename": "output/guess/guess_problems_yokohama.json"
+    },
+    "nagoya": {
+      "success": true,
+      "count": 95,
+      "filename": "output/guess/guess_problems_nagoya.json"
+    },
+    "osaka": {
+      "success": true,
+      "count": 95,
+      "filename": "output/guess/guess_problems_osaka.json"
+    }
+  }
+}

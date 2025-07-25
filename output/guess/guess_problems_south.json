@@ -1,0 +1,1289 @@
+[
+  {
+    "goal_station": "原宿",
+    "start_stations": [
+      "下北沢",
+      "溝の口",
+      "経堂"
+    ],
+    "distances": [
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "梅ヶ丘",
+    "start_stations": [
+      "二子玉川",
+      "武蔵小杉",
+      "自由が丘"
+    ],
+    "distances": [
+      12,
+      8,
+      12
+    ]
+  },
+  {
+    "goal_station": "町田",
+    "start_stations": [
+      "登戸",
+      "武蔵小杉",
+      "新百合ヶ丘"
+    ],
+    "distances": [
+      9,
+      9,
+      4
+    ]
+  },
+  {
+    "goal_station": "多摩川",
+    "start_stations": [
+      "登戸",
+      "旗の台",
+      "下北沢"
+    ],
+    "distances": [
+      9,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "恵比寿",
+    "start_stations": [
+      "下北沢",
+      "二子玉川",
+      "経堂"
+    ],
+    "distances": [
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "世田谷代田",
+    "start_stations": [
+      "二子玉川",
+      "旗の台",
+      "自由が丘"
+    ],
+    "distances": [
+      11,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "不動前",
+    "start_stations": [
+      "自由が丘",
+      "武蔵小杉",
+      "登戸"
+    ],
+    "distances": [
+      6,
+      5,
+      12
+    ]
+  },
+  {
+    "goal_station": "津田山",
+    "start_stations": [
+      "経堂",
+      "旗の台",
+      "大岡山"
+    ],
+    "distances": [
+      10,
+      11,
+      9
+    ]
+  },
+  {
+    "goal_station": "元住吉",
+    "start_stations": [
+      "旗の台",
+      "二子玉川",
+      "自由が丘"
+    ],
+    "distances": [
+      8,
+      8,
+      5
+    ]
+  },
+  {
+    "goal_station": "二子玉川",
+    "start_stations": [
+      "旗の台",
+      "大岡山",
+      "自由が丘"
+    ],
+    "distances": [
+      9,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "尾山台",
+    "start_stations": [
+      "旗の台",
+      "武蔵小杉",
+      "登戸"
+    ],
+    "distances": [
+      6,
+      6,
+      11
+    ]
+  },
+  {
+    "goal_station": "喜多見",
+    "start_stations": [
+      "溝の口",
+      "経堂",
+      "新百合ヶ丘"
+    ],
+    "distances": [
+      8,
+      4,
+      8
+    ]
+  },
+  {
+    "goal_station": "新宿",
+    "start_stations": [
+      "自由が丘",
+      "旗の台",
+      "溝の口"
+    ],
+    "distances": [
+      7,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "三軒茶屋",
+    "start_stations": [
+      "登戸",
+      "下北沢",
+      "自由が丘"
+    ],
+    "distances": [
+      11,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "鶴見",
+    "start_stations": [
+      "登戸",
+      "自由が丘",
+      "経堂"
+    ],
+    "distances": [
+      10,
+      7,
+      11
+    ]
+  },
+  {
+    "goal_station": "代々木八幡",
+    "start_stations": [
+      "旗の台",
+      "経堂",
+      "自由が丘"
+    ],
+    "distances": [
+      11,
+      7,
+      10
+    ]
+  },
+  {
+    "goal_station": "渋谷",
+    "start_stations": [
+      "大岡山",
+      "二子玉川",
+      "登戸"
+    ],
+    "distances": [
+      7,
+      6,
+      9
+    ]
+  },
+  {
+    "goal_station": "登戸",
+    "start_stations": [
+      "武蔵小杉",
+      "下北沢",
+      "大岡山"
+    ],
+    "distances": [
+      7,
+      11,
+      12
+    ]
+  },
+  {
+    "goal_station": "中目黒",
+    "start_stations": [
+      "自由が丘",
+      "二子玉川",
+      "経堂"
+    ],
+    "distances": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "goal_station": "高津",
+    "start_stations": [
+      "武蔵小杉",
+      "下北沢",
+      "登戸"
+    ],
+    "distances": [
+      5,
+      11,
+      6
+    ]
+  },
+  {
+    "goal_station": "奥沢",
+    "start_stations": [
+      "登戸",
+      "二子玉川",
+      "下北沢"
+    ],
+    "distances": [
+      11,
+      7,
+      10
+    ]
+  },
+  {
+    "goal_station": "柿生",
+    "start_stations": [
+      "武蔵小杉",
+      "登戸",
+      "溝の口"
+    ],
+    "distances": [
+      12,
+      6,
+      11
+    ]
+  },
+  {
+    "goal_station": "西馬込",
+    "start_stations": [
+      "下北沢",
+      "自由が丘",
+      "武蔵小杉"
+    ],
+    "distances": [
+      11,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "東北沢",
+    "start_stations": [
+      "大岡山",
+      "武蔵小杉",
+      "経堂"
+    ],
+    "distances": [
+      11,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "目黒",
+    "start_stations": [
+      "溝の口",
+      "自由が丘",
+      "経堂"
+    ],
+    "distances": [
+      8,
+      6,
+      10
+    ]
+  },
+  {
+    "goal_station": "大井町",
+    "start_stations": [
+      "登戸",
+      "溝の口",
+      "経堂"
+    ],
+    "distances": [
+      9,
+      6,
+      10
+    ]
+  },
+  {
+    "goal_station": "百合ヶ丘",
+    "start_stations": [
+      "登戸",
+      "経堂",
+      "武蔵小杉"
+    ],
+    "distances": [
+      4,
+      11,
+      11
+    ]
+  },
+  {
+    "goal_station": "千歳船橋",
+    "start_stations": [
+      "登戸",
+      "武蔵小杉",
+      "溝の口"
+    ],
+    "distances": [
+      6,
+      11,
+      11
+    ]
+  },
+  {
+    "goal_station": "豪徳寺",
+    "start_stations": [
+      "二子玉川",
+      "登戸",
+      "武蔵小杉"
+    ],
+    "distances": [
+      12,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "蒲田",
+    "start_stations": [
+      "溝の口",
+      "登戸",
+      "大岡山"
+    ],
+    "distances": [
+      7,
+      10,
+      8
+    ]
+  },
+  {
+    "goal_station": "戸越",
+    "start_stations": [
+      "経堂",
+      "下北沢",
+      "溝の口"
+    ],
+    "distances": [
+      12,
+      8,
+      8
+    ]
+  },
+  {
+    "goal_station": "和泉多摩川",
+    "start_stations": [
+      "溝の口",
+      "下北沢",
+      "武蔵小杉"
+    ],
+    "distances": [
+      6,
+      10,
+      8
+    ]
+  },
+  {
+    "goal_station": "向河原",
+    "start_stations": [
+      "経堂",
+      "下北沢",
+      "自由が丘"
+    ],
+    "distances": [
+      11,
+      7,
+      5
+    ]
+  },
+  {
+    "goal_station": "武蔵新城",
+    "start_stations": [
+      "登戸",
+      "旗の台",
+      "新百合ヶ丘"
+    ],
+    "distances": [
+      5,
+      9,
+      10
+    ]
+  },
+  {
+    "goal_station": "平間",
+    "start_stations": [
+      "登戸",
+      "経堂",
+      "自由が丘"
+    ],
+    "distances": [
+      9,
+      12,
+      6
+    ]
+  },
+  {
+    "goal_station": "大崎広小路",
+    "start_stations": [
+      "経堂",
+      "二子玉川",
+      "溝の口"
+    ],
+    "distances": [
+      12,
+      10,
+      8
+    ]
+  },
+  {
+    "goal_station": "成城学園前",
+    "start_stations": [
+      "登戸",
+      "武蔵小杉",
+      "下北沢"
+    ],
+    "distances": [
+      4,
+      11,
+      7
+    ]
+  },
+  {
+    "goal_station": "二子新地",
+    "start_stations": [
+      "登戸",
+      "自由が丘",
+      "大岡山"
+    ],
+    "distances": [
+      7,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "鶴川",
+    "start_stations": [
+      "登戸",
+      "溝の口",
+      "武蔵小杉"
+    ],
+    "distances": [
+      7,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "狛江",
+    "start_stations": [
+      "二子玉川",
+      "経堂",
+      "武蔵小杉"
+    ],
+    "distances": [
+      10,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "矢向",
+    "start_stations": [
+      "登戸",
+      "自由が丘",
+      "旗の台"
+    ],
+    "distances": [
+      10,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "祐天寺",
+    "start_stations": [
+      "経堂",
+      "二子玉川",
+      "旗の台"
+    ],
+    "distances": [
+      11,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "参宮橋",
+    "start_stations": [
+      "下北沢",
+      "旗の台",
+      "溝の口"
+    ],
+    "distances": [
+      4,
+      10,
+      9
+    ]
+  },
+  {
+    "goal_station": "五反田",
+    "start_stations": [
+      "経堂",
+      "登戸",
+      "下北沢"
+    ],
+    "distances": [
+      11,
+      10,
+      7
+    ]
+  },
+  {
+    "goal_station": "荏原中延",
+    "start_stations": [
+      "溝の口",
+      "自由が丘",
+      "武蔵小杉"
+    ],
+    "distances": [
+      10,
+      5,
+      6
+    ]
+  },
+  {
+    "goal_station": "戸越銀座",
+    "start_stations": [
+      "二子玉川",
+      "溝の口",
+      "自由が丘"
+    ],
+    "distances": [
+      11,
+      9,
+      6
+    ]
+  },
+  {
+    "goal_station": "あざみ野",
+    "start_stations": [
+      "新百合ヶ丘",
+      "溝の口",
+      "武蔵小杉"
+    ],
+    "distances": [
+      12,
+      6,
+      9
+    ]
+  },
+  {
+    "goal_station": "池尻大橋",
+    "start_stations": [
+      "旗の台",
+      "下北沢",
+      "経堂"
+    ],
+    "distances": [
+      8,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "西小山",
+    "start_stations": [
+      "自由が丘",
+      "下北沢",
+      "溝の口"
+    ],
+    "distances": [
+      4,
+      9,
+      11
+    ]
+  },
+  {
+    "goal_station": "下神明",
+    "start_stations": [
+      "経堂",
+      "二子玉川",
+      "自由が丘"
+    ],
+    "distances": [
+      11,
+      9,
+      7
+    ]
+  },
+  {
+    "goal_station": "溝の口",
+    "start_stations": [
+      "新百合ヶ丘",
+      "自由が丘",
+      "経堂"
+    ],
+    "distances": [
+      10,
+      8,
+      12
+    ]
+  },
+  {
+    "goal_station": "新百合ヶ丘",
+    "start_stations": [
+      "登戸",
+      "経堂",
+      "溝の口"
+    ],
+    "distances": [
+      5,
+      12,
+      10
+    ]
+  },
+  {
+    "goal_station": "中延",
+    "start_stations": [
+      "登戸",
+      "下北沢",
+      "大岡山"
+    ],
+    "distances": [
+      12,
+      9,
+      4
+    ]
+  },
+  {
+    "goal_station": "北千束",
+    "start_stations": [
+      "二子玉川",
+      "溝の口",
+      "武蔵小杉"
+    ],
+    "distances": [
+      8,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "駒沢大学",
+    "start_stations": [
+      "自由が丘",
+      "武蔵小杉",
+      "下北沢"
+    ],
+    "distances": [
+      8,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "新丸子",
+    "start_stations": [
+      "登戸",
+      "二子玉川",
+      "下北沢"
+    ],
+    "distances": [
+      8,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "宿河原",
+    "start_stations": [
+      "溝の口",
+      "自由が丘",
+      "下北沢"
+    ],
+    "distances": [
+      4,
+      10,
+      12
+    ]
+  },
+  {
+    "goal_station": "自由が丘",
+    "start_stations": [
+      "二子玉川",
+      "登戸",
+      "下北沢"
+    ],
+    "distances": [
+      5,
+      11,
+      10
+    ]
+  },
+  {
+    "goal_station": "学芸大学",
+    "start_stations": [
+      "溝の口",
+      "二子玉川",
+      "下北沢"
+    ],
+    "distances": [
+      10,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "九品仏",
+    "start_stations": [
+      "登戸",
+      "旗の台",
+      "武蔵小杉"
+    ],
+    "distances": [
+      12,
+      5,
+      5
+    ]
+  },
+  {
+    "goal_station": "大崎",
+    "start_stations": [
+      "登戸",
+      "自由が丘",
+      "旗の台"
+    ],
+    "distances": [
+      9,
+      6,
+      5
+    ]
+  },
+  {
+    "goal_station": "武蔵溝ノ口",
+    "start_stations": [
+      "旗の台",
+      "二子玉川",
+      "登戸"
+    ],
+    "distances": [
+      10,
+      4,
+      4
+    ]
+  },
+  {
+    "goal_station": "上野毛",
+    "start_stations": [
+      "下北沢",
+      "自由が丘",
+      "大岡山"
+    ],
+    "distances": [
+      11,
+      4,
+      6
+    ]
+  },
+  {
+    "goal_station": "鹿島田",
+    "start_stations": [
+      "登戸",
+      "自由が丘",
+      "下北沢"
+    ],
+    "distances": [
+      9,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "荏原町",
+    "start_stations": [
+      "溝の口",
+      "下北沢",
+      "二子玉川"
+    ],
+    "distances": [
+      10,
+      10,
+      10
+    ]
+  },
+  {
+    "goal_station": "下北沢",
+    "start_stations": [
+      "自由が丘",
+      "二子玉川",
+      "武蔵小杉"
+    ],
+    "distances": [
+      10,
+      10,
+      6
+    ]
+  },
+  {
+    "goal_station": "大森",
+    "start_stations": [
+      "溝の口",
+      "自由が丘",
+      "大岡山"
+    ],
+    "distances": [
+      7,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "宮崎台",
+    "start_stations": [
+      "下北沢",
+      "自由が丘",
+      "新百合ヶ丘"
+    ],
+    "distances": [
+      12,
+      10,
+      12
+    ]
+  },
+  {
+    "goal_station": "桜新町",
+    "start_stations": [
+      "自由が丘",
+      "大岡山",
+      "武蔵小杉"
+    ],
+    "distances": [
+      7,
+      9,
+      6
+    ]
+  },
+  {
+    "goal_station": "大岡山",
+    "start_stations": [
+      "下北沢",
+      "二子玉川",
+      "溝の口"
+    ],
+    "distances": [
+      11,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "祖師ヶ谷大蔵",
+    "start_stations": [
+      "武蔵小杉",
+      "登戸",
+      "溝の口"
+    ],
+    "distances": [
+      12,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "経堂",
+    "start_stations": [
+      "溝の口",
+      "下北沢",
+      "新百合ヶ丘"
+    ],
+    "distances": [
+      12,
+      4,
+      12
+    ]
+  },
+  {
+    "goal_station": "代々木",
+    "start_stations": [
+      "旗の台",
+      "武蔵小杉",
+      "経堂"
+    ],
+    "distances": [
+      9,
+      4,
+      9
+    ]
+  },
+  {
+    "goal_station": "南新宿",
+    "start_stations": [
+      "溝の口",
+      "登戸",
+      "下北沢"
+    ],
+    "distances": [
+      8,
+      11,
+      5
+    ]
+  },
+  {
+    "goal_station": "梶が谷",
+    "start_stations": [
+      "大岡山",
+      "旗の台",
+      "下北沢"
+    ],
+    "distances": [
+      10,
+      12,
+      11
+    ]
+  },
+  {
+    "goal_station": "生田",
+    "start_stations": [
+      "武蔵小杉",
+      "溝の口",
+      "経堂"
+    ],
+    "distances": [
+      9,
+      7,
+      9
+    ]
+  },
+  {
+    "goal_station": "戸越公園",
+    "start_stations": [
+      "溝の口",
+      "下北沢",
+      "登戸"
+    ],
+    "distances": [
+      8,
+      8,
+      11
+    ]
+  },
+  {
+    "goal_station": "向ヶ丘遊園",
+    "start_stations": [
+      "自由が丘",
+      "経堂",
+      "武蔵小杉"
+    ],
+    "distances": [
+      12,
+      8,
+      8
+    ]
+  },
+  {
+    "goal_station": "旗の台",
+    "start_stations": [
+      "二子玉川",
+      "下北沢",
+      "武蔵小杉"
+    ],
+    "distances": [
+      9,
+      11,
+      7
+    ]
+  },
+  {
+    "goal_station": "日吉",
+    "start_stations": [
+      "自由が丘",
+      "溝の口",
+      "旗の台"
+    ],
+    "distances": [
+      6,
+      6,
+      9
+    ]
+  },
+  {
+    "goal_station": "代々木上原",
+    "start_stations": [
+      "大岡山",
+      "溝の口",
+      "経堂"
+    ],
+    "distances": [
+      10,
+      9,
+      6
+    ]
+  },
+  {
+    "goal_station": "武蔵小山",
+    "start_stations": [
+      "武蔵小杉",
+      "旗の台",
+      "溝の口"
+    ],
+    "distances": [
+      6,
+      5,
+      10
+    ]
+  },
+  {
+    "goal_station": "武蔵中原",
+    "start_stations": [
+      "経堂",
+      "下北沢",
+      "新百合ヶ丘"
+    ],
+    "distances": [
+      11,
+      7,
+      11
+    ]
+  },
+  {
+    "goal_station": "緑が丘",
+    "start_stations": [
+      "登戸",
+      "武蔵小杉",
+      "溝の口"
+    ],
+    "distances": [
+      12,
+      5,
+      9
+    ]
+  },
+  {
+    "goal_station": "たまプラーザ",
+    "start_stations": [
+      "二子玉川",
+      "武蔵小杉",
+      "溝の口"
+    ],
+    "distances": [
+      8,
+      9,
+      5
+    ]
+  },
+  {
+    "goal_station": "用賀",
+    "start_stations": [
+      "溝の口",
+      "武蔵小杉",
+      "大岡山"
+    ],
+    "distances": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "goal_station": "尻手",
+    "start_stations": [
+      "登戸",
+      "旗の台",
+      "自由が丘"
+    ],
+    "distances": [
+      10,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "代官山",
+    "start_stations": [
+      "経堂",
+      "自由が丘",
+      "旗の台"
+    ],
+    "distances": [
+      9,
+      5,
+      8
+    ]
+  },
+  {
+    "goal_station": "品川",
+    "start_stations": [
+      "自由が丘",
+      "大岡山",
+      "二子玉川"
+    ],
+    "distances": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "goal_station": "洗足",
+    "start_stations": [
+      "下北沢",
+      "武蔵小杉",
+      "二子玉川"
+    ],
+    "distances": [
+      10,
+      6,
+      8
+    ]
+  },
+  {
+    "goal_station": "都立大学",
+    "start_stations": [
+      "下北沢",
+      "登戸",
+      "二子玉川"
+    ],
+    "distances": [
+      9,
+      12,
+      6
+    ]
+  },
+  {
+    "goal_station": "久地",
+    "start_stations": [
+      "二子玉川",
+      "旗の台",
+      "大岡山"
+    ],
+    "distances": [
+      6,
+      12,
+      10
+    ]
+  },
+  {
+    "goal_station": "武蔵小杉",
+    "start_stations": [
+      "二子玉川",
+      "登戸",
+      "溝の口"
+    ],
+    "distances": [
+      7,
+      7,
+      4
+    ]
+  },
+  {
+    "goal_station": "馬込",
+    "start_stations": [
+      "下北沢",
+      "自由が丘",
+      "二子玉川"
+    ],
+    "distances": [
+      10,
+      7,
+      12
+    ]
+  },
+  {
+    "goal_station": "宮前平",
+    "start_stations": [
+      "二子玉川",
+      "登戸",
+      "武蔵小杉"
+    ],
+    "distances": [
+      6,
+      8,
+      7
+    ]
+  },
+  {
+    "goal_station": "等々力",
+    "start_stations": [
+      "登戸",
+      "溝の口",
+      "旗の台"
+    ],
+    "distances": [
+      10,
+      5,
+      7
+    ]
+  },
+  {
+    "goal_station": "川崎",
+    "start_stations": [
+      "登戸",
+      "自由が丘",
+      "経堂"
+    ],
+    "distances": [
+      9,
+      6,
+      10
+    ]
+  },
+  {
+    "goal_station": "鷺沼",
+    "start_stations": [
+      "自由が丘",
+      "武蔵小杉",
+      "登戸"
+    ],
+    "distances": [
+      12,
+      8,
+      9
+    ]
+  },
+  {
+    "goal_station": "田園調布",
+    "start_stations": [
+      "下北沢",
+      "旗の台",
+      "二子玉川"
+    ],
+    "distances": [
+      9,
+      4,
+      6
+    ]
+  }
+]
